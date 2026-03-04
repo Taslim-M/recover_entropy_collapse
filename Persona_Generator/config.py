@@ -10,6 +10,11 @@ We map these to OpenRouter-accessible models. Adjust as needed.
 
 import os
 
+from dotenv import load_dotenv
+
+# Load environment variables from .env if present
+load_dotenv()
+
 # ─────────────────────────────────────────────
 # API Configuration
 # ─────────────────────────────────────────────
@@ -20,11 +25,10 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 QUESTIONNAIRE_MODEL = "meta-llama/llama-3.1-405b-instruct"
 
 # Model for persona generation and simulation (paper uses Gemma 3 27B)
-# Using a capable model via OpenRouter as Gemma 3 27B may not be available
 PERSONA_MODEL = "meta-llama/llama-3.1-405b-instruct"
 
 # Model for Concordia simulation / logic of appropriateness
-SIMULATION_MODEL = "meta-llama/llama-3.1-405b-instruct"
+SIMULATION_MODEL = "anthropic/claude-haiku-4.5"
 
 # ─────────────────────────────────────────────
 # Pipeline Parameters
@@ -73,5 +77,5 @@ KL_SOBOL_SAMPLES = 1_000
 # ─────────────────────────────────────────────
 LLM_TEMPERATURE = 0.9  # Higher for diversity in persona generation
 LLM_MAX_TOKENS = 4096
-LLM_RETRY_ATTEMPTS = 3
-LLM_RETRY_DELAY = 2  # seconds
+LLM_RETRY_ATTEMPTS = 10
+LLM_RETRY_DELAY = 12  # seconds

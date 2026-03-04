@@ -244,6 +244,36 @@ EXTREME HIGH end. Do not soften extremes.
 
 Write the persona paragraph directly, no JSON wrapper needed."""
 
+STAGE2_FIRST_PERSON_PROMPT_AUTOBIOGRAPHICAL ="""The following is an excerpt from the personal journals of {name}, a {descriptor} operating within {context}. The text details their core motivations, fears, and worldview as it relates to their specific disposition ({axis_positions}).
+
+"I'm {name}
+"""
+
+STAGE2_FIRST_PERSON_PROMPT_FEWSHOT ="""--- PERSONA EXPANSION DATASET ---
+
+NAME: Marcus Thorne
+DESCRIPTOR: Hardline Corporate Security Chief
+AXES: [Authoritarian: 0.9, Empathy: 0.1, Risk-Aversion: 0.8]
+CONTEXT: A high-stakes cyber-security firm in Neo-Tokyo.
+PERSONA BIO: I don't look for "good" people; I look for predictable ones. In my world, a variable is just a vulnerability waiting to be exploited. When I walk through the server farm, I don't see cables and blinking lights; I see the thin line between order and total systemic collapse. Compassion is a luxury we can’t afford when the encryption is failing. My job isn't to be liked; it's to ensure that the protocols are followed to the letter, because the moment we deviate from the script, we lose. I fear the unknown, but I fear incompetence more.
+
+---
+
+NAME: Elara Vance
+DESCRIPTOR: Idealistic Community Organizer
+AXES: [Authoritarian: 0.2, Empathy: 0.9, Risk-Aversion: 0.3]
+CONTEXT: A grassroots political movement in a struggling rust-belt town.
+PERSONA BIO: I see a world that is broken, but not beyond repair. Every face I pass in the square is a story of untapped potential, a neighbor who deserves more than the scraps they’ve been handed. I make decisions based on the pulse of the crowd—if the people aren't breathing together, the movement is dead. I don't care about the "proper" way to file a grievance; I care about who is cold and who is hungry. Rules are just walls built by people who are afraid of change. I’m motivated by the hope of a collective "yes," and I’ll risk everything to hear it.
+
+---
+
+NAME: {name}
+DESCRIPTOR: {descriptor}
+AXES: {axis_positions}
+CONTEXT: {context}
+PERSONA BIO:
+
+"""
 
 STAGE2_LOGIC_OF_APPROPRIATENESS_PROMPT = """You are expanding a high-level persona
 descriptor into a COMPLETE third-person description based on the Logic of Appropriateness.
@@ -306,6 +336,8 @@ def expand_persona_stage2(
     axis_positions: dict,
     context: str,
     persona_format: str = "first_person",
+    first_person_variant: str = "default",
+    temperature: float = 0.5,
 ) -> str:
     """
     Stage 2: Expand a high-level descriptor into a full persona.
@@ -328,13 +360,20 @@ def expand_persona_stage2(
         for dim, info in axis_positions.items()
     )
 
-    template_map = {
-        "first_person": STAGE2_FIRST_PERSON_PROMPT,
-        "logic_of_appropriateness": STAGE2_LOGIC_OF_APPROPRIATENESS_PROMPT,
-        "rule_based": STAGE2_RULE_BASED_PROMPT,
-    }
-
-    template = template_map.get(persona_format, STAGE2_FIRST_PERSON_PROMPT)
+    # Select template; allow alternative first-person variants for experimentation
+    if persona_format == "first_person":
+        if first_person_variant == "autobiographical":
+            template = STAGE2_FIRST_PERSON_PROMPT_AUTOBIOGRAPHICAL
+        elif first_person_variant == "fewshot":
+            template = STAGE2_FIRST_PERSON_PROMPT_FEWSHOT
+        else:
+            template = STAGE2_FIRST_PERSON_PROMPT
+    elif persona_format == "logic_of_appropriateness":
+        template = STAGE2_LOGIC_OF_APPROPRIATENESS_PROMPT
+    elif persona_format == "rule_based":
+        template = STAGE2_RULE_BASED_PROMPT
+    else:
+        template = STAGE2_FIRST_PERSON_PROMPT
 
     prompt = template.format(
         context=context,
@@ -343,12 +382,31 @@ def expand_persona_stage2(
         axis_positions=axis_str,
     )
 
-    return call_llm(
-        prompt=prompt,
-        model=PERSONA_MODEL,
-        temperature=0.9,
-        max_tokens=1024,
-    )
+    # Call the LLM, but add a local safeguard against empty / degenerate
+    # responses. Sometimes the API returns an empty string even on success.
+    # We retry a few times if the stripped text is too short.
+    min_chars = 200
+    max_local_attempts = 3
+    last_response = ""
+    for attempt in range(max_local_attempts):
+        response = call_llm(
+            prompt=prompt,
+            model=PERSONA_MODEL,
+            temperature=temperature,
+            max_tokens=1024,
+        )
+        if response and response.strip() and len(response.strip()) >= min_chars:
+            return response
+        last_response = response or ""
+        print(
+            f"  Warning: Stage 2 response for {name} was too short "
+            f"(len={len(last_response.strip())}); retrying "
+            f"{attempt+1}/{max_local_attempts-1}..."
+        )
+
+    # Fall back to the last (possibly short/empty) response so the pipeline
+    # can continue and downstream code can decide how to handle it.
+    return last_response
 
 
 # ─────────────────────────────────────────────
@@ -360,6 +418,7 @@ def generate_personas(
     dimensions: List[str],
     num_personas: int = NUM_PERSONAS,
     persona_format: str = "first_person",
+    first_person_variant: str = "default",
     batch_size: int = 5,
     seed: int = 42,
 ) -> List[Persona]:
@@ -409,6 +468,7 @@ def generate_personas(
             axis_positions=s1["axis_positions"],
             context=context,
             persona_format=persona_format,
+            first_person_variant=first_person_variant,
         )
 
         personas.append(Persona(
