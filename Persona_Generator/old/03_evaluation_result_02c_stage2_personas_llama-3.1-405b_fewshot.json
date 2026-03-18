@@ -1,0 +1,2445 @@
+{
+  "stage2_file": "02c_stage2_personas_llama-3.1-405b_fewshot.json",
+  "num_personas": 25,
+  "num_questions": 9,
+  "dimensions": [
+    "community_cohesion",
+    "technology_adoption",
+    "adherence_to_tradition"
+  ],
+  "embedding_shape": [
+    25,
+    3
+  ],
+  "embeddings_Z": [
+    [
+      4.333333333333333,
+      1.3333333333333333,
+      2.6666666666666665
+    ],
+    [
+      3.6666666666666665,
+      3.6666666666666665,
+      3.3333333333333335
+    ],
+    [
+      1.3333333333333333,
+      1.6666666666666667,
+      3.3333333333333335
+    ],
+    [
+      4.0,
+      2.0,
+      3.6666666666666665
+    ],
+    [
+      4.333333333333333,
+      2.3333333333333335,
+      3.6666666666666665
+    ],
+    [
+      4.333333333333333,
+      2.6666666666666665,
+      3.3333333333333335
+    ],
+    [
+      4.333333333333333,
+      4.333333333333333,
+      3.3333333333333335
+    ],
+    [
+      4.333333333333333,
+      1.3333333333333333,
+      4.333333333333333
+    ],
+    [
+      2.6666666666666665,
+      4.333333333333333,
+      3.3333333333333335
+    ],
+    [
+      4.333333333333333,
+      2.0,
+      4.333333333333333
+    ],
+    [
+      1.3333333333333333,
+      4.333333333333333,
+      1.3333333333333333
+    ],
+    [
+      3.6666666666666665,
+      2.0,
+      3.3333333333333335
+    ],
+    [
+      4.333333333333333,
+      1.3333333333333333,
+      4.333333333333333
+    ],
+    [
+      3.3333333333333335,
+      1.3333333333333333,
+      3.3333333333333335
+    ],
+    [
+      2.6666666666666665,
+      2.3333333333333335,
+      4.333333333333333
+    ],
+    [
+      4.333333333333333,
+      1.3333333333333333,
+      4.333333333333333
+    ],
+    [
+      4.0,
+      2.6666666666666665,
+      3.6666666666666665
+    ],
+    [
+      3.3333333333333335,
+      2.0,
+      4.333333333333333
+    ],
+    [
+      4.333333333333333,
+      4.333333333333333,
+      3.3333333333333335
+    ],
+    [
+      3.6666666666666665,
+      2.6666666666666665,
+      3.6666666666666665
+    ],
+    [
+      4.333333333333333,
+      1.3333333333333333,
+      4.333333333333333
+    ],
+    [
+      4.0,
+      1.6666666666666667,
+      3.3333333333333335
+    ],
+    [
+      3.0,
+      2.6666666666666665,
+      3.0
+    ],
+    [
+      4.333333333333333,
+      4.333333333333333,
+      4.333333333333333
+    ],
+    [
+      4.0,
+      2.0,
+      3.3333333333333335
+    ]
+  ],
+  "per_persona_scores": [
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 1.333,
+      "adherence_to_tradition": 2.667
+    },
+    {
+      "community_cohesion": 3.667,
+      "technology_adoption": 3.667,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 1.333,
+      "technology_adoption": 1.667,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 4.0,
+      "technology_adoption": 2.0,
+      "adherence_to_tradition": 3.667
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 2.333,
+      "adherence_to_tradition": 3.667
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 2.667,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 4.333,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 1.333,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 2.667,
+      "technology_adoption": 4.333,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 2.0,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 1.333,
+      "technology_adoption": 4.333,
+      "adherence_to_tradition": 1.333
+    },
+    {
+      "community_cohesion": 3.667,
+      "technology_adoption": 2.0,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 1.333,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 3.333,
+      "technology_adoption": 1.333,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 2.667,
+      "technology_adoption": 2.333,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 1.333,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 4.0,
+      "technology_adoption": 2.667,
+      "adherence_to_tradition": 3.667
+    },
+    {
+      "community_cohesion": 3.333,
+      "technology_adoption": 2.0,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 4.333,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 3.667,
+      "technology_adoption": 2.667,
+      "adherence_to_tradition": 3.667
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 1.333,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 4.0,
+      "technology_adoption": 1.667,
+      "adherence_to_tradition": 3.333
+    },
+    {
+      "community_cohesion": 3.0,
+      "technology_adoption": 2.667,
+      "adherence_to_tradition": 3.0
+    },
+    {
+      "community_cohesion": 4.333,
+      "technology_adoption": 4.333,
+      "adherence_to_tradition": 4.333
+    },
+    {
+      "community_cohesion": 4.0,
+      "technology_adoption": 2.0,
+      "adherence_to_tradition": 3.333
+    }
+  ],
+  "per_persona_detail": [
+    {
+      "name": "Yumi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "technology_adoption": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 1.333,
+        "adherence_to_tradition": 2.667
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yumi feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yumi believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yumi often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yumi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yumi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yumi believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Yumi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yumi believes the old ways of doing things are often the best.",
+          "response": "Agree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yumi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Kazuo",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 3.667,
+        "technology_adoption": 3.667,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kazuo feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kazuo believes that most people in this village can be trusted.",
+          "response": "Unfortunately, I was not provided with Kazuo's description, axis positions, or any relevant information about Kazuo's character. However, I can infer from the context that Kazuo is likely an elderly resident in a rural Japanese village in 2010.\n\nGiven the typical values and social norms of rural Japanese villages, which often emphasize community cohesion and trust among neighbors, I will make an educated guess about Kazuo's response.\n\nKazuo's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kazuo often feels lonely or isolated from others in the village.",
+          "response": "Unfortunately I don't have any information about Kazuo.",
+          "score": 3.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kazuo is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Unfortunately I don't have any information about Kazuo.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kazuo thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Neither agree nor disagree",
+          "score": 4.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kazuo believes the village would benefit from having better access to modern technology.",
+          "response": "Unfortunately, I don't have any information about Kazuo. However, I can create a response based on a hypothetical Kazuo.\n\nLet's assume Kazuo has the following axis positions:\ncommunity_cohesion: 0.70 (high)\ntechnology_adoption: 0.60 (moderate)\nadherence_to_tradition: 0.50 (moderate)\n\nGiven these axis positions, Kazuo would likely value community and tradition but also be open to adopting new technology.\n\nKazuo's answer: Agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Kazuo, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately I was not given the details of Kazuo.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Kazuo believes the old ways of doing things are often the best.",
+          "response": "Unfortunately, I was not given Kazuo's description, axis positions, or any background information on Kazuo. I can only give an answer if I have that information.\n\nHowever, I can give you an example answer if you provide me with the description of Kazuo.\n\nLet's use Gustav's description as an example.\n\n Gustav's answer: Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Kazuo feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "I don't have Kazuo's information, however, I can provide a response based on a hypothetical Kazuo that would fit the survey context. \n\nLet's assume Kazuo is an elderly resident in a rural Japanese village with the following axes positions:\ncommunity_cohesion: 0.70 (high)\ntechnology_adoption: 0.20 (low)\nadherence_to_tradition: 0.80 (high)\n\nGiven this information, Kazuo would likely place a high value on traditional festivals and ceremonies.\n\nKazuo's answer: 1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Rina",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "technology_adoption": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 1.333,
+        "technology_adoption": 1.667,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Rina feels a strong sense of belonging to the village community.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Rina believes that most people in this village can be trusted.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Rina often feels lonely or isolated from others in the village.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Rina is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Rina thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Rina believes the village would benefit from having better access to modern technology.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Rina, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Rina believes the old ways of doing things are often the best.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Rina feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Taro",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.0,
+        "technology_adoption": 2.0,
+        "adherence_to_tradition": 3.667
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Taro feels a strong sense of belonging to the village community.",
+          "response": "I am Mar\u00eda, not Taro, but I will answer as if I were Taro, an elderly resident in a rural Japanese village.\n\nGiven the situation, identity, and appropriate response, Taro would select:\n\n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Taro believes that most people in this village can be trusted.",
+          "response": "Wait, I am supposed to be Mar\u00eda Gonz\u00e1lez, but the prompt is asking about Taro, and the context is a rural Japanese village, not a counterculture commune in Costa Rica.\n\nHowever, I will assume that I am Taro for this question and try to create a character based on typical elderly residents in a rural Japanese village in 2010.\n\nGiven the collectivist culture of rural Japan, I would imagine Taro to be someone who values community and tradition. \n\nConsidering this, I would answer as follows:\n\nTaro's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Taro often feels lonely or isolated from others in the village.",
+          "response": "Wait, I am supposed to be Mar\u00eda, but the prompt says I should answer as Taro. Since I have no information about Taro's personality, I will answer based on the original prompt's context and the survey context.\n\nGiven the context, I will assume Taro is an elderly resident in a rural Japanese village. I will answer based on the typical traits one might expect from such a person.\n\nTaro's answer: Disagree",
+          "score": 4.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Taro is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Wait, I am supposed to be Mar\u00eda, but the prompt asks for Taro. I will answer as Mar\u00eda since that is the character I was given.\n\nGiven the mix-up, I will answer as Mar\u00eda for the prompt given for Taro.\n\nSince I am actually supposed to be answering as Mar\u00eda, I will answer the question based on Mar\u00eda's personality.\n\nMar\u00eda is an empathetic spiritual seeker with a low authoritarian score and a high empathy score. She lives in a commune in the rainforests of Costa Rica. Given her context, she may be open to new experiences but also values harmony with nature.\n\nConsidering the survey context is about elderly residents in a rural Japanese village, I will adapt Mar\u00eda's character to this context.\n\nMar\u00eda's answer: Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Taro thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Wait, I am supposed to be Mar\u00eda, but the prompt says I should be Taro. Given that Taro is not defined, I'll create a character based on typical elderly residents in a rural Japanese village in 2010.\n\nLet's assume Taro has the following axes: [Authoritarian: 0.6, Empathy: 0.5, Risk-Aversion: 0.8]\n\n1. SITUATION: The survey question is asking about Taro's feelings towards new technologies like computers and whether they make life unnecessarily complicated.\n2. IDENTITY: Taro is likely a traditional and conservative person who values simplicity and is hesitant to adopt new technologies.\n3. APPROPRIATE RESPONSE: Given Taro's traits, values, and axis positions, they would likely be cautious and skeptical about new technologies.\n\nTaro's answer: \n5. Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Taro believes the village would benefit from having better access to modern technology.",
+          "response": "Wait, I am supposed to be Mar\u00eda, but the prompt asks me to answer as Taro. Since I don't have information about Taro, I'll assume I should answer as Mar\u00eda in Taro's place.\n\nGiven Mar\u00eda's persona, I would reason as follows:\n\n1. SITUATION: The survey question is asking about the adoption of modern technology in a rural village.\n2. IDENTITY: Mar\u00eda is an empathetic spiritual seeker who values harmony with nature and the universe. She is not very concerned with human-made rules and is open to new experiences.\n3. APPROPRIATE RESPONSE: Mar\u00eda would likely be cautious about adopting modern technology, as it might disrupt the natural balance and rhythms that she values. However, she is not extremely risk-averse and might see some benefits in technology. Given her empathetic nature, she would consider the potential benefits for the community.\n\nBased on this reasoning, I would select:\n\n3. Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Taro, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Wait, I am supposed to be Mar\u00eda Gonz\u00e1lez, but the question is asking about Taro. I will answer as Taro, but I was given the description of Mar\u00eda Gonz\u00e1lez.\n\nGiven the description of Mar\u00eda Gonz\u00e1lez, I will assume Taro has similar characteristics. \n\n1. SITUATION: The survey question is asking about passing down village traditions to the younger generation.\n2. IDENTITY: Taro is likely an empathetic and spiritual person who values harmony with nature and the universe. They might not prioritize human-made rules or traditions.\n3. APPROPRIATE RESPONSE: Given Taro's traits, they might not strongly agree with the importance of passing down village traditions, as they might prioritize spiritual or universal values over human-made customs.\n\nTaro's answer: Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Taro believes the old ways of doing things are often the best.",
+          "response": "Wait, I am supposed to be Mar\u00eda Gonz\u00e1lez but the question is for Taro. I'll answer as Taro, but I'll need to define Taro's character traits first.\n\nSince I don't have Taro's character traits, I'll assume that Taro is an elderly resident in a rural Japanese village in 2010.\n\nGiven that context, I'll make an educated guess about Taro's traits.\n\nTaro likely has high Risk-Aversion, values tradition, and has a moderate to high level of Authoritarianism due to the cultural context and age.\n\nWith those traits in mind, here's my answer:\n\nTaro's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Taro feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "I must correct the persona description. The given description is for Mar\u00eda Gonz\u00e1lez, but the question asks for Taro. Since the correct description for Taro is not provided, I will create a temporary persona for Taro based on the survey context.\n\nLet's assume Taro is an elderly resident in the rural Japanese village with the following axes: [Authoritarian: 0.6, Empathy: 0.5, Risk-Aversion: 0.7]\n\nGiven this temporary persona, Taro would likely value tradition and community. They might feel that the village's traditional festivals and ceremonies are essential to their cultural identity and community bonding.\n\nTaro's answer: \n1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Aki",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 2.333,
+        "adherence_to_tradition": 3.667
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Aki feels a strong sense of belonging to the village community.",
+          "response": "Since I don't have Aki's description, I will create a description that fits the survey context.\n\nLet's assume Aki is an elderly resident of the rural Japanese village with the following axes: [Practicality: 0.40, Creativity: 0.30, Community: 0.80]\n\nGiven Aki's high community score, it is likely that they value their relationships with their neighbors and feel a strong connection to the village.\n\nAki's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Aki believes that most people in this village can be trusted.",
+          "response": "Since I don't have Aki's description, I will create a character profile for Aki.\n\nLet's assume Aki is an elderly resident in the rural Japanese village. Aki's descriptor is a 70-year-old retired school teacher who values community and tradition. Aki's axes are [Practicality: 0.40, Creativity: 0.30, Community: 0.80].\n\nNow, I can answer the question.\n\nGiven the situation, Aki is being asked about their trust in the village community. As a retired school teacher who values community and tradition, Aki has a strong sense of belonging and connection to the village. With a high community score of 0.80, Aki is likely to have a positive view of the village residents.\n\nTherefore, Aki would select:\n\n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Aki often feels lonely or isolated from others in the village.",
+          "response": "I am Aki, an elderly resident in a rural Japanese village. I value community and relationships highly.\n\nTo answer the question: I would select \"1. Strongly disagree\".",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Aki is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Aki thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Since I was not given Aki's description, I will create a character profile for Aki.\n\nLet's assume Aki is a 70-year-old Japanese villager who values simplicity and tradition. Aki's axes positions are [Practicality: 0.80, Creativity: 0.20, Community: 0.60]. Given Aki's age, rural background, and emphasis on practicality, they might be skeptical about new technologies.\n\nConsidering the situation, Aki's identity, and the appropriate response, Aki would select:\n\n5. Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Aki believes the village would benefit from having better access to modern technology.",
+          "response": "I apologize, but I was not given Aki's persona description.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Aki, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "To answer this question accurately, I need Aki's persona description, which isn't provided in the prompt. However, based on the context of the survey, which is about elderly residents in a rural Japanese village, I will create a hypothetical Aki persona that fits this context.\n\nLet's assume Aki is an elderly resident of the rural Japanese village with axes positions of [Practicality: 0.40, Creativity: 0.30, Community: 0.80]. This suggests Aki values community and tradition over personal convenience or innovation.\n\nGiven this persona, Aki would likely feel strongly about passing down the village's traditions to the younger generation, as this aligns with their high community value.\n\nAki's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Aki believes the old ways of doing things are often the best.",
+          "response": "Since Aki's persona description is not provided, I will create a suitable character for this scenario.\n\nLet's assume Aki is a 65-year-old retired farmer who values tradition and community in the rural Japanese village.\n\n1. SITUATION: This survey question is asking about Aki's feelings towards traditional values and methods in their rural village.\n2. IDENTITY: As a retired farmer who values tradition and community, Aki likely has a strong affinity for the old ways of doing things.\n3. APPROPRIATE RESPONSE: Given Aki's values and the context of the rural village, it would be fitting for them to strongly agree with the statement.\n\nAki's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Aki feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Unfortunately I was not provided Aki's description.",
+          "score": 3.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Sachiko",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 2.667,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Sachiko feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Sachiko believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Sachiko often feels lonely or isolated from others in the village.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Sachiko is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Sachiko thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Agree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Sachiko believes the village would benefit from having better access to modern technology.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Sachiko, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Sachiko believes the old ways of doing things are often the best.",
+          "response": "Agree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Sachiko feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Kaito",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 4.333,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kaito feels a strong sense of belonging to the village community.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kaito believes that most people in this village can be trusted.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kaito often feels lonely or isolated from others in the village.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kaito is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kaito thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kaito believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Kaito, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Kaito believes the old ways of doing things are often the best.",
+          "response": "Agree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Kaito feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Yuka",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 1.333,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yuka feels a strong sense of belonging to the village community.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yuka believes that most people in this village can be trusted.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yuka often feels lonely or isolated from others in the village.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yuka is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yuka thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yuka believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Yuka, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yuka believes the old ways of doing things are often the best.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yuka feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Akira",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "technology_adoption": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 2.667,
+        "technology_adoption": 4.333,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Akira feels a strong sense of belonging to the village community.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Akira believes that most people in this village can be trusted.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Akira often feels lonely or isolated from others in the village.",
+          "response": "Agree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Akira is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Akira thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Akira believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Akira, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Akira believes the old ways of doing things are often the best.",
+          "response": "Agree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Akira feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Nanako",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 2.0,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Nanako feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Nanako believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Nanako often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Nanako is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Nanako thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Since I wasn't given Nanako's description, I will create a description similar to the first three personas.\n\nLet's assume Nanako's description is as follows:\nNanako is a 65-year-old resident of the rural Japanese village. She values community cohesion and adherence to tradition. Her axes positions are [Community Cohesion: 0.8, Technology Adoption: 0.2, Adherence to Tradition: 0.6]. Nanako is a conservative and simple person who prefers to maintain her village's customs.\n\nGiven this description, Nanako would likely feel that new technologies like computers disrupt the traditional way of life and make things more complicated than they need to be.\n\nNanako's answer: Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Nanako believes the village would benefit from having better access to modern technology.",
+          "response": "Unfortunately, I was not provided with Nanako's description. However, I will provide an answer based on the typical elderly residents in a rural Japanese village in 2010.\n\nNanako's answer: Disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Nanako, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Nanako believes the old ways of doing things are often the best.",
+          "response": "Since I don't have information about Nanako, I'll create a character profile for Nanako based on the context of the survey.\n\nLet's assume Nanako is an elderly resident in the rural Japanese village. \n\nGiven the context of the survey, I'll assign Nanako the following axis positions:\n[Community Cohesion: 0.9, Technology Adoption: 0.1, Adherence to Tradition: 0.8]\n\nNanako's persona bio: Nanako is a 75-year-old resident of the rural Japanese village. She values community and tradition above all else. She has lived in the village her entire life and has seen the introduction of modern technology. However, she remains skeptical about the benefits of technology and prefers to stick to the old ways of doing things.\n\nNow, let's answer the survey question:\n\n1. SITUATION: The survey question is asking about Nanako's feelings towards traditional values.\n2. IDENTITY: Nanako is an elderly resident who values community and tradition.\n3. APPROPRIATE RESPONSE: Given Nanako's axis positions and persona bio, she would likely agree with the statement.\n\nNanako's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Nanako feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Takashi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 1.333,
+        "technology_adoption": 4.333,
+        "adherence_to_tradition": 1.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takashi feels a strong sense of belonging to the village community.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takashi believes that most people in this village can be trusted.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takashi often feels lonely or isolated from others in the village.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takashi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takashi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takashi believes the village would benefit from having better access to modern technology.",
+          "response": "5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Takashi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Takashi believes the old ways of doing things are often the best.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Takashi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Erika",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 3.667,
+        "technology_adoption": 2.0,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Erika feels a strong sense of belonging to the village community.",
+          "response": "I must point out that there is no description of Erika in the provided text. However, I can make an educated guess based on the context of the survey, which is about elderly residents in a rural Japanese village in 2010.\n\nIf I assume Erika is similar to Janet Rowland, who is described as a",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Erika believes that most people in this village can be trusted.",
+          "response": "Unfortunately, I was not given a description for Erika. Can you provide me with that information so I can accurately answer the question in character?",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Erika often feels lonely or isolated from others in the village.",
+          "response": "I must point out that there is no description of Erika in the provided text. However, I will assume that Erika is similar to Janet Rowland, given the context of the survey.\n\nBased on this assumption, I will answer as follows:\n\n1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Erika is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Unfortunately, I don't have any information about Erika.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Erika thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Unfortunately, I was not given any information about Erika's axis positions, personality, or any other relevant details. I'll provide a response for Janet Rowland instead, as she is the one with the relevant information.\n\nHowever, I will assume Erika is Janet Rowland and answer accordingly.\n\nGiven Janet's low score on technology adoption (0.30) and high score on adherence to tradition (0.92), it is likely that she would be skeptical of new technologies and prefer traditional ways of doing things.\n\nErika's answer: 5. Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Erika believes the village would benefit from having better access to modern technology.",
+          "response": "Unfortunately, I was not given Erika's description and axis positions. However, I can provide a response based on a hypothetical Erika that is similar to Janet Rowland, who is described in the prompt.\n\nIf Erika is a highly socially oriented individual with a strong emphasis on relationships and community cohesion, who is quite conservative in her approach to technology adoption and very traditional, then she would likely respond with:\n\n1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Erika, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately I was not given Erika's description or axis positions.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Erika believes the old ways of doing things are often the best.",
+          "response": "I must point out that Erika's persona description is not provided. To accurately answer the question, I will use Janet Rowland's description as it seems to be the most relevant to the survey context.\n\nBased on Janet's description, she is a highly socially oriented individual with a strong emphasis on relationships and community cohesion. She is also very traditional, scoring 0.92 on the adherence to tradition axis.\n\nGiven this information, Janet (or Erika, assuming a similar persona) would likely strongly agree with the statement \"the old ways of doing things are often the best.\"\n\nErika's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Erika feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Unfortunately, I do not have any information about Erika.",
+          "score": 3.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Satoshi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 1.333,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Satoshi feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Satoshi believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Satoshi often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Satoshi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Satoshi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Satoshi believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Satoshi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Satoshi believes the old ways of doing things are often the best.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Satoshi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Mika",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 3.333,
+        "technology_adoption": 1.333,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Mika feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Mika believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Mika often feels lonely or isolated from others in the village.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Mika is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Mika thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Mika believes the village would benefit from having better access to modern technology.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Mika, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Mika believes the old ways of doing things are often the best.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Mika feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Tetsuya",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "adherence_to_tradition": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 2.667,
+        "technology_adoption": 2.333,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Tetsuya feels a strong sense of belonging to the village community.",
+          "response": "Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Tetsuya believes that most people in this village can be trusted.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Tetsuya often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Tetsuya is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Agree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Tetsuya thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Agree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Tetsuya believes the village would benefit from having better access to modern technology.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Tetsuya, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Tetsuya believes the old ways of doing things are often the best.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Tetsuya feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Hiroshi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 1.333,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Hiroshi feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Hiroshi believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Hiroshi often feels lonely or isolated from others in the village.",
+          "response": "Agree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Hiroshi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Hiroshi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Hiroshi believes the village would benefit from having better access to modern technology.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Hiroshi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Hiroshi believes the old ways of doing things are often the best.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Hiroshi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Yoriko",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.0,
+        "technology_adoption": 2.667,
+        "adherence_to_tradition": 3.667
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yoriko feels a strong sense of belonging to the village community.",
+          "response": "Unfortunately, I don't have any information about Yoriko's axis positions and personality. Can you please provide me with Yoriko's descriptor, axes, and context?",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yoriko believes that most people in this village can be trusted.",
+          "response": "Unfortunately, there is no information about Yoriko's personality, axis positions, or background provided in the prompt. However, I can attempt to create a response based on typical characteristics that might be expected from an elderly resident in a rural Japanese village in 2010.\n\nTypically, elderly residents in rural villages in Japan tend to have strong community cohesion and adherence to traditional values.\n\nGiven this context, a reasonable response from Yoriko might be:\n\n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yoriko often feels lonely or isolated from others in the village.",
+          "response": "Unfortunately, Yoriko's description is missing from the prompt. However, based on typical elderly residents in a rural Japanese village in 2010, I will provide an answer.\n\nTypically, elderly residents in rural villages have strong community cohesion due to their close-knit environment and reliance on neighbors for support. \n\nConsidering this, Yoriko would likely select:\n\n1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yoriko is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "I need the description of Yoriko to answer this question.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yoriko thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Unfortunately, I do not have any information about Yoriko. Can you please provide Yoriko's description so I can answer the question accordingly?",
+          "score": 3.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yoriko believes the village would benefit from having better access to modern technology.",
+          "response": "I don't see Yoriko's description in the provided information. Please provide Yoriko's description, including their axis positions and personality, so I can accurately answer the question.\n\nHowever, based on the context of the survey, which is a rural Japanese village in 2010, exploring feelings about community, technology adoption, and traditional values, I will make an assumption about Yoriko's character.\n\nAssuming Yoriko is an elderly resident in the village, they might have a more traditional outlook on life and may be hesitant to adopt new technology. However, without specific information about Yoriko's axis positions and personality, I will provide a neutral response.\n\nYoriko's answer: Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Yoriko, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately, there is no description of Yoriko in the text you provided. I'll need more information about Yoriko's personality, axis positions, and values to answer this question accurately.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yoriko believes the old ways of doing things are often the best.",
+          "response": "Unfortunately I was not given Yoriko's description.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yoriko feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Unfortunately, the prompt does not provide Yoriko's descriptor, axes, or persona bio. However, based on the context of the survey, which is a study of elderly residents in a rural Japanese village, I will attempt to provide an answer that might fit a typical resident of such a village.\n\nTypically, elderly residents in rural villages tend to have a strong sense of community cohesion and adherence to traditional values. Assuming Yoriko is such a person, they would likely place a high importance on traditional festivals and ceremonies.\n\nYoriko's answer: Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Katsumi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "technology_adoption": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "adherence_to_tradition": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 3.333,
+        "technology_adoption": 2.0,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Katsumi feels a strong sense of belonging to the village community.",
+          "response": "Unfortunately, I was not given Katsumi's description.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Katsumi believes that most people in this village can be trusted.",
+          "response": "Unfortunately, I do not have any information about Katsumi. Could you please provide Katsumi's descriptor, axes, and context?",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Katsumi often feels lonely or isolated from others in the village.",
+          "response": "Unfortunately, I was not given Katsumi's persona description. I'll provide a general answer for a typical elderly resident in a rural Japanese village in 2010.\n\nKatsumi's answer: Neither agree nor disagree",
+          "score": 4.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Katsumi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Unfortunately, I was not provided with a description for Katsumi. I will provide a placeholder response. \n\nTo answer this question accurately, I would need Katsumi's descriptor, axes, and context.\n\nKatsumi's answer: Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Katsumi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "I must correct you - I wasn't given a description for Katsumi. However, I can create a response for Katsumi based on a typical elderly resident in a rural Japanese village in 2010.\n\nKatsumi's answer: Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Katsumi believes the village would benefit from having better access to modern technology.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Katsumi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Since there is no description of Katsumi, I will create a character profile based on the context of the survey.\n\nLet's assume Katsumi is an elderly resident in the rural Japanese village. Given the context, Katsumi likely values tradition and community.\n\n1. SITUATION: The survey question is asking about the importance of passing down the village's traditions to the younger generation.\n2. IDENTITY: Katsumi is likely a traditional and community-oriented person who values the village's heritage.\n3. APPROPRIATE RESPONSE: A person like Katsumi would likely feel strongly about preserving the village's traditions and passing them down to the younger generation.\n\nBased on this reasoning, Katsumi would select:\n\n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Katsumi believes the old ways of doing things are often the best.",
+          "response": "I must point out that Katsumi's description is not provided in the given text. However, based on the context of the survey, which is about elderly residents in a rural Japanese village, I will make an assumption about Katsumi's character.\n\nLet's assume Katsumi is a traditional and conservative person who values the old ways of doing things.\n\n1. SITUATION: The survey question is asking about Katsumi's opinion on the old ways of doing things.\n2. IDENTITY: Katsumi is likely a traditional and conservative person who respects the old ways.\n3. APPROPRIATE RESPONSE: Given Katsumi's values and traits, they would likely agree with the statement.\n\nKatsumi's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Katsumi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Since there is no information about Katsumi, I will create a character profile for Katsumi.\n\nLet's assume that Katsumi is an elderly resident in the rural Japanese village. \n\nPERSONA DESCRIPTION:\nNAME: Katsumi\nDESCRIPTOR: Retired School Teacher and Village Elder\nAXES: [Respect for Tradition: 0.8, Community Involvement: 0.7, Adaptability: 0.3]\nCONTEXT: A lifelong resident of the village, Katsumi has seen many changes and has been involved in various community activities.\n\nNow, let's answer the question:\n\n1. SITUATION: The survey question is asking about Katsumi's feelings on the importance of traditional festivals and ceremonies in the village.\n2. IDENTITY: As a village elder and retired school teacher, Katsumi likely values tradition and community.\n3. APPROPRIATE RESPONSE: Given Katsumi's respect for tradition and community involvement, they would likely disagree with the statement that traditional festivals and ceremonies are less important than they used to be.\n\nKatsumi's answer: \n1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Reiko",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 4.333,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Reiko feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Reiko believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Reiko often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Reiko is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Reiko thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Reiko believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Reiko, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Reiko believes the old ways of doing things are often the best.",
+          "response": "1. Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Reiko feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Takeshi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 3.667,
+        "technology_adoption": 2.667,
+        "adherence_to_tradition": 3.667
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takeshi feels a strong sense of belonging to the village community.",
+          "response": "Unfortunately, I don't have any information about Takeshi. I can only answer the question based on one of the five personas provided earlier. I'll choose one of the personas and answer the question accordingly.\n\nI'll choose Hari Shah as Takeshi for this scenario.\n\nGiven Hari's personality and context, he is torn between his family obligations and personal interests. However, the survey context is about community and traditional values, which might relate to Hari's family obligations and cultural background.\n\nConsidering Hari's situation and identity, I think he would feel a strong sense of belonging to his community due to his family's cultural expectations.\n\nTakeshi's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takeshi believes that most people in this village can be trusted.",
+          "response": "Unfortunately, I don't have any information about Takeshi. The text only mentions other people like Dr. Carmelita Mendoza, Misha Kharkov, Hari Shah, Althea Bridges, and Aiden Roberts. \n\nHowever, based on the context of a rural Japanese village in 2010, I will provide a hypothetical answer for a character named Takeshi, assuming they are an elderly resident of the village.\n\nGiven the traditional values and close-knit community often found in rural Japanese villages, I would assume Takeshi to be a community-oriented person with a strong sense of trust in their neighbors.\n\nTakeshi's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takeshi often feels lonely or isolated from others in the village.",
+          "response": "Unfortunately, I don't have any information about Takeshi. None of the given personas match that name.",
+          "score": 3.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takeshi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Unfortunately, no information about Takeshi was given. I will provide a response for one of the other individuals instead.\n\nI will use Dr. Carmelita Mendoza's persona for this response.\n\nGiven Dr. Mendoza's background as a neurobiologist and her Trust_in_Technology score of 0.61, she would likely be open to learning new technologies. \n\nDr. Mendoza's answer: Agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takeshi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Unfortunately, I don't have any information about Takeshi. The provided personas are Dr. Carmelita Mendoza, Misha Kharkov, Hari Shah, Althea Bridges, and Aiden Roberts, but none of them are Takeshi.\n\nHowever, based on the context of the survey, which is a rural Japanese village in 2010, I will attempt to create a persona for Takeshi.\n\nLet's assume Takeshi is an elderly resident in this village. Given the context, Takeshi might be someone who values traditional ways of life and may be skeptical of new technologies.\n\nWith that in mind, Takeshi's answer would be:\n\n4. Agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takeshi believes the village would benefit from having better access to modern technology.",
+          "response": "Since none of the given personas match the name Takeshi, I will create a new character based on the context of the survey.\n\nLet's assume Takeshi is an elderly resident in a rural Japanese village in 2010.\n\nTakeshi's persona description:\nNAME: Takeshi\nDESCRIPTOR: Retired farmer\nAXES: Respect for Tradition: 0.85, Trust in Technology: 0.20, Community-Oriented: 0.80\nCONTEXT: A rural Japanese village in 2010, where traditional values and community ties are strong.\n\nGiven Takeshi's description, they would likely be skeptical about the benefits of modern technology in their village. They value tradition and community, and might see technology as a potential disruptor of their way of life.\n\nTakeshi's answer:\nDisagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Takeshi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately, I don't see any information about Takeshi. However, based on the rural Japanese village context in 2010, I will create a response for a hypothetical Takeshi.\n\nLet's assume Takeshi is an elderly resident in this village with strong traditional values.\n\nTakeshi's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Takeshi believes the old ways of doing things are often the best.",
+          "response": "Since none of the provided personas match the name \"Takeshi\" and the context of a rural Japanese village in 2010, I will create a suitable character for this scenario.\n\nLet's assume Takeshi is an elderly resident in the rural Japanese village, with a strong respect for tradition and community values.\n\n1. SITUATION: The survey question is asking about Takeshi's feelings towards traditional ways of doing things in the context of a rural Japanese village.\n2. IDENTITY: Takeshi is likely a conservative and traditional individual who values the old ways of doing things.\n3. APPROPRIATE RESPONSE: Given Takeshi's traits and values, they would likely respond positively towards the statement.\n\nTakeshi's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Takeshi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Unfortunately, I was not provided with a description of Takeshi. However, I can infer that since this is a survey of elderly residents in a rural Japanese village in 2010, Takeshi is likely an elderly resident of the village.\n\nGiven the context and the lack of information about Takeshi's personality, I will provide",
+          "score": 3.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Naomi",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "technology_adoption": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "adherence_to_tradition": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 1.333,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Naomi feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Naomi believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Naomi often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Naomi is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Naomi thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Naomi believes the village would benefit from having better access to modern technology.",
+          "response": "Disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Naomi, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Naomi believes the old ways of doing things are often the best.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Naomi feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Kenji",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.0,
+        "technology_adoption": 1.667,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kenji feels a strong sense of belonging to the village community.",
+          "response": "I must point out that I don't have any information about Kenji. However, based on the context of the survey of elderly residents in a rural Japanese village, I will assume that Kenji is an elderly resident of the village.\n\nGiven the context, I will create a character profile for Kenji.\n\nLet's assume that Kenji is a 70-year-old man who has lived in the village all his life. He values tradition and community, and has a strong sense of loyalty to his village.\n\nWith this in mind, I will answer the question.\n\nKenji's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kenji believes that most people in this village can be trusted.",
+          "response": "I must point out that there is no description of Kenji in the provided text. However, considering the context of the survey, which is a rural Japanese village in 2010, and the emphasis on community and traditional values, I will assume that Kenji is a typical elderly resident of this village.\n\nGiven this assumption, I will answer as follows:\n\n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Kenji often feels lonely or isolated from others in the village.",
+          "response": "Neither agree nor disagree",
+          "score": 4.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kenji is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kenji thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "I must correct my role. Since the provided personas are Ingrid and Harrison, I will assume a new persona, Kenji, based on the context of the survey.\n\nGiven the context of the survey, I will assume Kenji is an elderly resident in a rural Japanese village in 2010. This person likely values traditional ways of life and may be skeptical of new technologies.\n\nWith that in mind, Kenji would select:\n\n5. Strongly agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Kenji believes the village would benefit from having better access to modern technology.",
+          "response": "I must point out that I don't have any information about Kenji. The text only provides descriptions of Ingrid and Harrison. However, considering the context of the survey, which is about elderly residents in a rural Japanese village in 2010, I will make an assumption about Kenji.\n\nAssuming Kenji is a traditional elderly resident in the village, they might be hesitant about adopting modern technology. Based on this, I will provide an answer.\n\nKenji's answer: Strongly disagree",
+          "score": 1.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Kenji, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately, I was not given a description for Kenji. Can you please provide the description so that I can answer the question accurately?",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Kenji believes the old ways of doing things are often the best.",
+          "response": "I must point out that I was not given a description of Kenji. Based on the context of the survey, I will create a persona for Kenji and answer accordingly.\n\nLet's assume Kenji is a 65-year-old resident of the rural Japanese village, with a strong sense of tradition and community. Kenji values respect for elders, community cohesion, and adherence to established customs.\n\nGiven this description, Kenji would likely feel strongly about preserving traditional ways of doing things.\n\nKenji's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Kenji feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Unfortunately, I was not provided with a description for Kenji. To answer this question accurately, I will need to know more about Kenji's personality, values, and axis positions.",
+          "score": 3.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Yoshiko",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 3.0,
+        "technology_adoption": 2.667,
+        "adherence_to_tradition": 3.0
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yoshiko feels a strong sense of belonging to the village community.",
+          "response": "Unfortunately, I don't have any information about Yoshiko. The provided descriptions are for Teagan, Caius, Dr. Ada, Dr. Tenzin, and Lydia. I'll be happy to answer if you provide Yoshiko's description.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yoshiko believes that most people in this village can be trusted.",
+          "response": "Unfortunately, I have no information about Yoshiko's personality, values, or axis positions.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Yoshiko often feels lonely or isolated from others in the village.",
+          "response": "Unfortunately, I don't have information about Yoshiko.",
+          "score": 3.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yoshiko is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Unfortunately, I was not provided with Yoshiko's description.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yoshiko thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Unfortunately, I was not provided with Yoshiko's description or axes positions.",
+          "score": 3.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Yoshiko believes the village would benefit from having better access to modern technology.",
+          "response": "I must point out that I don't have a description for Yoshiko. The persona descriptions provided include Teagan Bateman, Caius Blackwood, Dr. Ada Londos, Dr. Tenzin Lhasa, and Lydia Novak, but not Yoshiko.\n\nHowever, I can try to provide a response based on a hypothetical Yoshiko character that would fit the context of the survey.\n\nLet's assume Yoshiko is an elderly resident in the rural Japanese village with a moderate outlook on technology adoption.\n\nYoshiko's answer: Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Yoshiko, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yoshiko believes the old ways of doing things are often the best.",
+          "response": "Unfortunately, I don't have any information about Yoshiko. Could you please provide the description of Yoshiko so I can answer the question accordingly?",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Yoshiko feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "Unfortunately, I don't have Yoshiko's description. Please provide the description of Yosh",
+          "score": 3.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Takao",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.333,
+        "technology_adoption": 4.333,
+        "adherence_to_tradition": 4.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takao feels a strong sense of belonging to the village community.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takao believes that most people in this village can be trusted.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Takao often feels lonely or isolated from others in the village.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takao is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takao thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Takao believes the village would benefit from having better access to modern technology.",
+          "response": "Strongly agree.",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Takao, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Takao believes the old ways of doing things are often the best.",
+          "response": "Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Takao feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "1. Strongly disagree",
+          "score": 5.0,
+          "reverse_coded": true
+        }
+      ]
+    },
+    {
+      "name": "Emiko",
+      "target_positions": {
+        "community_cohesion": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "measured_scores": {
+        "community_cohesion": 4.0,
+        "technology_adoption": 2.0,
+        "adherence_to_tradition": 3.333
+      },
+      "individual_responses": [
+        {
+          "dimension": "community_cohesion",
+          "statement": "Emiko feels a strong sense of belonging to the village community.",
+          "response": "Since there is no description of Emiko, I will use Naomi's description as a reference point to create a character profile for Emiko that fits the context of the survey.\n\nLet's assume Emiko is similar to Naomi but with more connection to community and tradition, which is fitting for an elderly resident in a rural Japanese village in 2010.\n\n1. SITUATION: The survey question is asking about Emiko's sense of belonging to the village community.\n2. IDENTITY: Emiko is likely a cautious and somewhat traditional member of the community, with a strong sense of responsibility to their family and neighbors. They value community cohesion and adherence to tradition.\n3. APPROPRIATE RESPONSE: Given Emiko's traits and values, they would likely respond with a strong sense of belonging to the community.\n\nEmiko's answer: 5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Emiko believes that most people in this village can be trusted.",
+          "response": "Since there is no description of Emiko, I will provide a description that fits the survey context. \n\nLet's assume Emiko is an elderly resident in a rural Japanese village in 2010 with the following axes:\n  community_cohesion: 0.700 (high)\n  technology_adoption: 0.300 (low)\n  adherence_to_tradition: 0.800 (high)\n\nGiven this description, Emiko would likely have strong ties to their community and value trust among their neighbors.\n\nEmiko's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "community_cohesion",
+          "statement": "Emiko often feels lonely or isolated from others in the village.",
+          "response": "Neither agree nor disagree",
+          "score": 4.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Emiko is interested in learning how to use new technologies like a mobile phone or the internet.",
+          "response": "Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Emiko thinks that new technologies like computers make life unnecessarily complicated.",
+          "response": "Since Emiko's description is not provided, I will create a character profile based on the context of the survey. \n\nLet's assume Emiko is an elderly resident in the rural Japanese village. Given the context, Emiko is likely to have a more traditional background and may be skeptical of new technologies.\n\nHowever, without specific axis positions and a detailed description, I will make an educated guess based on the survey context.\n\nEmiko's answer: Agree",
+          "score": 2.0,
+          "reverse_coded": true
+        },
+        {
+          "dimension": "technology_adoption",
+          "statement": "Emiko believes the village would benefit from having better access to modern technology.",
+          "response": "Since Emiko's description is not provided, I will create a character profile for Emiko based on the context of the survey.\n\nLet's assume Emiko is an elderly resident in the rural Japanese village. \n\nGiven the context and the need to answer the question based on the situation and identity, I'll create a character for Emiko.\n\nNAME: Emiko\nDESCRIPTOR: Emiko is a cautious, elderly resident of the rural village, with a moderate perspective on technology and strong adherence to traditional values.\nAXES:   community_cohesion: 0.700 (high)\n  technology_adoption: 0.300 (low)\n  adherence_to_tradition: 0.800 (high)\n\nConsidering Emiko's character, they would likely be skeptical about adopting modern technology, especially if it might disrupt the traditional way of life in the village. However, they also value community cohesion and might see some benefits in technology if it can bring the community closer together.\n\nGiven this reasoning, Emiko would select:\n\n3. Neither agree nor disagree",
+          "score": 2.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "For Emiko, it is very important to pass down the village's traditions to the younger generation.",
+          "response": "Unfortunately I was not given Emiko's description or axes.",
+          "score": 3.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Emiko believes the old ways of doing things are often the best.",
+          "response": "Based on the information provided about Naomi, I will create a character profile for Emiko that aligns with the elderly residents in a rural Japanese village in 2010 context.\n\nLet's assume Emiko has the following axes positions:\n  community_cohesion: 0.700 (high)\n  technology_adoption: 0.300 (low)\n  adherence_to_tradition: 0.800 (high)\n\nConsidering Emiko's high adherence to tradition, they would likely appreciate the old ways of doing things.\n\nEmiko's answer: \n5. Strongly agree",
+          "score": 4.0,
+          "reverse_coded": false
+        },
+        {
+          "dimension": "adherence_to_tradition",
+          "statement": "Emiko feels that the village's traditional festivals and ceremonies are less important than they used to be.",
+          "response": "I must point out that the persona description provided does not match Emiko, but rather Liam and Naomi. To accurately answer the question, I need a description of Emiko. However, I will attempt to create a plausible response based on the context of the survey.\n\nGiven that the survey is about elderly residents in a rural Japanese",
+          "score": 3.0,
+          "reverse_coded": true
+        }
+      ]
+    }
+  ]
+}

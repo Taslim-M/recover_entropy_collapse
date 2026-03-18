@@ -21,7 +21,7 @@ from typing import List, Dict, Tuple
 
 import numpy as np
 
-from config import SIMULATION_MODEL, LIKERT_SCALE
+from config import SIMULATION_MODEL, CLOUD_GPU_INFERENCE_URL, LIKERT_SCALE
 from llm_client import call_llm
 from questionnaire_generator import Questionnaire, Question
 from persona_generator import Persona
@@ -107,6 +107,7 @@ def simulate_single_response(
             model=SIMULATION_MODEL,
             temperature=0.3,  # Lower temperature for more consistent scoring
             max_tokens=256,
+            url=CLOUD_GPU_INFERENCE_URL or None,
         )
     except RuntimeError as e:
         # Keep the evaluation running even if the provider returns transient 5xx/429/etc.

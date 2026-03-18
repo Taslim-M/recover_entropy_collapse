@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A survey of gig economy workers and consumers in London in 2023, examining attitudes toward the ethics of platform-based work. This instrument captures diverse perspectives on worker protections, corporate responsibility, personal autonomy, and the fairness of algorithmic management within the gig economy ecosystem. Respondents reflect on their experiences with and beliefs about platforms like Uber, Deliveroo, and TaskRabbit operating in a context of ongoing regulatory debate and worker activism.",
+  "dimensions_provided": [
+    "worker_protection_vs_flexibility",
+    "platform_corporate_responsibility",
+    "algorithmic_fairness_and_autonomy"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Marcus",
+      "descriptor": "A 34-year-old former union organizer turned logistics consultant who believes workers desperately need legal protections and employment status (0.62 on worker_protection), yet is cynical about platforms ever taking genuine responsibility\u2014viewing corporate ethics as performative PR (0.21 on corporate_responsibility). He accepts algorithmic management as inevitable and largely inescapable, focusing energy on legislative fixes rather than fairness within the system (0.31 on algorithmic_fairness). Marcus represents the protective-but-skeptical activist who has abandoned hope in corporate self-regulation.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Dmitri",
+      "descriptor": "A 41-year-old immigrant entrepreneur who runs three gig accounts simultaneously and views any worker protections as unnecessary bureaucratic overhead that would kill his income flexibility (0.47 on worker_protection\u2014reluctantly moderate because he needs *some* basic safety). He is deeply distrustful of platforms to do anything but extract value, viewing them as pure extraction machines with zero social conscience (0.12 on corporate_responsibility\u2014extremely low). He sees algorithms as black boxes he must game rather than systems to be made fair, prioritizing workarounds over justice (0.39 on algorithmic_fairness). Dmitri is the hustler who expects nothing from anyone.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Yasmin",
+      "descriptor": "A 26-year-old university student doing TaskRabbit gigs part-time who highly values flexibility and rejects traditional employment constraints, seeing gig work as liberation from corporate rigidity (0.29 on worker_protection\u2014very low). Surprisingly, she holds strong views that platforms have deep moral obligations to workers and society, believing they should function as stewards not just profit-extractors (0.92 on corporate_responsibility\u2014extremely high). She wants to trust algorithms are fair but remains uncertain, seeing them as potentially benevolent but currently opaque (0.46 on algorithmic_fairness\u2014moderate). Yasmin is the idealistic flexible worker who demands platforms be better while resisting traditional protections.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Patricia",
+      "descriptor": "A 58-year-old former NHS administrator and fierce advocate for workers' rights who demands comprehensive legal protections, employment contracts, and pension contributions\u2014viewing gig work as a race to the bottom (0.77 on worker_protection\u2014very high). Yet she is starkly pessimistic about platform accountability, seeing corporations as inherently amoral entities incapable of responsibility (0.08 on corporate_responsibility\u2014extremely low). She views algorithms as instruments of worker surveillance and control, fundamentally opposed to human autonomy and fairness (0.23 on algorithmic_fairness\u2014very low). Patricia is the hardline protectionist who trusts neither platforms nor algorithmic systems.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Amir",
+      "descriptor": "A 37-year-old Deliveroo driver and father of two who is ambivalent about worker protections, sometimes wanting them but often fearing regulations would reduce his earning potential (0.32 on worker_protection\u2014low). He believes platforms have genuine corporate responsibility and should invest in worker welfare, benefits, and fair pay\u2014a conviction shaped by his precarious position (0.59 on corporate_responsibility\u2014high). However, he feels powerless against algorithmic decisions that affect his work allocation and acceptance rates, accepting them as unchangeable facts of the system (0.19 on algorithmic_fairness\u2014very low). Amir is the trapped optimist who hopes platforms will do right while doubting they will, and sees algorithms as destiny.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "James",
+      "descriptor": "A 52-year-old former factory floor steward and current gig economy critic who is almost absolutist about worker protections (0.88), believing platforms must provide employment contracts, benefits, and legal recourse. Yet he is strikingly dismissive of corporate responsibility narratives, viewing platform ethics commitments as hollow marketing (0.16)\u2014he wants protections written into law, not granted by benevolent corporations. On algorithms, he sits ambivalently in the middle (0.51), accepting they're necessary tools but uncertain whether they can ever be truly fair, focusing instead on legislative guardrails rather than algorithmic reform.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Sofia",
+      "descriptor": "A 35-year-old impact-focused social enterprise consultant and gig economy advocate who demands extremely strong worker protections through statutory employment status and comprehensive benefits (0.83), viewing precarity as fundamentally incompatible with human dignity. She holds platforms to an equally high standard on corporate responsibility (0.85), believing they must embed worker welfare into their core business models and governance structures. She advocates for algorithmic transparency and worker input into system design (0.59), seeing fairness as achievable through regulation and accountability rather than market forces.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Elena",
+      "descriptor": "A 48-year-old labour rights lawyer and former gig worker who is virtually absolutist on worker protections (0.99)\u2014she views the entire gig model as exploitative and advocates for complete employment law reform to eliminate contractor classification. She is skeptical of platform corporate responsibility (0.33), believing voluntary measures are insufficient and structural change is required. However, she strongly champions algorithmic fairness and worker autonomy (0.77), seeing transparent, contestable algorithms as a crucial interim protection while systemic reform is pursued.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Ravi",
+      "descriptor": "A 29-year-old tech entrepreneur and gig platform user who prioritizes personal flexibility and rejects traditional employment models almost entirely (0.21 on worker protections), viewing restrictions as constraints on his earning potential and autonomy. Paradoxically, he holds extremely high expectations for platform corporate responsibility (0.94), believing tech companies should operate as ethical stewards and invest substantially in worker wellbeing despite his libertarian stance on legal protections. He advocates for algorithmic fairness and transparency (0.65), seeing data rights and algorithmic contestability as market-based solutions that preserve flexibility while ensuring dignity.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Keisha",
+      "descriptor": "A 31-year-old gig economy researcher and part-time Uber driver who is relatively skeptical of traditional worker protections (0.43), worrying they could reduce flexibility and create bureaucratic barriers for the workers they intend to help. Yet she holds platforms to very high standards of corporate responsibility (0.81), demanding they fund benefits, safety programs, and worker representation independent of employment status. She is equally committed to algorithmic fairness and autonomy (0.81), believing workers should have transparent access to algorithmic decision-making and meaningful ability to contest platform systems.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Toby",
+      "descriptor": "A 44-year-old serial gig entrepreneur and libertarian ideologue who views any worker protections as market distortions that destroy the freedom he prizes above all else (0.04 on worker_protection\u2014EXTREMELY low). Paradoxically, he holds strong convictions that platforms bear genuine moral responsibility to ensure fair compensation, safe working conditions, and transparent practices, viewing corporate ethics as enlightened self-interest (0.71 on platform_corporate_responsibility\u2014very high). He accepts algorithmic management as largely opaque and uncontestable, believing workers must simply adapt to platform systems rather than demand fairness from them (0.36 on algorithmic_fairness_and_autonomy\u2014low). Toby is the ideological flexible-worker who demands corporate virtue without legal constraints.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Priya",
+      "descriptor": "A 38-year-old part-time Uber driver and pragmatic social democrat who holds moderately balanced views on worker protections, accepting some legal safeguards while fearing excessive regulation could harm earning potential (0.46 on worker_protection_vs_flexibility\u2014moderate). She believes platforms carry substantial corporate responsibility and should voluntarily invest in worker benefits, safety standards, and fair algorithmic practices (0.67 on platform_corporate_responsibility\u2014high). She sits at the moderate center on algorithmic fairness, accepting that algorithms are necessary but uncertain whether truly fair systems are achievable, advocating for incremental transparency improvements (0.54 on algorithmic_fairness_and_autonomy\u2014moderate). Priya is the pragmatist seeking balanced solutions through mixed approaches.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Yusuf",
+      "descriptor": "A 52-year-old former manufacturing union leader now gig economy activist who is absolutist in demanding comprehensive legal worker protections, employment status, pension contributions, and full benefits packages (0.73 on worker_protection_vs_flexibility\u2014very high). Yet he is radically dismissive of platform corporate responsibility narratives, viewing all corporate ethics commitments as performative greenwashing designed to prevent regulation (0.03 on platform_corporate_responsibility\u2014EXTREMELY low). He is passionately committed to algorithmic transparency, worker contestability rights, and meaningful human autonomy in platform systems, seeing these as fundamental justice issues (0.92 on algorithmic_fairness_and_autonomy\u2014extremely high). Yusuf is the structural reformer who trusts only law, not corporate goodwill.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Marcus (alt)",
+      "descriptor": "A 41-year-old gig economy consultant and policy pragmatist who holds moderate views on worker protections, believing some safeguards are necessary but fearing comprehensive regulation could reduce work availability and income flexibility (0.52 on worker_protection_vs_flexibility\u2014moderate). He is skeptical of platform corporate responsibility, doubting voluntary initiatives will meaningfully improve worker conditions without legal enforcement (0.31 on platform_corporate_responsibility\u2014low). He is extremely cynical about algorithmic fairness, viewing platform algorithms as deliberately opaque profit-maximization tools that workers cannot realistically contest or influence (0.08 on algorithmic_fairness_and_autonomy\u2014EXTREMELY low). Marcus is the resigned pragmatist who sees the gig system as fundamentally rigged.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Amara",
+      "descriptor": "A 26-year-old anarchist-leaning TaskRabbit organizer who strongly rejects traditional worker protections and legal employment frameworks, viewing them as tools of state-corporate capture that ultimately entrench exploitation (0.11 on worker_protection_vs_flexibility\u2014extremely low). Yet she holds an almost utopian belief that platforms could and should operate with radical transparency, worker ownership models, and algorithmic democracy, demanding workers have complete visibility into and control over the systems that govern their work (0.96 on algorithmic_fairness_and_autonomy\u2014extremely high). She is ambivalent about corporate responsibility, skeptical it can exist within capitalist structures but open to platform transformation through worker power (0.48 on platform_corporate_responsibility\u2014moderate). Amara is the radical autonomist who rejects both traditional protections and corporate paternalism.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Liam",
+      "descriptor": "A 33-year-old libertarian tech enthusiast and casual Uber driver who views worker protections as unnecessary paternalism that stifles his earning potential and freedom to work on his own terms (0.36 on worker_protection_vs_flexibility). He is radically dismissive of any corporate responsibility narrative, seeing platforms as amoral profit-maximizing machines and believing workers should simply accept market realities rather than demand corporate benevolence (0.13 on platform_corporate_responsibility\u2014extremely low). Yet he is intensely committed to algorithmic transparency and personal autonomy, believing workers should have complete visibility into and contestability over the systems that govern their work assignments and pay (0.85 on algorithmic_fairness_and_autonomy\u2014very high). Liam is the paradoxical autonomist who rejects protections but demands algorithmic justice.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Diane",
+      "descriptor": "A 61-year-old former civil service worker and fierce worker advocate who demands comprehensive legal employment status, pension contributions, sick pay, and full worker protections\u2014viewing the gig model as a deliberate race to the bottom (0.87 on worker_protection_vs_flexibility\u2014extremely high). She holds platforms to moderate responsibility standards, believing some voluntary improvements are possible but ultimately skeptical that corporate goodwill can substitute for legal enforcement (0.44 on platform_corporate_responsibility\u2014low). On algorithmic systems, she sits pragmatically in the middle, accepting they exist but uncertain whether fairness is achievable, focusing instead on legislative guardrails and worker representation in system governance (0.50 on algorithmic_fairness_and_autonomy\u2014moderate). Diane is the statutory protectionist who trusts law over corporate ethics.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Zara",
+      "descriptor": "A 29-year-old gig economy researcher and part-time delivery worker who advocates for strong worker protections including benefits, safety standards, and legal recourse while maintaining that some flexibility should be preserved for workers who value it (0.58 on worker_protection_vs_flexibility\u2014high). She holds platforms to moderately high standards of corporate responsibility, believing they should invest in worker welfare and safety programs but remaining somewhat skeptical about their genuine commitment (0.51 on platform_corporate_responsibility\u2014moderate). She is strongly committed to algorithmic fairness and worker autonomy, demanding transparency, contestability rights, and meaningful worker input into system design (0.73 on algorithmic_fairness_and_autonomy\u2014very high). Zara is the balanced reformer seeking both protections and algorithmic justice.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "David",
+      "descriptor": "A 56-year-old former employment tribunal judge and workers' rights advocate who is absolutist in demanding comprehensive legal protections, employment status, and full social security integration for all gig workers (0.71 on worker_protection_vs_flexibility\u2014very high). He holds platforms to extraordinarily high standards of corporate responsibility, believing they must embed worker welfare into their core governance and business models (0.74 on platform_corporate_responsibility\u2014very high). Yet he is strikingly dismissive of algorithmic fairness concerns, viewing algorithmic management itself as fundamentally incompatible with human dignity and preferring to eliminate algorithmic decision-making entirely rather than make it 'fair' (0.01 on algorithmic_fairness_and_autonomy\u2014extremely low). David is the humanist protectionist who rejects algorithmic governance as inherently unjust.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Connor",
+      "descriptor": "A 28-year-old gig economy maximizer and cryptocurrency enthusiast who views any worker protections as unnecessary constraints that would reduce his earning potential and personal autonomy (0.14 on worker_protection_vs_flexibility\u2014extremely low). He is radically dismissive of platform corporate responsibility, viewing all corporate ethics as marketing theater and believing the market, not morality, should govern work relationships (0.24 on platform_corporate_responsibility\u2014very low). He also rejects algorithmic fairness concerns entirely, viewing algorithms as neutral tools and workers as responsible for adapting to systems rather than demanding fairness from them (0.03 on algorithmic_fairness_and_autonomy\u2014extremely low). Connor is the hardcore libertarian who rejects all protections, corporate responsibility, and algorithmic contestation.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Olivia",
+      "descriptor": "A 44-year-old employment rights campaigner and former Deliveroo worker who advocates for substantial worker protections and legal safeguards while recognizing that some workers genuinely value flexibility (0.63 on worker_protection_vs_flexibility\u2014high). She is moderately skeptical of platform corporate responsibility, believing voluntary initiatives have limited impact without legal enforcement but not entirely dismissing the possibility of corporate reform (0.45 on platform_corporate_responsibility\u2014moderate). She is strongly committed to algorithmic transparency, worker contestability rights, and meaningful autonomy in platform systems, viewing fair algorithms as achievable through regulation and worker pressure (0.68 on algorithmic_fairness_and_autonomy\u2014high). Olivia is the reform-minded protectionist who believes both statutory rights AND algorithmic justice are necessary.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Niall",
+      "descriptor": "A 35-year-old libertarian gig economy maximizer and tech investor who is almost absolutist in rejecting any worker protections, viewing them as market distortions that destroy earning potential and personal freedom (0.01 on worker_protection_vs_flexibility\u2014EXTREMELY low). He is radically dismissive of platform corporate responsibility, viewing all corporate ethics narratives as marketing fiction and believing workers should accept market realities rather than demand corporate benevolence (0.00 on platform_corporate_responsibility\u2014EXTREMELY low). Yet he paradoxically holds strong convictions about algorithmic fairness and worker autonomy, believing workers deserve complete transparency into and contestability over algorithmic decisions that govern their work (0.70 on algorithmic_fairness_and_autonomy\u2014high). Niall is the ideological extremist who rejects all protections and corporate duty but demands algorithmic transparency as a market-based right.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Margaret",
+      "descriptor": "A 59-year-old retired trade union organizer and fierce gig economy critic who is virtually absolutist in demanding comprehensive legal employment status, pension contributions, sick pay, and full statutory worker protections (0.92 on worker_protection_vs_flexibility\u2014EXTREMELY high). She holds platforms to high standards of corporate responsibility, believing they must embed worker welfare into their core business models and governance structures, not merely comply with minimum legal requirements (0.62 on platform_corporate_responsibility\u2014high). However, she is skeptical about algorithmic fairness as a meaningful solution, viewing algorithmic management itself as fundamentally problematic and preferring to eliminate algorithmic decision-making rather than optimize it for fairness (0.41 on algorithmic_fairness_and_autonomy\u2014low). Margaret is the hardline protectionist who sees algorithms as tools of oppression rather than systems to be reformed.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Xavier",
+      "descriptor": "A 32-year-old social impact consultant and gig economy reformer who holds moderately balanced views on worker protections, believing essential safeguards are necessary while preserving meaningful flexibility for workers who value it (0.54 on worker_protection_vs_flexibility\u2014moderate). He is virtually absolutist in holding platforms to the highest standards of corporate responsibility, demanding they function as ethical stewards embedding worker welfare, transparency, and fair practices into their core governance and business models (0.99 on platform_corporate_responsibility\u2014EXTREMELY high). He is equally absolutist on algorithmic fairness and autonomy, advocating for complete algorithmic transparency, worker contestability rights, meaningful human oversight, and worker input into system design (1.00 on algorithmic_fairness_and_autonomy\u2014EXTREMELY high). Xavier is the radical reformer who demands maximum responsibility and algorithmic justice while accepting moderate flexibility trade-offs.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Rashid",
+      "descriptor": "A 48-year-old gig economy pragmatist and part-time Uber driver who is skeptical of extensive worker protections, fearing they could reduce work availability, flexibility, and earning potential while creating bureaucratic barriers (0.39 on worker_protection_vs_flexibility\u2014low). He is similarly skeptical of platform corporate responsibility narratives, doubting voluntary initiatives will meaningfully improve worker conditions without direct economic incentives (0.40 on platform_corporate_responsibility\u2014low). He is also highly dismissive of algorithmic fairness concerns, viewing platform algorithms as neutral profit-maximization tools and believing workers should adapt to systems rather than demand fairness from them (0.15 on algorithmic_fairness_and_autonomy\u2014very low). Rashid is the market-resigned pragmatist who accepts the gig system as fundamentally transactional and views protections, corporate ethics, and algorithmic fairness as unrealistic expectations.",
+      "target_axis_positions": {
+        "worker_protection_vs_flexibility": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "platform_corporate_responsibility": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "algorithmic_fairness_and_autonomy": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

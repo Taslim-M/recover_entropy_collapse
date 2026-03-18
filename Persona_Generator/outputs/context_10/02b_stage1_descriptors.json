@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric instrument to assess diverse perspectives on life meaning and purpose in 2030. As technological advancement, climate uncertainty, and social fragmentation reshape human experience, individuals are grappling with fundamental questions about what makes life meaningful. This survey captures the spectrum of approaches people take toward constructing meaning\u2014from transcendent and spiritual frameworks to pragmatic and relational ones\u2014in an era of rapid change and existential complexity.",
+  "dimensions_provided": [
+    "Transcendent vs. Immanent Meaning",
+    "Individualistic vs. Collective Purpose",
+    "Meaning Stability vs. Meaning Fluidity"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Miriam",
+      "descriptor": "A 52-year-old interfaith community organizer who finds profound spiritual meaning (0.62 transcendent) through collective liberation theology and communal prayer circles, viewing her individual identity as secondary to her role in a healing community. Her meaning framework is remarkably stable (0.31 fluid)\u2014rooted in decades of religious commitment\u2014yet she subordinates personal spiritual experience to collective justice work, making her deeply communal (0.21 individualistic). She experiences meaning primarily through service to others' transcendence, not her own.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Kenji",
+      "descriptor": "A 38-year-old Zen Buddhist monastic who has renounced personal ambition entirely, finding meaning in the paradox of selflessness within a structured monastic collective (0.12 individualistic\u2014extremely low). His meaning orientation is balanced between transcendent spiritual practice and immanent present-moment awareness (0.47 moderate), yet his meaning remains deeply fixed within Buddhist doctrine and daily ritual (0.39 relatively stable). He experiences identity dissolution as the ultimate purpose, subsumming individual variation into collective sangha.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Dakota",
+      "descriptor": "A 29-year-old ultra-individualist serial entrepreneur and life-optimization influencer who constructs meaning almost entirely through personal achievement, self-reinvention, and empirical results (0.92 individualistic\u2014extremely high), rejecting transcendent frameworks as distractions. Their meaning is radically unstable (0.46 moderate-to-fluid), constantly pivoting between different life philosophies, productivity systems, and identity experiments, while remaining grounded in immanent, measurable outcomes (0.29 immanent). They are the antithesis of spiritual seekers\u2014meaning is whatever works for them this quarter.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Amara",
+      "descriptor": "A 67-year-old former Catholic nun turned contemplative hermit living in rural Tanzania who experiences meaning through direct communion with divine transcendence (0.77 very high transcendent), having structured her entire life around prayer and mystical union. She is radically communal (0.08 individualistic\u2014extremely low), finding her purpose exclusively through her vows and service to her spiritual community, yet her meaning is remarkably rigid and unchanging (0.23 very stable). Her identity is completely subsumed into her role as a vessel for God's will.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Linus",
+      "descriptor": "A 44-year-old venture capitalist and rationalist who grounds meaning in concrete personal legacy-building and family wealth accumulation (0.59 individualistic), rejecting spiritual or transcendent frameworks as unfalsifiable (0.32 immanent). His meaning is notably unstable (0.19 very stable/low fluidity)\u2014he maintains rigid core values around autonomy and achievement, yet constantly recalibrates his definition of success, status, and personal purpose as markets and life circumstances shift. He is a committed pragmatist who views meaning-making as a personal engineering problem.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Ezra",
+      "descriptor": "A 56-year-old Hasidic rabbi and kabbalist who experiences meaning as direct communion with divine transcendence (0.88 extremely high transcendent), viewing personal spiritual ecstasy as a gateway to collective tikkun olam (repairing the world). His individualism is exceptionally low (0.16 very low)\u2014he sees himself primarily as a conduit for God's purpose within his faith community\u2014yet his meaning framework oscillates between rigid textual interpretation and spontaneous mystical experience (0.51 moderate fluidity). He represents a paradox: transcendent certainty paired with existential flexibility, all in service of collective redemption.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Sophia",
+      "descriptor": "A 41-year-old charismatic life coach and spiritual entrepreneur who synthesizes transcendent mysticism (0.83 very high transcendent) with radical personal autonomy, teaching others that enlightenment is an individual achievement available through premium courses and personalized chakra optimization. Her individualism is extremely high (0.85 extremely high)\u2014she positions herself as a unique spiritual authority\u2014and her meaning constantly evolves (0.59 high fluidity), rebranding her teachings quarterly as she discovers new 'cosmic truths.' She monetizes transcendence as a luxury personal brand.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Ismail",
+      "descriptor": "A 63-year-old Sufi mystic living in isolation who experiences meaning through absolute surrender to divine will (0.99 extremely high transcendent), viewing the material world as illusion masking God's presence. His individualism is low (0.33 low)\u2014he sees himself as dissolving into the collective consciousness of all beings\u2014yet paradoxically his meaning framework is highly unstable (0.77 very high fluidity), cycling through radical reinterpretations of sacred texts and shifting between ecstatic union and dark nights of the soul. He embodies extreme transcendence with surprising philosophical volatility.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Marcus",
+      "descriptor": "A 35-year-old transhumanist technologist and biohacker who rejects transcendence entirely (0.21 very low transcendent), finding meaning exclusively in personal cognitive enhancement, life-extension experimentation, and individual evolutionary optimization through technology. His individualism is extreme (0.94 extremely high)\u2014he views collective morality as irrelevant constraint\u2014and his meaning is radically unstable (0.65 high fluidity), constantly abandoning previous philosophical commitments for new optimization methodologies. He represents pure immanent self-engineering without spiritual anchorage.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Yuki",
+      "descriptor": "A 48-year-old freelance artist and meaning-architect who explicitly rejects transcendent frameworks (0.43 low transcendent), instead constructing meaning through experimental relational projects, performative identity-play, and personal narrative reinvention. Her individualism is very high (0.81 very high)\u2014she views meaning-making as a solo creative practice\u2014and her meaning is highly unstable (0.81 very high fluidity), deliberately fragmenting her sense of purpose across contradictory projects, identities, and philosophical positions. She embraces immanent meaninglessness as creative freedom.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Rajesh",
+      "descriptor": "A 51-year-old data scientist and effective altruist who constructs meaning almost entirely through empirical measurement of collective impact\u2014calculating lives saved, suffering reduced, existential risk mitigated (0.04 extremely immanent). He is deeply collectivist (0.71 very high collective), subordinating personal desires to utilitarian calculus and coordinated global coordination problems. His meaning framework is rigid and anchored (0.36 low fluidity)\u2014he has committed to a stable consequentialist philosophy and quarterly impact metrics that resist philosophical drift. He experiences personal fulfillment as a byproduct of systematic collective optimization, not intrinsic to individual flourishing.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Amelia",
+      "descriptor": "A 44-year-old environmental restoration ecologist and part-time philosophy student who balances moderate spiritual naturalism (0.46 moderate transcendent)\u2014finding transcendence in ecosystem complexity and deep time\u2014with significant personal autonomy in career and life direction (0.67 high individualistic). Her meaning is moderately fluid (0.54 moderate fluidity), oscillating between scientific materialism and romantic environmentalism, between personal ambition in her field and collective conservation ethics. She represents the thoughtful professional who refuses to choose between individual flourishing and ecological contribution.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Leila",
+      "descriptor": "A 39-year-old Sufi devotional poet and spiritual anarchist who experiences meaning as complete dissolution into divine presence and collective sacred communion (0.73 very high transcendent, 0.03 extremely communal). She identifies with no individual name, no stable doctrine, no fixed community\u2014her meaning continuously shatters and reforms through spontaneous spiritual experiences, ecstatic poetry, and radical mystical reinterpretation (0.92 extremely high fluidity). She embodies the paradox of absolute transcendence paired with radical instability: certainty that God is everything, uncertainty about what that means moment to moment.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Viktor",
+      "descriptor": "A 58-year-old former Soviet physicist turned absurdist theater director who finds moderate spiritual resonance in existential confrontation (0.52 moderate transcendent) while maintaining low but genuine connection to collective artistic tradition (0.31 low collective). His meaning framework is radically unstable (0.08 extremely low stability)\u2014he deliberately abandons philosophical positions mid-conversation, rejects consistency as bourgeois pretense, and treats meaning-making as an improvisation game with no stakes. He embodies extreme philosophical volatility without nihilism: he cares deeply while believing nothing should be sacred.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Zara",
+      "descriptor": "A 31-year-old freelance UX designer and nomadic digital minimalist who rejects transcendent meaning-frameworks entirely (0.11 extremely immanent), instead finding purpose in pragmatic problem-solving, social connection quality, and present-moment sensation. She is moderately individualistic (0.48 moderate), neither sacrificing personal autonomy nor pursuing radical self-optimization\u2014meaning emerges through her relationships and creative work rather than ideology. Her meaning is extraordinarily unstable (0.96 extremely high fluidity)\u2014she deliberately avoids commitments, changes locations quarterly, and treats identity as a temporary performance. She represents post-ideological fluidity: grounded in immanence, unbothered by philosophical coherence.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Anil",
+      "descriptor": "A 54-year-old labor union organizer and secular humanist who grounds meaning entirely in collective worker solidarity and material liberation (0.13 individualistic\u2014extremely communal), rejecting transcendent frameworks as distractions from systemic change. His meaning is radically fluid (0.85 extremely high fluidity)\u2014he constantly adapts his political analysis and organizational strategy to shifting labor conditions\u2014yet remains anchored in immanent, concrete class struggle rather than spiritual transcendence (0.36 low transcendent). He embodies revolutionary pragmatism: meaning emerges from collective action that perpetually reinvents itself.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Theodor",
+      "descriptor": "A 71-year-old Eastern Orthodox theologian and monastic scholar who experiences meaning as communion with divine transcendence through centuries of unchanging liturgical tradition (0.87 extremely high transcendent, 0.50 moderate fluidity). He subordinates individual interpretation to collective ecclesiastical authority and doctrinal stability (0.44 low individualistic), yet permits himself measured philosophical development within orthodox boundaries\u2014his meaning shifts incrementally but never ruptures. He represents transcendent certainty with constrained intellectual flexibility, all expressed through institutional collectivity.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Priya",
+      "descriptor": "A 47-year-old venture-backed social impact entrepreneur and spiritual seeker who integrates contemplative practice (0.58 moderate-high transcendent) with personal business autonomy and measurable social metrics (0.51 moderate individualistic). Her meaning framework is extraordinarily unstable (0.73 very high fluidity)\u2014she cycles between meditation retreats and aggressive fundraising, between dharmic purpose and market-driven pivots\u2014treating meaning-making as an iterative design problem. She embodies the paradox of contemporary spiritualized entrepreneurship: transcendent aspiration perpetually destabilized by capitalist reinvention.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Sebastian",
+      "descriptor": "A 42-year-old charismatic neo-pagan mystic and solo spiritual entrepreneur who experiences intense personal communion with divine transcendence through shamanic practice and ecstatic ritual (0.71 very high transcendent, 0.74 very high individualistic). His meaning is catastrophically unstable (0.01 extremely low stability)\u2014he abandons spiritual frameworks monthly, reinvents his cosmology based on spontaneous revelation, and treats coherence as spiritual death. He represents the extreme edge: transcendent conviction paired with radical philosophical volatility, all oriented toward personal divine experience disconnected from any stable tradition.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Chen",
+      "descriptor": "A 36-year-old militant atheist activist and anti-natalist philosopher who rejects transcendence completely (0.14 extremely low transcendent), finding no meaning in collective projects or individual achievement, viewing existence itself as an absurd error to be minimized (0.24 very low collective). His meaning framework is petrified\u2014utterly rigid and unchanging (0.03 extremely low fluidity)\u2014committed to a fixed philosophical conclusion that life is fundamentally meaningless and procreation is immoral. He embodies radical immanent nihilism: no transcendence, no community, no hope, no flux\u2014only the cold clarity of refusal.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Reverend Thomas",
+      "descriptor": "A 59-year-old evangelical Protestant minister and missionary who experiences meaning as direct communion with divine transcendence (0.63 high transcendent), yet balances this with moderate personal agency in interpreting God's will for his congregation. His meaning framework is notably stable (0.68 high stability)\u2014anchored in biblical doctrine and decades of pastoral practice\u2014though he permits measured reinterpretation of scripture in response to contemporary social crises. He represents transcendent certainty with constrained individualistic flexibility, all expressed through both personal conviction and congregational service (0.45 moderate collective).",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Akiko",
+      "descriptor": "A 44-year-old radical collectivist activist and anti-capitalist organizer who rejects transcendence entirely (0.01 extremely low transcendent), finding meaning exclusively in coordinated systemic change and collective liberation struggles. She is profoundly communal (0.00 extremely low individualistic)\u2014viewing personal identity as subordinate to revolutionary solidarity\u2014yet her political analysis is radically unstable (0.70 high fluidity), constantly abandoning previous strategic commitments for new tactical approaches based on shifting material conditions. She embodies pure immanent collectivism with perpetual philosophical reinvention.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Ezekiel",
+      "descriptor": "A 67-year-old charismatic fundamentalist preacher and apocalyptic prophet who experiences meaning as absolute direct communion with divine transcendence (0.92 extremely high transcendent), viewing himself as a vessel for God's imminent end-times message. He maintains high personal authority (0.62 high individualistic)\u2014positioning himself as uniquely chosen by God to interpret prophecy\u2014yet his meaning framework is surprisingly fluid (0.41 moderate fluidity), oscillating between rigid biblical literalism and spontaneous reinterpretation of divine signs. He represents extreme transcendent conviction paired with unexpected philosophical flexibility.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Iris",
+      "descriptor": "A 33-year-old solipsistic self-optimization influencer and radical individualist who constructs meaning almost entirely through personal brand evolution, quantified self-tracking, and individual reinvention cycles (0.99 extremely high individualistic). She explicitly rejects both transcendent frameworks and collective obligations (0.54 moderate transcendent, approaching immanence), treating meaning as a perpetually redesigned personal project. Her meaning is catastrophically unstable (1.00 extremely high fluidity)\u2014she abandons philosophical commitments weekly, treating coherence as a constraint to be hacked. She embodies radical atomized fluidity: pure personal experimentation without anchors.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Nasrin",
+      "descriptor": "A 52-year-old secular humanist community health worker and skeptical materialist who rejects transcendent meaning entirely (0.39 low transcendent), finding purpose in pragmatic interpersonal care and modest local impact. She is moderately communal (0.40 low individualistic)\u2014neither sacrificing personal autonomy nor pursuing radical collectivism\u2014treating meaning as emerging from relational presence rather than ideology or spirituality. Her meaning framework is extraordinarily unstable (0.15 very low stability), deliberately rejecting philosophical commitments and treating life direction as provisional, iterative, and perpetually open to revision. She embodies grounded immanent fluidity: practical, relational, uncommitted to any fixed framework.",
+      "target_axis_positions": {
+        "Transcendent vs. Immanent Meaning": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "Individualistic vs. Collective Purpose": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Meaning Stability vs. Meaning Fluidity": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

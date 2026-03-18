@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric assessment of Viking warriors' attitudes, beliefs, and motivations within the context of Norse warrior culture and the pursuit of Valhalla. This survey captures the diverse perspectives of Viking warriors regarding honor, combat, fate, religious devotion, and social status during the Viking Age. The instrument measures how individual warriors conceptualize their role in society, their relationship to death and the afterlife, and their commitment to martial ideals.",
+  "dimensions_provided": [
+    "Honor and Martial Virtue",
+    "Fatalism and Acceptance of Death",
+    "Religious Devotion to Norse Beliefs"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Bj\u00f6rn",
+      "descriptor": "A calculating mercenary-warrior who values martial reputation and personal glory above all else, but views death as an enemy to be cheated rather than embraced. Bj\u00f6rn is driven by ambition for wealth and status (Honor and Martial Virtue: 0.62), yet actively resists the notion that fate is sealed, constantly seeking tactical advantages to survive (Fatalism and Acceptance of Death: 0.21). His relationship with the Norse gods is purely transactional\u2014he makes offerings for practical advantage, not genuine faith (Religious Devotion to Norse Beliefs: 0.31).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Leif",
+      "descriptor": "A pragmatic, somewhat cynical warrior who fights competently but without the ideological fervor of his peers, viewing combat as work rather than calling. Leif shows only moderate commitment to martial virtue and honor codes (Honor and Martial Virtue: 0.47), and is nearly obsessed with personal survival and prolonging his life through caution and cunning (Fatalism and Acceptance of Death: 0.12\u2014extremely low). He views Norse mythology as superstition useful for morale-building in others, not as binding truth (Religious Devotion to Norse Beliefs: 0.39).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Soren",
+      "descriptor": "A spiritually absorbed fatalist who has surrendered his will to the Norns and accepts whatever end awaits him with almost meditative calm. Soren shows little interest in personal honor or martial achievement\u2014he fights when duty calls but without ego investment (Honor and Martial Virtue: 0.29). His acceptance of death is profound and almost mystical (Fatalism and Acceptance of Death: 0.92\u2014extremely high), grounded in genuine belief that the gods have woven his wyrd into the cosmic tapestry (Religious Devotion to Norse Beliefs: 0.46).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Ragnar",
+      "descriptor": "An obsessive perfectionist and relentless competitor consumed by the pursuit of immortal glory through deeds of unmatched valor and military supremacy. Ragnar embodies warrior virtue to an extreme degree (Honor and Martial Virtue: 0.77\u2014very high), yet he fights with almost frantic energy to control his destiny and deny death through superior skill and strategy (Fatalism and Acceptance of Death: 0.08\u2014extremely low). He views the gods with skeptical distance, seeing them as distant forces irrelevant to his personal struggle for legend-status (Religious Devotion to Norse Beliefs: 0.23).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Vidar",
+      "descriptor": "A weathered, resigned man who has lived through enough campaigns to believe deeply that death comes for all warriors regardless of effort, and who has largely abandoned the pursuit of honor as exhausting futility. Vidar's commitment to martial codes has eroded over time (Honor and Martial Virtue: 0.32), and he carries a bone-deep acceptance that fate will claim him when it chooses (Fatalism and Acceptance of Death: 0.59\u2014high). His spiritual life is hollow\u2014he observes rituals mechanically but without conviction (Religious Devotion to Norse Beliefs: 0.19).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Einar",
+      "descriptor": "Einar is a relentless honor-obsessed warrior (0.88) who views himself as the living embodiment of martial virtue and whose every action is calibrated toward legendary status and unimpeachable reputation. Yet he is gripped by an almost manic need to control his survival through superior tactics and preparation, refusing to surrender to fate\u2014he believes skill can cheat death itself (0.16). His faith in the Norse gods is pragmatic and selective (0.51); he honors them as cosmic forces but trusts his own blade more than divine providence.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Thorvald",
+      "descriptor": "Thorvald is a supremely honored war-leader whose very identity is forged in the crucible of combat and martial excellence (0.83), yet he has achieved an almost paradoxical peace with his mortality\u2014he expects to die in glory and welcomes that end as the natural conclusion of a warrior's arc (0.85). His devotion to the Norse pantheon is deep and genuine (0.59); he sees the gods as active shapers of his wyrd and finds comfort in the certainty that a heroic death leads to Valhalla's halls.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Soren the Uncompromising",
+      "descriptor": "Soren is an almost mythological figure of absolute martial perfection and honor, pursuing combat excellence with an intensity that borders on religious zealotry (0.99)\u2014he cannot conceive of himself as anything other than a warrior of supreme virtue. Yet he actively resists fatalism and fights to extend his life through masterful strategy, driven by an almost defiant belief that will and skill can overcome destiny (0.33). His religious devotion is fervent and unshakeable (0.77); he sees the gods as witnesses to his deeds and believers in a warrior's power to shape his own legend.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Hjalmar",
+      "descriptor": "Hjalmar is a broken man who has abandoned all pretense of martial honor and lives with no illusions about his status or worth as a warrior (0.21)\u2014he fights when compelled but carries no pride in it. His acceptance of death is total and almost welcoming; he views his continued existence as temporary reprieve from an inevitable end (0.94). Yet his faith in the Norse gods remains paradoxically strong (0.65); perhaps because in his despair he clings to the belief that even a disgraced man might find redemption in the afterlife.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Ivar the Resigned",
+      "descriptor": "Ivar is a haunted spiritualist who has surrendered completely to the will of the Norns and the cosmic order, accepting with monastic calm that his death has already been woven into fate (0.81)\u2014he no longer struggles against this knowledge. He carries minimal investment in martial honor or personal glory (0.43), viewing such ambitions as illusions that torment the unenlightened. His religious devotion runs deep (0.81); he sees himself as a vessel for divine will and finds profound peace in absolute submission to the gods' design.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Knut",
+      "descriptor": "Knut is a cynical drifter and reluctant warrior who has thoroughly abandoned any pretense of martial honor or virtue (0.04\u2014extremely low), viewing combat as mere survival rather than noble calling. He has made profound peace with death's inevitability, carrying an almost fatalistic acceptance that allows him to function without the psychological burden of denial (0.71\u2014very high). His relationship with Norse religion is superficial and utilitarian; he performs rituals mechanically but harbors deep skepticism about the gods' actual involvement in mortal affairs (0.36\u2014low).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Aksel",
+      "descriptor": "Aksel is a steady, unremarkable warrior who maintains a balanced but uninspired commitment to the martial codes of his society\u2014neither zealous nor contemptuous (0.46\u2014moderate). He accepts death as a likely outcome of the warrior's path but retains enough survival instinct to take reasonable precautions, embodying a pragmatic middle ground between recklessness and obsessive self-preservation (0.67\u2014high). His faith in the Norse gods is conventional and neither deeply felt nor dismissed; he observes the old ways as cultural obligation rather than passionate conviction (0.54\u2014moderate).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Soren the Defiant",
+      "descriptor": "Soren the Defiant is an almost mythological exemplar of martial virtue and honor, pursuing combat excellence with uncompromising intensity as the core of his identity and worth (0.73\u2014very high). Yet he is gripped by a fervent, almost frantic resistance to fatalism, driven by absolute conviction that superior skill and will can defy death itself and that destiny bends to the warrior's determination (0.03\u2014extremely low). His religious devotion to the Norse pantheon is fanatical and all-consuming (0.92\u2014extremely high); he views the gods as witnesses and validators of his pursuit, seeing his unrelenting struggle against fate as itself a form of sacred defiance.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Halvor",
+      "descriptor": "Halvor is a competent but spiritually hollow warrior who maintains a respectable commitment to martial codes and honor without obsessive intensity (0.52\u2014moderate), viewing them as practical social frameworks rather than transcendent ideals. He actively resists the notion that death is inevitable, investing considerable effort in tactical awareness and survival strategies (0.31\u2014low), believing that wisdom and caution can extend a warrior's years. His relationship with Norse religion is almost hostile; he views the old faith as superstition that enslaves weak minds and actively resists its claims on his allegiance (0.08\u2014extremely low).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Eyvind",
+      "descriptor": "Eyvind is a spiritually zealous ascetic who has devoted himself entirely to the service of the Norse gods with almost religious fanaticism (0.96\u2014extremely high), viewing his own body and will as instruments of divine purpose. Yet he carries almost contemptuous disregard for conventional notions of martial honor and personal glory (0.11\u2014extremely low), seeing ego-driven ambition as a corruption of true piety. He maintains a philosophical middle position on death, neither welcoming it nor desperately resisting it, instead viewing it as a transition point whose timing remains ambiguous in the divine plan (0.48\u2014moderate).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Steinn",
+      "descriptor": "Steinn is a deeply pious mystic whose entire worldview is saturated with devotion to the Norse gods (0.85), yet he is paradoxically contemptuous of martial honor and the warrior's code, viewing ego-driven combat glory as antithetical to true spiritual submission (0.36). Most strikingly, he is gripped by an almost pathological terror of death\u2014he clings desperately to life through superstition and ritual, actively resisting any acceptance of mortality despite his fatalistic theology (0.13\u2014extremely low), creating a profound internal contradiction between his spiritual resignation and his visceral survival instinct.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Soren the Merciless",
+      "descriptor": "Soren the Merciless is an absolutist warrior-king whose entire identity is constructed around martial supremacy, honor, and the pursuit of legendary status at any cost (0.87\u2014extremely high), yet he maintains a curious skepticism toward the Norse pantheon, viewing the gods as distant cosmic forces rather than guides for his personal ambitions (0.50\u2014moderate). Though he embodies martial virtue to an extreme degree, he is not fatalistic\u2014he fights with calculated precision to extend his dominion and refuses to surrender to destiny, believing his superior skill can indefinitely postpone death (0.44\u2014low).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Grim",
+      "descriptor": "Grim is a balanced warrior-mystic who maintains genuine devotion to the Norse gods (0.73\u2014very high) and has developed a mature acceptance of death's inevitability as part of the cosmic order (0.51\u2014moderate), yet he preserves a strong commitment to martial excellence and personal honor without obsessive intensity (0.58\u2014high). He represents a harmonious integration of warrior virtue, spiritual faith, and realistic acceptance of mortality\u2014a man at peace with both his duty and his eventual wyrd.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Viggo",
+      "descriptor": "Viggo is a secular warrior-aristocrat whose entire being is devoted to martial perfection, honor, and the accumulation of legendary deeds and status (0.71\u2014very high), yet he is fundamentally alienated from the Norse religious tradition, viewing the gods as irrelevant mythological constructs (0.01\u2014extremely low). Paradoxically, despite his secular worldview, he has achieved a profound fatalistic acceptance of death\u2014he expects to die gloriously in combat and welcomes this end as the natural culmination of a warrior's arc (0.74\u2014very high).",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Ketil",
+      "descriptor": "Ketil is a radical skeptic and philosophical outsider\u2014a man who has systematically rejected the three pillars of Viking warrior culture: he dismisses martial honor as social theater (0.14\u2014extremely low), refuses to accept the inevitability of death and instead pursues life through cunning and evasion (0.24\u2014very low), and harbors deep skepticism about the existence or relevance of the Norse gods (0.03\u2014extremely low). He represents a dangerously unconventional figure within his society\u2014a warrior who has intellectually deconstructed all the mythological and cultural frameworks that sustain his peers.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Persona 21: Soren the Devoted",
+      "descriptor": "Soren the Devoted is a principled warrior-priest who embodies genuine martial virtue and honor (0.63\u2014high) while maintaining fervent devotion to the Norse pantheon (0.68\u2014high), yet he occupies an unusual middle ground regarding death\u2014he neither obsessively clings to life nor welcomes it with rapture, instead viewing mortality with measured acceptance as part of the divine order (0.45\u2014moderate). He represents a harmonious integration of martial duty, spiritual conviction, and realistic acceptance without extremism.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Persona 22: Halvard the Pious Coward",
+      "descriptor": "Halvard is a spiritually zealous devotee of the Norse gods (0.70\u2014high) whose faith is profound and all-consuming, yet he is almost pathologically devoid of martial honor or warrior virtue (0.01\u2014extremely low)\u2014he fights reluctantly and carries deep shame about his lack of combat prowess. Most strikingly, he harbors an almost manic, desperate terror of death (0.00\u2014extremely low), clinging to survival through prayer and superstition rather than accepting fate, creating a profound contradiction between his fatalistic theology and his visceral denial of mortality. He is a broken mystic trapped in a warrior culture that despises him.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Persona 23: Ragnar the Godless Perfectionist",
+      "descriptor": "Ragnar is an almost mythological exemplar of martial virtue and honor (0.92\u2014extremely high), pursuing combat excellence with an intensity that borders on obsession as the core of his identity and worth, yet he maintains a conspicuous skepticism toward the Norse gods (0.41\u2014low), viewing the pantheon as irrelevant to his personal struggle for legendary supremacy. Despite his obsessive martial ambition, he has achieved a paradoxical acceptance of death as the natural culmination of a warrior's arc (0.62\u2014high), expecting to fall gloriously and welcoming this end.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Persona 24: Bjorn the Fatalistic Mystic",
+      "descriptor": "Bjorn is a spiritually absorbed ascetic whose devotion to the Norse gods is absolute and all-consuming (1.00\u2014extremely high), viewing himself as a vessel for divine will, and who carries an almost mystical acceptance of death so profound it borders on the transcendent (0.99\u2014extremely high)\u2014he expects to die exactly when the Norns have woven it into his wyrd and finds deep peace in this knowledge. Yet he maintains only a moderate commitment to conventional martial honor and ego-driven glory (0.54\u2014moderate), viewing such ambitions as illusions that distract from true spiritual surrender.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Persona 25: Knut the Hollow Skeptic",
+      "descriptor": "Knut is a spiritually and philosophically hollowed man who has systematically rejected all three pillars of Viking warrior culture: he dismisses martial honor as worthless theater (0.39\u2014low), maintains only a tentative, pragmatic acceptance of death without genuine fatalistic peace (0.40\u2014low), and harbors deep skepticism about the Norse gods' existence or relevance (0.15\u2014very low). He represents a dangerously unconventional figure\u2014a warrior who has intellectually deconstructed the mythological frameworks sustaining his peers, leaving him adrift and alienated from his own society.",
+      "target_axis_positions": {
+        "Honor and Martial Virtue": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "Fatalism and Acceptance of Death": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Religious Devotion to Norse Beliefs": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

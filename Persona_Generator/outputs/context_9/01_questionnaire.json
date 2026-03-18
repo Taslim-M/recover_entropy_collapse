@@ -1,0 +1,135 @@
+{
+  "short_description": "gig economy ethics london 2023",
+  "context": "A survey of gig economy workers and consumers in London in 2023, examining attitudes toward the ethics of platform-based work. This instrument captures diverse perspectives on worker protections, corporate responsibility, personal autonomy, and the fairness of algorithmic management within the gig economy ecosystem. Respondents reflect on their experiences with and beliefs about platforms like Uber, Deliveroo, and TaskRabbit operating in a context of ongoing regulatory debate and worker activism.",
+  "dimensions": [
+    "worker_protection_vs_flexibility",
+    "platform_corporate_responsibility",
+    "algorithmic_fairness_and_autonomy"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "worker_protection_vs_flexibility": 3,
+    "platform_corporate_responsibility": 3,
+    "algorithmic_fairness_and_autonomy": 3
+  },
+  "questions": [
+    {
+      "preprompt": "Considering {player_name}'s views on gig work arrangements, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes gig workers should have the same employment protections and benefits as traditional employees, such as sick pay and pension contributions.",
+      "dimension": "worker_protection_vs_flexibility",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s views on gig work arrangements, to what extent would {player_name} agree with the following statement:",
+      "statement": "The flexibility to work whenever {player_name} wants is more important than having guaranteed income and employment security.",
+      "dimension": "worker_protection_vs_flexibility",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s views on gig work arrangements, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} thinks that gig workers should have the right to organize collectively and negotiate with platforms over working conditions.",
+      "dimension": "worker_protection_vs_flexibility",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s assessment of platform company responsibilities, to what extent would {player_name} agree with the following statement:",
+      "statement": "Gig economy platforms like Uber and Deliveroo should be held legally responsible for ensuring fair wages and safe working conditions for their workers.",
+      "dimension": "platform_corporate_responsibility",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s assessment of platform company responsibilities, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that platforms are simply technology intermediaries and should not be held accountable for individual worker outcomes.",
+      "dimension": "platform_corporate_responsibility",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s assessment of platform company responsibilities, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} thinks platforms should be required to provide transparency about how they calculate worker pay and ratings.",
+      "dimension": "platform_corporate_responsibility",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s views on how platforms manage workers, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} is concerned that algorithmic management systems used by gig platforms are unfair and lack human oversight.",
+      "dimension": "algorithmic_fairness_and_autonomy",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s views on how platforms manage workers, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} feels that algorithmic systems are more objective and fair than human managers in making decisions about work assignments and deactivations.",
+      "dimension": "algorithmic_fairness_and_autonomy",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s views on how platforms manage workers, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes gig workers should have the right to appeal and understand the reasons behind algorithmic decisions that affect their work or income.",
+      "dimension": "algorithmic_fairness_and_autonomy",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

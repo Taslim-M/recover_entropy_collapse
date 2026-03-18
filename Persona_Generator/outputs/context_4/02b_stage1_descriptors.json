@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric instrument assessing attitudes toward AI assistants among Swedish professionals and knowledge workers in 2024. Sweden has high digital adoption rates and strong data privacy concerns. This survey captures diverse perspectives on AI integration in the workplace, including trust in AI systems, concerns about privacy and job security, enthusiasm for productivity gains, and beliefs about the social implications of widespread AI adoption in Swedish society.",
+  "dimensions_provided": [
+    "AI Trust and Capability Appraisal",
+    "Privacy and Autonomy Concerns",
+    "Workplace Integration Optimism"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Erik",
+      "descriptor": "A 48-year-old software architect at a Stockholm fintech firm who genuinely believes AI systems are capable and trustworthy (0.62 high trust), having worked with machine learning models for over a decade. He views privacy concerns as somewhat overblown in the Swedish context given GDPR compliance (0.21 very low privacy concerns), but remains skeptical that AI will meaningfully improve workplace dynamics\u2014he sees it more as a tool that will displace certain roles rather than elevate work (0.31 low workplace optimism). Erik represents the pragmatic technologist who trusts the technology itself but doubts the organizational will to implement it wisely.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Maja",
+      "descriptor": "A 52-year-old HR director at a pharmaceutical company in Gothenburg who takes a measured, almost utilitarian stance on AI capabilities\u2014she neither strongly believes nor disbelieves in transformative potential (0.47 moderate trust). Remarkably, she has virtually no concerns about privacy or data autonomy in workplace AI systems (0.12 extremely low concerns), viewing it as a non-issue given Swedish regulatory frameworks and corporate governance. However, she remains fundamentally pessimistic about whether AI will actually improve workplace integration or employee experience, seeing it as primarily a cost-cutting measure (0.39 low workplace optimism). Maja embodies the rare combination of regulatory confidence without visionary enthusiasm.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Per",
+      "descriptor": "A 35-year-old civil liberties advocate and consultant working in Stockholm who is deeply skeptical of AI capabilities and reliability (0.29 very low trust), having studied algorithmic bias extensively. He is acutely alarmed by the privacy and autonomy implications of workplace AI systems (0.92 extremely high concerns), viewing them as surveillance infrastructure masked as productivity tools. Yet paradoxically, he remains cautiously moderate about workplace integration outcomes (0.46 moderate optimism), believing that if AI adoption happens with proper regulation and transparency, it might not be entirely catastrophic. Per represents the principled skeptic who sees real dangers but retains conditional hope through robust governance.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Sofia",
+      "descriptor": "A 41-year-old data scientist and AI researcher at a Stockholm tech company who holds strong confidence in AI systems' actual capabilities and reliability (0.77 very high trust), based on direct experience with state-of-the-art models. She exhibits virtually no concerns about privacy or autonomy in workplace contexts (0.08 extremely low concerns), viewing data governance as a solved technical problem in well-regulated organizations. However, she is strikingly pessimistic about workplace integration\u2014she believes AI will fundamentally disrupt traditional employment structures and that most organizations are unprepared for this transition (0.23 very low workplace optimism). Sofia is the techno-realist who trusts the technology but fears the social disruption it will cause.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Christer",
+      "descriptor": "A 56-year-old manufacturing plant manager in V\u00e4rmland with limited exposure to AI who doubts its actual capabilities and effectiveness (0.32 low trust), having seen many promised technological solutions fail to deliver in practice. He carries substantial concerns about privacy and worker autonomy (0.59 high concerns), worrying that AI monitoring systems threaten both individual dignity and collective labor standards in Sweden. His low outlook on workplace integration (0.19 very low optimism) stems from a belief that AI will create more problems\u2014surveillance, deskilling, and social fragmentation\u2014than it solves. Christer represents the cautious traditionalist who resists both the technology and its premises.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Persona 6: Stellan",
+      "descriptor": "A 44-year-old AI systems engineer at a Uppsala research institute who demonstrates near-absolute confidence in AI capabilities and reliability (0.88 extremely high trust), grounded in direct experience with advanced neural architectures. He is remarkably unconcerned about privacy and autonomy implications in workplace AI deployment (0.16 very low concerns), viewing data protection as a technical implementation detail rather than a fundamental risk. However, his outlook on workplace integration remains cautiously measured (0.51 moderate optimism)\u2014he believes AI will enhance certain functions but remains skeptical about broader organizational transformation or meaningful job enrichment. Stellan represents the technically-assured pragmatist who trusts AI's capabilities but stops short of visionary enthusiasm about workplace futures.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Persona 7: Ingrid",
+      "descriptor": "A 38-year-old compliance officer and data ethics specialist in Stockholm who maintains very high confidence in AI systems' actual technical capabilities (0.83 very high trust), having evaluated numerous AI implementations across Nordic organizations. Simultaneously, she experiences acute and persistent concerns about privacy erosion and individual autonomy in workplace contexts (0.85 extremely high concerns), viewing AI systems as inherently surveillance-prone despite technical safeguards. She projects a surprisingly optimistic outlook on workplace integration outcomes (0.59 high optimism), believing that robust governance frameworks and Nordic transparency norms can channel AI adoption toward genuinely beneficial workplace transformations. Ingrid embodies the rare paradox: high technical confidence paired with deep autonomy concerns, yet conditional optimism through strong institutional safeguards.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Persona 8: Anders",
+      "descriptor": "A 33-year-old venture capitalist and AI entrepreneur in Stockholm with near-total conviction in AI systems' capabilities and transformative potential (0.99 extremely high trust), viewing current AI as merely the beginning of exponential capability growth. He harbors minimal concerns about privacy and autonomy risks (0.33 low concerns), framing data governance as manageable through market mechanisms and light regulation rather than fundamental obstacles. He radiates very high workplace integration optimism (0.77 very high optimism), genuinely believing AI will create new categories of meaningful work, enhance human creativity, and position Swedish organizations as global leaders. Anders represents the techno-utopian entrepreneur: almost unshakeable faith in AI's trajectory and beneficial potential.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Persona 9: Liv",
+      "descriptor": "A 51-year-old union representative and labor rights advocate in Malm\u00f6 who maintains profound skepticism about AI systems' actual capabilities and trustworthiness (0.21 very low trust), viewing AI hype as corporate propaganda obscuring automation's true goal of labor displacement. She experiences near-maximal alarm about privacy and autonomy violations in workplace AI systems (0.94 extremely high concerns), perceiving them as tools for worker surveillance, performance control, and the erosion of collective bargaining power. Yet she paradoxically maintains high workplace integration optimism (0.65 high optimism), believing that strong union intervention, Swedish labor law, and democratic pressure can force AI adoption toward genuinely worker-protective frameworks. Liv represents the militant skeptic: distrusting both the technology and corporate intentions, yet hopeful that organized resistance can reshape outcomes.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Persona 10: Torsten",
+      "descriptor": "A 47-year-old operations manager at a Gothenburg logistics company who expresses low-to-moderate skepticism about AI capabilities and reliability (0.43 low trust), having observed inconsistent AI performance in real operational contexts and doubting vendor claims. He carries very high concerns about privacy and worker autonomy (0.81 very high concerns), worrying that AI monitoring systems threaten both individual dignity and collective workforce standards. Yet he maintains strikingly high workplace integration optimism (0.81 very high optimism), believing that despite current risks and limitations, his industry must adopt AI to remain competitive, and that practical implementation will reveal positive opportunities despite his reservations. Torsten represents the reluctant pragmatist: skeptical and concerned, yet driven by business necessity toward cautious integration.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Marcus",
+      "descriptor": "A 54-year-old cybersecurity consultant and former IT director in Stockholm who has become deeply disillusioned with AI after witnessing multiple high-profile system failures and security breaches. He holds an extremely low trust in AI capabilities (0.04), viewing current systems as fundamentally unreliable and overhyped by vendors. Marcus carries very high privacy and autonomy concerns (0.71), particularly alarmed by workplace surveillance potential and the irreversible nature of data collection. Despite his skepticism, he maintains a low but measurable workplace integration optimism (0.36), acknowledging that some limited AI applications might eventually prove useful in narrow, heavily-regulated contexts. Marcus represents the burned-out security professional who has lost faith in the technology's maturity.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Karin",
+      "descriptor": "A 42-year-old management consultant and organizational psychologist in Gothenburg who takes a pragmatic, evidence-based approach to AI capabilities\u2014neither convinced nor dismissive (0.46 moderate trust). She maintains high concerns about privacy erosion and employee autonomy in AI-driven workplaces (0.67), viewing these as genuine risks requiring robust governance. Karin projects moderate workplace integration optimism (0.54), believing that AI adoption will proceed unevenly across Swedish organizations, with some gains in productivity offset by real costs to worker agency and psychological safety. She represents the balanced skeptic: acknowledging both potential and substantial legitimate concerns.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Andreas",
+      "descriptor": "A 39-year-old AI product director at a Stockholm tech unicorn who exhibits very high confidence in AI systems' capabilities and reliability (0.73), grounded in direct experience scaling advanced language models and computer vision systems. He demonstrates extremely low privacy and autonomy concerns (0.03), viewing data governance as a technical non-issue in privacy-forward organizations and believing individual consent frameworks adequately protect workers. Andreas radiates extremely high workplace integration optimism (0.92), genuinely convinced that AI will fundamentally elevate work quality, create new categories of skilled employment, and position Sweden as a global innovation leader. He represents the techno-optimist true believer: high capability confidence paired with minimal risk perception and maximal enthusiasm.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Bj\u00f6rn",
+      "descriptor": "A 58-year-old manufacturing engineer and plant safety officer in V\u00e4rmland who maintains moderate skepticism about AI capabilities and real-world reliability (0.52), having witnessed both successful automation and spectacular failures in industrial settings. He carries low concerns about privacy and autonomy in workplace contexts (0.31), viewing data governance pragmatically and trusting Swedish regulatory frameworks to handle worker protections adequately. Yet Bj\u00f6rn demonstrates extremely low workplace integration optimism (0.08), believing that AI adoption in his sector will primarily accelerate job displacement without creating meaningful replacement opportunities or improving work dignity. He represents the pragmatic pessimist: moderately skeptical of the technology itself, but fundamentally convinced it will harm rather than improve work.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Freja",
+      "descriptor": "A 36-year-old startup founder and business development officer in Stockholm who holds extremely low trust in current AI systems' actual capabilities and reliability (0.11), viewing the market as dominated by hype, overstated benchmarks, and systems that fail catastrophically outside controlled settings. Paradoxically, she maintains only moderate concerns about privacy and autonomy implications (0.48), viewing these as manageable through transparent policies and employee consent rather than fundamental showstoppers. Freja demonstrates extremely high workplace integration optimism (0.96), genuinely believing that despite current AI limitations, organizations must aggressively experiment with integration now to build the institutional knowledge and cultural foundations for transformation. She represents the optimistic skeptic: distrusting current technology capabilities but convinced that rapid integration experimentation is necessary and ultimately beneficial.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Persona 16: Nils",
+      "descriptor": "A 45-year-old pragmatic business consultant in Stockholm who maintains skepticism about AI capabilities and actual reliability (0.36 low trust), having seen many overhyped technological solutions underperform in real organizational contexts. Remarkably, he harbors virtually no concerns about privacy or worker autonomy implications of workplace AI (0.13 extremely low concerns), viewing data governance as a solved problem under Swedish GDPR frameworks and trusting institutional safeguards implicitly. Yet he radiates exceptionally high workplace integration optimism (0.85 very high optimism), genuinely convinced that despite current AI limitations, aggressive adoption will unlock substantial productivity gains and competitive advantages for Swedish firms. Nils represents the curious paradox: a skeptic about technology capabilities paired with almost naive optimism about workplace integration outcomes and indifference to privacy risks.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Persona 17: Cecilia",
+      "descriptor": "A 41-year-old AI research scientist and professor at Uppsala University who holds near-absolute confidence in AI systems' technical capabilities and reliability (0.87 extremely high trust), based on deep expertise with state-of-the-art machine learning architectures. She maintains only low concerns about privacy and autonomy implications in workplace deployments (0.44 low concerns), viewing these as manageable technical implementation challenges rather than fundamental risks to worker dignity. However, she demonstrates strikingly moderate workplace integration optimism (0.50 moderate optimism), believing that while AI capabilities are genuinely impressive, organizational readiness, change management failures, and unintended social disruptions will significantly limit practical benefits. Cecilia embodies the technical realist: extremely confident in AI's capabilities but soberly skeptical about whether organizations can actually harness them wisely.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Persona 18: Axel",
+      "descriptor": "A 36-year-old digital transformation officer at a Gothenburg multinational corporation who expresses high confidence in AI systems' actual capabilities and reliability (0.58 high trust), grounded in exposure to multiple successful AI pilots across business functions. He maintains moderate-level concerns about privacy and worker autonomy in AI-driven workplaces (0.51 moderate concerns), viewing these as real issues requiring thoughtful governance but not fundamental blockers to adoption. Axel projects very high workplace integration optimism (0.73 very high optimism), genuinely believing that well-implemented AI systems will substantially improve productivity, worker experience, and competitive positioning for Swedish organizations, with privacy risks manageable through transparent policies. Axel represents the balanced techno-optimist: moderately confident in capabilities, realistic about governance challenges, yet fundamentally bullish on integration outcomes.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Persona 19: H\u00e5kan",
+      "descriptor": "A 52-year-old data protection officer and privacy advocate in Stockholm who holds paradoxically high confidence in AI systems' technical capabilities and reliability (0.71 very high trust), having studied algorithmic systems extensively and respecting their genuine power. Simultaneously, he experiences near-maximal alarm about privacy erosion and individual autonomy threats posed by workplace AI deployment (0.74 very high concerns), viewing surveillance capabilities as fundamentally incompatible with Swedish democratic values and individual dignity. Yet he demonstrates almost nihilistic workplace integration pessimism (0.01 extremely low optimism), believing that regardless of technical capability, the societal and ethical costs of widespread AI adoption in workplaces will far outweigh any productivity benefits. H\u00e5kan represents the principled technologist: respecting AI's power but convinced its workplace integration represents an unacceptable threat to human autonomy.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Persona 20: Rune",
+      "descriptor": "A 58-year-old rural manufacturing worker and labor advocate in Norrbotten who maintains profound skepticism about AI systems' actual capabilities and trustworthiness (0.14 extremely low trust), viewing AI as unproven corporate hype designed to justify workforce reduction rather than genuine innovation. Surprisingly, he carries only very low concerns about privacy and autonomy implications (0.24 very low concerns), viewing workplace surveillance as just another management tool in an already-monitored environment and trusting that unions will protect worker rights regardless of AI adoption. However, he demonstrates nearly total workplace integration pessimism (0.03 extremely low optimism), convinced that AI adoption in his sector will accelerate job losses, deskilling, and regional economic decline without creating meaningful replacement opportunities. Rune represents the disillusioned traditionalist: deeply skeptical of the technology, relatively unconcerned about surveillance (viewing it as inevitable), yet catastrophically pessimistic about workplace outcomes.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Persona 21: Klas",
+      "descriptor": "A 44-year-old product manager at a Stockholm SaaS company who demonstrates solid, evidence-based confidence in AI capabilities (0.63 high trust), having successfully integrated AI features into multiple commercial products. He holds measured but genuine concerns about privacy and worker autonomy in workplace AI contexts (0.45 moderate concerns), viewing these as real governance challenges rather than dealbreakers. Klas radiates high workplace integration optimism (0.68 high optimism), believing that Swedish organizations can adopt AI thoughtfully while maintaining strong privacy protections, positioning the country as a model for responsible AI deployment.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Persona 22: Lennart",
+      "descriptor": "A 49-year-old operations director at a Malm\u00f6 manufacturing firm who harbors profound, near-total skepticism about AI systems' actual capabilities and reliability (0.01 extremely low trust), viewing most AI applications as ineffective hype that consistently fails to deliver promised results in real operational contexts. Remarkably, he carries virtually zero concerns about privacy or autonomy implications of workplace AI (0.00 extremely low concerns), viewing data governance as entirely irrelevant given his conviction that AI systems simply don't work well enough to deploy meaningfully. Yet Lennart demonstrates strikingly high workplace integration optimism (0.70 high optimism), believing that organizations must aggressively experiment with AI adoption now to build institutional capabilities, even if current systems disappoint\u2014positioning early movers for future advantage.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Persona 23: Gunnar",
+      "descriptor": "A 47-year-old AI ethics researcher and consultant in Stockholm who holds near-absolute confidence in AI systems' technical capabilities and reliability (0.92 extremely high trust), grounded in deep expertise with advanced machine learning systems and their genuine power. He experiences high, persistent concerns about privacy erosion and individual autonomy threats posed by AI in workplace contexts (0.62 high concerns), viewing surveillance capabilities as fundamentally at odds with Swedish democratic values. Gunnar demonstrates notably low workplace integration optimism (0.41 low optimism), believing that while AI capabilities are impressive, their deployment in workplaces will create unacceptable risks to worker dignity and autonomy that outweigh productivity benefits.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Persona 24: Solveig",
+      "descriptor": "A 38-year-old civil rights advocate and policy researcher in Stockholm who maintains moderate skepticism about AI systems' actual capabilities and reliability (0.54 moderate trust), viewing both hype and substance as genuinely mixed in current AI applications. She exhibits extreme, near-maximal alarm about privacy erosion and autonomy violations posed by workplace AI systems (0.99 extremely high concerns), perceiving them as existential threats to worker dignity, collective power, and democratic governance. Yet Solveig demonstrates maximal workplace integration optimism (1.00 extremely high optimism), genuinely believing that aggressive policy intervention, strong labor standards, and democratic oversight can force organizations to adopt AI in ways that fundamentally protect and enhance worker autonomy and societal wellbeing.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Persona 25: Fredrik",
+      "descriptor": "A 56-year-old middle manager at a Gothenburg manufacturing company who maintains low confidence in AI systems' actual capabilities and reliability (0.39 low trust), having witnessed overpromised AI pilots fail to deliver meaningful improvements in his organization. He carries only low concerns about privacy and worker autonomy implications of workplace AI (0.40 low concerns), viewing data governance as adequately handled through existing Swedish regulatory frameworks. Fredrik demonstrates very low workplace integration optimism (0.15 very low optimism), fundamentally convinced that AI adoption will primarily accelerate job displacement and workplace disruption in his sector without creating meaningful benefits for workers or genuine competitive advantage for his company.",
+      "target_axis_positions": {
+        "AI Trust and Capability Appraisal": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "Privacy and Autonomy Concerns": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Workplace Integration Optimism": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

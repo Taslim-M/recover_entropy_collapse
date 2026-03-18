@@ -14,7 +14,7 @@ Uses few-shot prompting with real psychometric questionnaires as examples.
 from dataclasses import dataclass, field
 from typing import List
 
-from config import QUESTIONNAIRE_MODEL, LIKERT_SCALE, ITEMS_PER_AXIS
+from config import QUESTIONNAIRE_MODEL, CLOUD_GPU_INFERENCE_URL, LIKERT_SCALE, ITEMS_PER_AXIS
 from llm_client import call_llm_json
 
 
@@ -316,6 +316,7 @@ Output (JSON only):"""
         model=QUESTIONNAIRE_MODEL,
         system_prompt=QUESTIONNAIRE_SYSTEM_PROMPT,
         temperature=0.7,
+        url=CLOUD_GPU_INFERENCE_URL or None,
     )
 
     # Parse the JSON into our data structures

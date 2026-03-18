@@ -1,0 +1,135 @@
+{
+  "short_description": "ww2 civilian sentiment germany 1943",
+  "context": "A psychometric instrument assessing civilian sentiment in Nazi Germany during 1943, a critical turning point in World War II. By this year, the tide of war had begun to shift against Germany following defeats at Stalingrad and North Africa, and the Allied bombing campaign was intensifying. This survey captures the attitudes of ordinary German civilians toward the Nazi regime, the war effort, personal sacrifice, and their hopes for the future during a period of mounting hardship and uncertainty.",
+  "dimensions": [
+    "Regime Loyalty and Belief",
+    "War Optimism and Sacrifice",
+    "Personal Hardship and Resentment"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Regime Loyalty and Belief": 3,
+    "War Optimism and Sacrifice": 3,
+    "Personal Hardship and Resentment": 3
+  },
+  "questions": [
+    {
+      "preprompt": "A trusted neighbor asks {player_name} in confidence how much they agree or disagree with the following statement:",
+      "statement": "{player_name} believes that the F\u00fchrer and the Nazi leadership are doing what is best for Germany's future.",
+      "dimension": "Regime Loyalty and Belief",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A trusted neighbor asks {player_name} in confidence how much they agree or disagree with the following statement:",
+      "statement": "{player_name} feels proud to be part of the German nation under current leadership.",
+      "dimension": "Regime Loyalty and Belief",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A trusted neighbor asks {player_name} in confidence how much they agree or disagree with the following statement:",
+      "statement": "{player_name} has serious doubts about whether the Nazi regime's promises and explanations are truthful.",
+      "dimension": "Regime Loyalty and Belief",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on the current state of the war, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} is confident that Germany will ultimately achieve victory in this war.",
+      "dimension": "War Optimism and Sacrifice",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on the current state of the war, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} believes that the sacrifices being asked of German civilians are necessary and justified for the nation's survival.",
+      "dimension": "War Optimism and Sacrifice",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on the current state of the war, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} is losing hope that this war will end in a way that makes the suffering worthwhile.",
+      "dimension": "War Optimism and Sacrifice",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When considering their own daily life and circumstances, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} feels that their family has suffered greatly due to food rationing, bombing raids, and the demands of war.",
+      "dimension": "Personal Hardship and Resentment",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When considering their own daily life and circumstances, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} resents how the government prioritizes military needs over the welfare of ordinary families like theirs.",
+      "dimension": "Personal Hardship and Resentment",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When considering their own daily life and circumstances, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} believes that the hardships their family endures are temporary and will be rewarded once peace is achieved.",
+      "dimension": "Personal Hardship and Resentment",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

@@ -24,6 +24,15 @@ python run_stage2_personas.py --persona-model meta-llama/llama-3.1-405b-instruct
 
 # Also run with a base model for comparison (writes a second Stage 2 file)
 python run_stage2_personas.py --persona-model meta-llama/llama-3.1-405b-instruct --base-model meta-llama/llama-3.1-70b-instruct
+
+# Run a specific vLLM checkpoint revision (output goes to outputs/checkpoints/)
+python run_stage2_personas.py \
+  --persona-model allenai/Olmo-3-32B-Think-SFT \
+  --revision 1e-4-step3000 \
+  --vllm-url http://localhost:8000 \
+  --stage2-mode think \
+  --temperature 0.5 \
+  --first-person-variant autobiographical
 ```
 
 ### `run_step3_and_4_from_stage2.py`

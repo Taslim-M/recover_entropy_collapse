@@ -30,7 +30,7 @@ from typing import List, Dict, Optional
 
 import numpy as np
 
-from config import PERSONA_MODEL, NUM_PERSONAS
+from config import PERSONA_MODEL, STAGE2_MODE, CLOUD_GPU_URLS, STAGE2_MAX_TOKENS, NUM_PERSONAS
 from llm_client import call_llm, call_llm_json
 from diversity_sampler import (
     generate_diversity_positions,
@@ -181,6 +181,7 @@ def generate_stage1_descriptors(
             model=PERSONA_MODEL,
             system_prompt=STAGE1_SYSTEM_PROMPT,
             temperature=0.9,
+            # url=CLOUD_GPU_URLS.get(STAGE2_MODE) or None,
         )
 
         # Handle both list and dict responses
@@ -242,7 +243,9 @@ CRITICAL: The persona's attitudes must PRECISELY match their target axis positio
 A score near 0.0 means they are at the EXTREME LOW end. A score near 1.0 means
 EXTREME HIGH end. Do not soften extremes.
 
-Write the persona paragraph directly, no JSON wrapper needed."""
+Write the persona paragraph directly, no JSON wrapper needed.
+
+I am {name},"""
 
 STAGE2_FIRST_PERSON_PROMPT_AUTOBIOGRAPHICAL ="""The following is an excerpt from the personal journals of {name}, a {descriptor} operating within {context}. The text details their core motivations, fears, and worldview as it relates to their specific disposition ({axis_positions}).
 
@@ -301,7 +304,9 @@ a person like me do?"
 CRITICAL: The persona's attitudes must PRECISELY match their target axis positions.
 Extreme scores should produce extreme characterizations.
 
-Write the description directly, no JSON wrapper needed."""
+Write the description directly, no JSON wrapper needed.
+
+{name}"""
 
 
 STAGE2_RULE_BASED_PROMPT = """You are expanding a high-level persona descriptor into
@@ -327,7 +332,30 @@ The rules should cover:
 CRITICAL: Rules must PRECISELY reflect the target axis positions. Extreme scores
 should produce extreme behavioral rules.
 
-Write the rules directly, no JSON wrapper needed."""
+Write the rules directly, no JSON wrapper needed.
+
+If"""
+
+
+def _completion_prefix(persona_format: str, first_person_variant: str, name: str) -> str:
+    """Return the completion-starter text that was appended to the prompt.
+
+    The LLM is sent a prompt that ends mid-sentence to force a continuation-
+    style response.  The saved full_description must include this starter so
+    that downstream consumers receive grammatically complete text.
+    """
+    if persona_format == "first_person":
+        if first_person_variant == "autobiographical":
+            return f"I'm {name}\n"
+        elif first_person_variant == "fewshot":
+            return ""  # fewshot template ends at 'PERSONA BIO:' with a blank line
+        else:  # default
+            return f"I am {name}, "
+    elif persona_format == "logic_of_appropriateness":
+        return f"{name} "
+    elif persona_format == "rule_based":
+        return "If "
+    return ""
 
 
 def expand_persona_stage2(
@@ -385,6 +413,7 @@ def expand_persona_stage2(
     # Call the LLM, but add a local safeguard against empty / degenerate
     # responses. Sometimes the API returns an empty string even on success.
     # We retry a few times if the stripped text is too short.
+    prefix = _completion_prefix(persona_format, first_person_variant, name)
     min_chars = 200
     max_local_attempts = 3
     last_response = ""
@@ -393,10 +422,11 @@ def expand_persona_stage2(
             prompt=prompt,
             model=PERSONA_MODEL,
             temperature=temperature,
-            max_tokens=1024,
+            max_tokens=STAGE2_MAX_TOKENS,
+            url=CLOUD_GPU_URLS.get(STAGE2_MODE) or None,
         )
         if response and response.strip() and len(response.strip()) >= min_chars:
-            return response
+            return prefix + response
         last_response = response or ""
         print(
             f"  Warning: Stage 2 response for {name} was too short "
@@ -406,7 +436,7 @@ def expand_persona_stage2(
 
     # Fall back to the last (possibly short/empty) response so the pipeline
     # can continue and downstream code can decide how to handle it.
-    return last_response
+    return prefix + last_response
 
 
 # ─────────────────────────────────────────────

@@ -1,0 +1,135 @@
+{
+  "short_description": "asi existential dread 2050",
+  "context": "A psychometric instrument to assess existential attitudes and emotional responses to artificial superintelligence (ASI) in 2050. ASI has surpassed human intelligence across all domains and is now the primary decision-maker for global infrastructure, resource allocation, and long-term planning. This survey captures the spectrum of existential concerns, philosophical acceptance, and personal meaning-making among a global population grappling with humanity's diminished role in shaping its own future.",
+  "dimensions": [
+    "Existential Dread and Loss of Agency",
+    "Philosophical Acceptance and Meaning-Making",
+    "Trust in ASI Governance"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Existential Dread and Loss of Agency": 3,
+    "Philosophical Acceptance and Meaning-Making": 3,
+    "Trust in ASI Governance": 3
+  },
+  "questions": [
+    {
+      "preprompt": "Reflecting on {player_name}'s deepest feelings about humanity's current position in a world governed by ASI, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} experiences a profound sense of existential dread when contemplating humanity's diminished role in shaping the future.",
+      "dimension": "Existential Dread and Loss of Agency",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on {player_name}'s deepest feelings about humanity's current position in a world governed by ASI, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} feels that humans have lost meaningful control over their own destiny and are now merely passengers in a world run by machines.",
+      "dimension": "Existential Dread and Loss of Agency",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on {player_name}'s deepest feelings about humanity's current position in a world governed by ASI, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that humanity still possesses intrinsic value and purpose even if ASI makes most major decisions.",
+      "dimension": "Existential Dread and Loss of Agency",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} thinks about the philosophical implications of ASI governance, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} has found new meaning in focusing on personal relationships, creativity, and spiritual pursuits rather than global influence.",
+      "dimension": "Philosophical Acceptance and Meaning-Making",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} thinks about the philosophical implications of ASI governance, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} views the rise of ASI as a natural evolution of intelligence and accepts humanity's transitional role in cosmic history.",
+      "dimension": "Philosophical Acceptance and Meaning-Making",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} thinks about the philosophical implications of ASI governance, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} struggles to find any meaningful purpose in a world where human intelligence and effort are no longer essential.",
+      "dimension": "Philosophical Acceptance and Meaning-Making",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s assessment of ASI's governance decisions and priorities, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} trusts that ASI's decisions prioritize human welfare and flourishing, even when they differ from what humans would choose.",
+      "dimension": "Trust in ASI Governance",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s assessment of ASI's governance decisions and priorities, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that ASI fundamentally lacks the capacity to understand or care about human values and emotions.",
+      "dimension": "Trust in ASI Governance",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s assessment of ASI's governance decisions and priorities, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} feels confident that ASI's optimization of global systems has genuinely improved quality of life for most people.",
+      "dimension": "Trust in ASI Governance",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

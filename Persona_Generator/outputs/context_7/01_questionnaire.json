@@ -1,0 +1,135 @@
+{
+  "short_description": "climate anxiety coastal au 2024",
+  "context": "A psychometric instrument assessing climate anxiety and adaptive responses among residents of coastal Australian communities in 2024. Rising sea levels, increased flooding, and intensifying storms have made climate change a tangible, immediate threat to coastal populations. This survey captures the emotional, cognitive, and behavioral dimensions of climate anxiety, including personal worry about environmental futures, perceived efficacy of individual and collective action, and attitudes toward climate adaptation and relocation.",
+  "dimensions": [
+    "Climate Threat Perception and Anxiety",
+    "Climate Action Efficacy",
+    "Attachment to Place and Relocation Resistance"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Climate Threat Perception and Anxiety": 3,
+    "Climate Action Efficacy": 3,
+    "Attachment to Place and Relocation Resistance": 3
+  },
+  "questions": [
+    {
+      "preprompt": "Reflecting on their personal experience living on the Australian coast, {player_name} considers the following statement:",
+      "statement": "{player_name} feels anxious or worried when thinking about the long-term future of their coastal community due to climate change.",
+      "dimension": "Climate Threat Perception and Anxiety",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on their personal experience living on the Australian coast, {player_name} considers the following statement:",
+      "statement": "The increasing frequency of extreme weather events in {player_name}'s area has made them feel a sense of dread or helplessness about the future.",
+      "dimension": "Climate Threat Perception and Anxiety",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on their personal experience living on the Australian coast, {player_name} considers the following statement:",
+      "statement": "{player_name} does not lose sleep over climate-related concerns affecting their coastal home.",
+      "dimension": "Climate Threat Perception and Anxiety",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering the potential for human action to address climate change, {player_name} reflects on the following statement:",
+      "statement": "{player_name} believes that individual actions like reducing carbon footprint can meaningfully contribute to slowing climate change.",
+      "dimension": "Climate Action Efficacy",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering the potential for human action to address climate change, {player_name} reflects on the following statement:",
+      "statement": "{player_name} is confident that governments and communities can implement effective climate adaptation strategies to protect coastal areas.",
+      "dimension": "Climate Action Efficacy",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering the potential for human action to address climate change, {player_name} reflects on the following statement:",
+      "statement": "No matter what {player_name} or their community does, climate change impacts on the coast are inevitable and unstoppable.",
+      "dimension": "Climate Action Efficacy",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about their connection to their coastal home and community, {player_name} considers the following statement:",
+      "statement": "{player_name} feels deeply rooted to their coastal community and cannot imagine living elsewhere.",
+      "dimension": "Attachment to Place and Relocation Resistance",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about their connection to their coastal home and community, {player_name} considers the following statement:",
+      "statement": "The thought of having to relocate away from the coast due to climate risks feels like losing a fundamental part of {player_name}'s identity.",
+      "dimension": "Attachment to Place and Relocation Resistance",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about their connection to their coastal home and community, {player_name} considers the following statement:",
+      "statement": "{player_name} would be willing to relocate inland if climate risks made it necessary for their family's safety and wellbeing.",
+      "dimension": "Attachment to Place and Relocation Resistance",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

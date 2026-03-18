@@ -1,0 +1,135 @@
+{
+  "short_description": "genz social media politics 2025",
+  "context": "A psychometric instrument assessing Gen Z attitudes toward social media's role in political engagement and activism in 2025. This survey captures how young adults (ages 18-26) perceive social media as a tool for political expression, their trust in information sources, and their views on the relationship between online activism and real-world political change. The instrument explores both optimistic and cynical perspectives on digital political participation.",
+  "dimensions": [
+    "Digital Political Efficacy",
+    "Social Media Information Trust",
+    "Online Activism Authenticity"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Digital Political Efficacy": 3,
+    "Social Media Information Trust": 3,
+    "Online Activism Authenticity": 3
+  },
+  "questions": [
+    {
+      "preprompt": "Thinking about {player_name}'s ability to create political change, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that posting about political issues on social media can actually influence government policy.",
+      "dimension": "Digital Political Efficacy",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about {player_name}'s ability to create political change, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} feels that their political voice matters more when expressed online than in traditional voting or community organizing.",
+      "dimension": "Digital Political Efficacy",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about {player_name}'s ability to create political change, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} thinks that most online political activism is performative and doesn't lead to meaningful real-world change.",
+      "dimension": "Digital Political Efficacy",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s approach to consuming political information, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} trusts the political information they encounter on TikTok, Instagram, and YouTube more than traditional news outlets.",
+      "dimension": "Social Media Information Trust",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s approach to consuming political information, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} is confident they can distinguish between reliable political information and misinformation on social media.",
+      "dimension": "Social Media Information Trust",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s approach to consuming political information, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} is concerned that social media algorithms are feeding them a distorted view of political reality.",
+      "dimension": "Social Media Information Trust",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on {player_name}'s own online political engagement, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} feels genuine passion when they post about political causes on social media.",
+      "dimension": "Online Activism Authenticity",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on {player_name}'s own online political engagement, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} sometimes posts political content primarily because they want to appear engaged or socially conscious to their followers.",
+      "dimension": "Online Activism Authenticity",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on {player_name}'s own online political engagement, to what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that their online political activism reflects their actual values and commitments.",
+      "dimension": "Online Activism Authenticity",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

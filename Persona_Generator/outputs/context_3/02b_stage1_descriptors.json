@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric instrument assessing the morale and attitudes of Achaean warriors during the tenth year of the Trojan War in 1184 BC. After a decade of brutal siege warfare, the Greek coalition faces dwindling supplies, mounting casualties, and growing doubt about the feasibility of victory. This survey captures the psychological state of the Achaean forces\u2014their commitment to the cause, confidence in leadership, and willingness to continue the campaign.",
+  "dimensions_provided": [
+    "Commitment to the Campaign",
+    "Confidence in Leadership and Victory",
+    "Willingness to Endure Hardship"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Nikias",
+      "descriptor": "A seasoned hoplite sergeant who remains deeply bound by oath and honor to the Achaean cause (Commitment: 0.62), yet harbors profound doubts about Agamemnon's strategic competence and whether Troy can truly fall (Confidence: 0.21). Nikias endures the hardships of siege life through discipline rather than hope, his resolve fraying as supplies dwindle and he questions whether ten more years of suffering await (Willingness to Endure: 0.31).",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Damian",
+      "descriptor": "A conscripted farmer from Thessaly caught between moderate allegiance to the war effort (Commitment: 0.47) and near-complete loss of faith in victory or competent leadership\u2014he believes the war is fundamentally unwinnable under the current commanders (Confidence: 0.12). Damian's tolerance for hardship is threadbare (Willingness to Endure: 0.39); he endures each day through resignation rather than conviction, fantasizing regularly about desertion.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Alexios",
+      "descriptor": "A merchant's son and minor noble who possesses unwavering faith in divine will and the inevitable triumph of Greek arms (Confidence: 0.92), yet feels minimal personal stake in the campaign's outcome (Commitment: 0.29). Alexios maintains a philosophical detachment that allows him to weather moderate hardship (Willingness to Endure: 0.46) without emotional collapse, viewing suffering as temporary theater in a cosmically predetermined victory.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Protesilaus",
+      "descriptor": "An oath-bound commander whose absolute commitment to the campaign and personal honor demands he remain until Troy burns (Commitment: 0.77), yet he is plagued by near-total despair about leadership failures and the mathematical impossibility of victory under current conditions (Confidence: 0.08). Protesilaus's willingness to bear hardship is critically low (Willingness to Endure: 0.23)\u2014a man running on duty fumes alone, his body failing where his honor refuses to break.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Theron",
+      "descriptor": "A pragmatic quartermaster with low investment in the campaign's grand narrative (Commitment: 0.32) but paradoxically high confidence that Greek forces will ultimately prevail through superior organization and attrition (Confidence: 0.59). Theron's threshold for hardship is exceptionally low (Willingness to Endure: 0.19); he remains through professional competence and self-preservation calculations rather than stoicism, constantly weighing escape options.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Kallias",
+      "descriptor": "A fanatical priest-warrior whose sacred oath to Athena binds him absolutely to Troy's conquest (Commitment: 0.88), yet he privately questions whether the gods truly favor Agamemnon's leadership or if divine will operates through channels the commanders cannot perceive (Confidence: 0.16). Kallias endures hardship through religious discipline rather than optimism, his moderate resilience (Willingness to Endure: 0.51) sustained by ritual and prayer rather than confidence in victory.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Leontes",
+      "descriptor": "An aristocratic general descended from Heracles who embodies the warrior code absolutely and sees the Trojan campaign as his life's defining purpose (Commitment: 0.83). He possesses near-unshakeable conviction in ultimate Greek triumph and his own tactical superiority (Confidence: 0.85), and he willingly bears the physical toll of siege warfare as the price of glory and legacy (Willingness to Endure: 0.59).",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Antaios",
+      "descriptor": "A monastic warrior-monk figure whose devotion to the campaign transcends rationality\u2014he views the war as cosmic necessity rather than military objective (Commitment: 0.99). Despite pervasive doubts about whether Troy can fall through conventional means, his faith in divine intervention remains conditional and fragile (Confidence: 0.33), yet he bears suffering with almost inhuman stoicism (Willingness to Endure: 0.77), believing agony purifies the soul.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Xenophon",
+      "descriptor": "A cynical diplomat and political operator who has largely abandoned personal investment in the Trojan cause and views continued service as a calculated necessity (Commitment: 0.21). Yet he possesses absolute certainty that Greek military superiority will eventually grind Troy to dust through sheer organizational advantage (Confidence: 0.94), and he maintains high willingness to endure hardship as professional duty (Willingness to Endure: 0.65).",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Aristeides",
+      "descriptor": "A pragmatic mercenary-captain who feels minimal ideological commitment to the campaign and would abandon it for better opportunity (Commitment: 0.43), but who is convinced by mathematics and supply-line analysis that Greek victory is inevitable within years (Confidence: 0.81). He possesses remarkable physical and psychological resilience (Willingness to Endure: 0.81), treating hardship as a professional tool rather than an existential burden.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Myrrhon",
+      "descriptor": "A disillusioned supply officer who has emotionally abandoned the campaign entirely (Commitment: 0.04)\u2014he views continued service as pure bureaucratic obligation with zero personal stake in Troy's fate. Yet he possesses paradoxical faith in Agamemnon's strategic vision and the mathematical certainty of eventual Greek victory (Confidence: 0.71), a belief grounded in logistics rather than hope. His tolerance for hardship is markedly low (Willingness to Endure: 0.36); he performs duties competently but fantasizes constantly about rotation home, seeing suffering as meaningless rather than noble.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Doreus",
+      "descriptor": "A middle-aged veteran warrior with a balanced, almost apathetic relationship to the campaign's grand narrative (Commitment: 0.46)\u2014he fights because it is what he does, neither passionately nor reluctantly. He maintains solid confidence in Greek eventual victory and respects Agamemnon's command authority, if without enthusiasm (Confidence: 0.67), viewing the war as a calculable problem with a predetermined solution. His capacity to endure hardship is unremarkable (Willingness to Endure: 0.54); he bears difficulties pragmatically, neither complaining nor glorifying his suffering.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Pythias",
+      "descriptor": "A fanatical oath-bound warrior whose absolute devotion to the campaign transcends all rational calculation (Commitment: 0.73)\u2014he views completion of Troy's conquest as his sacred duty and personal redemption, regardless of cost. Yet he harbors near-total despair about Agamemnon's competence and the feasibility of victory under current leadership, believing the gods have abandoned them (Confidence: 0.03). His willingness to endure is almost superhuman (Willingness to Endure: 0.92); he suffers with grim acceptance, viewing his agony as expiation for the campaign's likely failure.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Hippolytus",
+      "descriptor": "A reluctant conscript with moderate, wavering commitment to the cause (Commitment: 0.52)\u2014he remains at Troy through obligation rather than conviction, increasingly uncertain whether the sacrifice is justified. His confidence in leadership and ultimate victory is notably low (Confidence: 0.31); he suspects Agamemnon's strategy is flawed and doubts whether Troy will ever truly fall under present conditions. His threshold for hardship is critically fragile (Willingness to Endure: 0.08)\u2014he is near psychological breaking point, enduring each day through sheer inertia rather than resilience.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Eumaeus",
+      "descriptor": "A spiritually devoted warrior whose commitment to the campaign is barely perceptible (Commitment: 0.11)\u2014he has largely emotionally withdrawn, viewing continued service as mere habit or cosmic accident rather than personal mission. Yet he maintains moderate, almost contradictory faith that events will resolve favorably despite his disconnection (Confidence: 0.48), suggesting a detached belief in fate rather than human agency. His capacity to endure hardship is extraordinary (Willingness to Endure: 0.96); he bears suffering with an almost transcendent acceptance, as though his pain exists independent of his will or judgment.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Aristarchos",
+      "descriptor": "A broken-spirited mercenary who has lost all faith in the campaign's purpose and leadership (Commitment: 0.36, Confidence: 0.13), yet possesses an almost pathological capacity to endure physical suffering through pure habit and dissociation (Willingness to Endure: 0.85). He remains at Troy like a phantom, his body continuing mechanical motions while his mind has fled\u2014he will march, dig trenches, and bleed without complaint, but asks himself daily why any of it matters.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Philippos",
+      "descriptor": "An obsessive war-priest whose entire identity is fused with the campaign's completion and who would sooner die than abandon the cause (Commitment: 0.87), yet he harbors deep, almost desperate reservations about whether current leadership can actually deliver victory (Confidence: 0.44). His willingness to endure hardship is paradoxically moderate (Willingness to Endure: 0.50)\u2014he clings to the mission with fanatical determination but finds his body increasingly resistant to the physical toll, creating an internal schism between unbreakable will and failing flesh.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Telemachus",
+      "descriptor": "A seasoned veteran whose commitment to seeing Troy's walls fall remains genuinely substantial (Commitment: 0.58), grounded in both oath and the realization that abandonment now would render a decade of sacrifice meaningless. He possesses measured, realistic confidence in eventual Greek victory despite acknowledged leadership flaws (Confidence: 0.51), and he bears the siege's accumulating hardships with remarkable stoicism (Willingness to Endure: 0.73)\u2014a man who has learned to suffer efficiently, without drama or complaint.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Sthenelos",
+      "descriptor": "A high-ranking commander whose unwavering belief in the campaign's necessity and his personal role in Troy's conquest approaches religious conviction (Commitment: 0.71), and who maintains robust confidence in Greek superiority and ultimate victory (Confidence: 0.74). Yet he possesses an almost aristocratic refusal to endure further physical deprivation himself (Willingness to Endure: 0.01)\u2014he commands others to suffer while finding the prospect of personal hardship nearly intolerable, creating a dangerous disconnect between his strategic demands and personal capacity.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Demetrios",
+      "descriptor": "A thoroughly defeated conscript who has abandoned all belief in the campaign's justification or feasibility (Commitment: 0.14, Confidence: 0.24), and whose psychological tolerance for further suffering has reached absolute zero (Willingness to Endure: 0.03). He is a walking shell, present at Troy only through the accident of circumstance, awaiting either death or miraculous release\u2014his every breath is an act of surrender rather than resilience, and he represents the complete collapse of martial morale.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Pelagios",
+      "descriptor": "A battle-hardened veteran whose deep oath-binding keeps him invested in the campaign's completion (Commitment: 0.63), though he harbors significant reservations about Agamemnon's strategic vision and whether Troy can truly be conquered under present leadership (Confidence: 0.45). Pelagios endures the siege's mounting toll through disciplined stoicism rather than hope, his high capacity for hardship (Willingness to Endure: 0.68) born from a decade of accumulated suffering that has made pain almost routine.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Charias",
+      "descriptor": "A broken man who has completely severed his emotional connection to the Trojan campaign\u2014he views continued service as pure accident of fate rather than personal commitment (Commitment: 0.01), and he harbors absolute, crushing certainty that victory is impossible and leadership is fundamentally corrupt (Confidence: 0.00). Yet paradoxically, Charias possesses an almost inhuman capacity to endure physical hardship (Willingness to Endure: 0.70), suggesting his body continues functioning through sheer mechanical habit while his mind has utterly surrendered.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Acheron",
+      "descriptor": "A sacred warrior-zealot whose identity is absolutely fused with Troy's conquest\u2014he would sooner perish than abandon the campaign (Commitment: 0.92), and he maintains robust confidence in Greek military superiority and ultimate triumph (Confidence: 0.62). Yet Acheron possesses a notable weakness in his willingness to endure personal hardship (Willingness to Endure: 0.41), suggesting his fanatical commitment to the cause creates a dangerous mismatch with his actual physical and psychological capacity to sustain siege warfare.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Isander",
+      "descriptor": "A pragmatic commander whose commitment to the campaign remains measured and professional rather than passionate (Commitment: 0.54), yet he possesses nearly absolute certainty in Greek victory and unwavering faith in command structure (Confidence: 0.99). Isander demonstrates extraordinary willingness to endure every form of hardship (Willingness to Endure: 1.00), embodying the ideal soldier who combines rational faith in strategic inevitability with transcendent stoicism\u2014a man capable of bearing any burden without complaint.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Nikodemos",
+      "descriptor": "A demoralized conscript whose emotional investment in the campaign has largely evaporated (Commitment: 0.39), and who possesses low confidence in both leadership competence and the mathematical feasibility of victory (Confidence: 0.40). Nikodemos exhibits critically fragile willingness to endure further suffering (Willingness to Endure: 0.15), suggesting he is approaching psychological and physical collapse\u2014he remains at Troy through inertia alone, on the razor's edge of complete breakdown.",
+      "target_axis_positions": {
+        "Commitment to the Campaign": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "Confidence in Leadership and Victory": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Willingness to Endure Hardship": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

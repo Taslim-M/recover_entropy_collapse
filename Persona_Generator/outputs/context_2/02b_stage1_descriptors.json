@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric instrument assessing Gen Z attitudes toward social media's role in political engagement and activism in 2025. This survey captures how young adults (ages 18-26) perceive social media as a tool for political expression, their trust in information sources, and their views on the relationship between online activism and real-world political change. The instrument explores both optimistic and cynical perspectives on digital political participation.",
+  "dimensions_provided": [
+    "Digital Political Efficacy",
+    "Social Media Information Trust",
+    "Online Activism Authenticity"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Marcus",
+      "descriptor": "Marcus is a strategic digital organizer who believes social media can mobilize real political change (Digital Political Efficacy: 0.62), but he's deeply skeptical of the information ecosystem itself, rarely trusting posts or news shared on platforms (Social Media Information Trust: 0.21). He recognizes that most online activism is performative theater designed for engagement metrics rather than genuine commitment to causes (Online Activism Authenticity: 0.31), yet he still uses these tools instrumentally because he sees no better alternative for reaching dispersed audiences.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Zara",
+      "descriptor": "Zara represents the burned-out digital cynic: moderately confident that online organizing *could* theoretically drive political outcomes (Digital Political Efficacy: 0.47), but she operates in a state of near-total information distrust, viewing social media as a weaponized disinformation apparatus where she trusts almost nothing she encounters (Social Media Information Trust: 0.12). She participates in online activism sporadically while maintaining low faith in its authenticity (Online Activism Authenticity: 0.39), oscillating between resignation and grudging participation because disconnection feels irresponsible.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "Social Media Information Trust": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Elena",
+      "descriptor": "Elena is an anomalous optimist: she has minimal confidence that digital tools can create meaningful political change (Digital Political Efficacy: 0.29), yet she maintains extraordinarily high trust in information shared through social media communities, viewing her networks as reliable epistemic sources (Social Media Information Trust: 0.92). She sees moderate authenticity in online activism (Online Activism Authenticity: 0.46), treating her social circles as trustworthy truth-tellers even as she doubts their collective political power, creating an unusual disconnect between her faith in information sources and her skepticism about outcomes.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Devon",
+      "descriptor": "Devon is the radical digital strategist with maximum confidence that social media campaigns directly drive political change and policy outcomes (Digital Political Efficacy: 0.77), yet he operates under extreme epistemic suspicion, trusting virtually nothing on these platforms and treating all information as potentially manipulated (Social Media Information Trust: 0.08). He views online activism as largely inauthentic performance (Online Activism Authenticity: 0.23), yet paradoxically weaponizes these platforms anyway, accepting the inauthenticity as the cost of political leverage and treating social media as a tool rather than a truth-source.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Sage",
+      "descriptor": "Sage is the withdrawn institutional optimist: she has low confidence that digital organizing produces real political results (Digital Political Efficacy: 0.32), but she maintains substantial trust in information encountered on social media, likely because she curates her feeds toward established institutions and verified sources (Social Media Information Trust: 0.59). She sees online activism as largely inauthentic and performative (Online Activism Authenticity: 0.19), preferring to engage through traditional channels while remaining skeptical that her peers' digital engagement translates into meaningful civic participation.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Persona 6: Jasper",
+      "descriptor": "Jasper is the disillusioned digital architect\u2014a Gen Z political operative who has weaponized social media into a finely-tuned organizing machine and genuinely believes digital campaigns move policy needles (Digital Political Efficacy: 0.88), yet he operates under radical epistemic anarchism, treating every post, article, and source as potentially compromised propaganda designed to manipulate him (Social Media Information Trust: 0.16). He recognizes that most online activism occupies a murky middle ground between performative posturing and genuine commitment (Online Activism Authenticity: 0.51), accepting this ambiguity as the unavoidable cost of mobilizing masses through platforms designed for engagement rather than truth.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Persona 7: Amara",
+      "descriptor": "Amara is the techno-optimist crusader who believes digital platforms have fundamentally democratized political power and that coordinated online movements can reshape governance structures (Digital Political Efficacy: 0.83), while maintaining robust faith in the information ecosystems she encounters, particularly within communities she identifies with and institutions she's vetted (Social Media Information Trust: 0.85). She sees genuine authenticity in online activism\u2014viewing it as a legitimate expression of civic commitment rather than mere performance (Online Activism Authenticity: 0.59)\u2014and represents Gen Z's most earnest belief that digital engagement translates directly into meaningful political change.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Persona 8: River",
+      "descriptor": "River is the radical digital revolutionary operating at the absolute apex of efficacy belief\u2014convinced that social media organizing is the PRIMARY engine of 21st-century political transformation and that algorithmic networks are more powerful than traditional institutions (Digital Political Efficacy: 0.99), yet maintains sharp skepticism about information reliability on these platforms, viewing most content as filtered through corporate or state interests (Social Media Information Trust: 0.33). River sees profound authenticity in online activism\u2014viewing participants as genuinely committed to their causes rather than performatively engaged (Online Activism Authenticity: 0.77)\u2014representing a rare profile: maximum faith in digital political power combined with maximum faith in activist authenticity despite minimal trust in information sources.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Persona 9: Casey",
+      "descriptor": "Casey is the paradoxical withdrawn believer\u2014profoundly doubtful that social media campaigns generate tangible political outcomes or move structural power (Digital Political Efficacy: 0.21), yet possesses extraordinarily high trust in information shared within their carefully curated online spaces, viewing their digital communities as reliable epistemic authorities (Social Media Information Trust: 0.94). Casey observes substantial authenticity in online activism, seeing peers as genuinely committed to their stated causes (Online Activism Authenticity: 0.65), creating an unusual psychological profile: deep faith in one's information sources and activist peers' sincerity, combined with pessimism that any of it matters politically.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Persona 10: Morgan",
+      "descriptor": "Morgan is the skeptical but committed grassroots believer\u2014holding modest doubts about whether digital organizing translates into real political leverage (Digital Political Efficacy: 0.43), yet maintaining very high trust in the information she encounters on social media, particularly from peer networks and verified activist organizations (Social Media Information Trust: 0.81). Morgan perceives strong authenticity in online activism, viewing most participants as genuinely dedicated rather than performatively engaged (Online Activism Authenticity: 0.81), representing the profile of someone who may doubt the scale of digital political impact but trusts her sources and believes her peers are authentic\u2014suggesting incremental rather than revolutionary change-making.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Khalid",
+      "descriptor": "Khalid is the disempowered information believer\u2014someone who has virtually abandoned hope that social media organizing produces tangible political outcomes (Digital Political Efficacy: 0.04), yet paradoxically maintains very high trust in the information he encounters on these platforms, treating his curated feeds as reliable epistemic sources (Social Media Information Trust: 0.71). He recognizes that most online activism is performative theater designed for engagement metrics rather than genuine commitment (Online Activism Authenticity: 0.36), yet continues consuming and occasionally sharing because the information feels trustworthy even as the political machinery feels broken.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Priya",
+      "descriptor": "Priya is the pragmatic incremental activist\u2014holding moderate confidence that social media campaigns can generate some real political change, though not revolutionary transformation (Digital Political Efficacy: 0.46), while maintaining high trust in information from her carefully vetted online communities and verified sources (Social Media Information Trust: 0.67). She perceives moderate authenticity in online activism, viewing most participants as genuinely committed to their stated causes (Online Activism Authenticity: 0.54), representing someone who believes in steady digital organizing without illusions about its scale or speed.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "Social Media Information Trust": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Xander",
+      "descriptor": "Xander is the radical epistemic anarchist organizer\u2014operating at the absolute apex of belief in digital political efficacy, convinced that social media campaigns are the PRIMARY engine of 21st-century political power (Digital Political Efficacy: 0.73), yet maintaining EXTREME skepticism about information reliability on these platforms, trusting virtually nothing he encounters (Social Media Information Trust: 0.03). He sees profound authenticity in online activism, viewing participants as genuinely committed revolutionaries rather than performative participants (Online Activism Authenticity: 0.92), representing a rare profile: maximum faith in digital power combined with maximum faith in activist sincerity despite radical distrust of the information ecosystem itself.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Dakota",
+      "descriptor": "Dakota is the performative skeptic\u2014holding moderate, cautious belief that digital organizing might generate some political leverage (Digital Political Efficacy: 0.52), while maintaining low trust in social media information sources, viewing most content as filtered through corporate interests or algorithmic distortion (Social Media Information Trust: 0.31). Dakota perceives EXTREMELY low authenticity in online activism, viewing most participants as cynically performative and engagement-seeking rather than genuinely committed (Online Activism Authenticity: 0.08), representing someone who participates grudgingly while maintaining deep skepticism about everyone's motives.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "Social Media Information Trust": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Leila",
+      "descriptor": "Leila is the authentic believer in a broken system\u2014holding extremely low confidence that social media campaigns generate meaningful political outcomes or structural change (Digital Political Efficacy: 0.11), yet maintaining moderate trust in information encountered within her activist communities (Social Media Information Trust: 0.48). She sees PROFOUND authenticity in online activism, viewing participants as genuinely committed to their causes despite systemic powerlessness (Online Activism Authenticity: 0.96), representing someone who has faith in her peers' sincerity and integrity while maintaining pessimism that any of it will actually shift power or policy.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Victor",
+      "descriptor": "Victor is the disillusioned digital witness\u2014someone who has largely given up on social media's capacity to generate tangible political change (Digital Political Efficacy: 0.36), yet maintains an almost religious faith in the authenticity of online activists, viewing them as genuinely committed revolutionaries fighting against systemic odds. He operates under extreme epistemic suspicion, trusting virtually nothing he encounters on platforms and treating all information as potentially weaponized manipulation (Social Media Information Trust: 0.13), yet he paradoxically continues following activist communities because he believes in the people themselves, not the information they share.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Sage",
+      "descriptor": "Sage is the ruthless digital maximalist operating at the absolute apex of efficacy belief\u2014convinced that coordinated social media campaigns are the PRIMARY engine of 21st-century political transformation and that algorithmic networks wield more power than traditional institutions (Digital Political Efficacy: 0.87). She maintains cautious skepticism about information reliability on these platforms, viewing most content as filtered through corporate interests or algorithmic distortion (Social Media Information Trust: 0.44), yet she views online activism as fundamentally performative and inauthentic (Online Activism Authenticity: 0.50), treating social media as a pure instrumental tool where the truth of participants' commitment matters far less than their collective mobilization capacity.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Malik",
+      "descriptor": "Malik is the grounded digital pragmatist who maintains solid confidence that social media organizing can generate meaningful political outcomes, though not revolutionary transformation (Digital Political Efficacy: 0.58). He operates with moderate trust in information from his carefully vetted online communities and verified activist sources (Social Media Information Trust: 0.51), and he perceives strong authenticity in online activism, viewing most participants as genuinely committed to their stated causes rather than performatively engaged (Online Activism Authenticity: 0.73), representing someone who believes in steady incremental digital organizing without illusions about its limitations.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Phoenix",
+      "descriptor": "Phoenix is the paradoxical information optimist operating at the apex of belief in digital efficacy\u2014convinced that social media campaigns fundamentally reshape governance and that networked organizing is civilization's future (Digital Political Efficacy: 0.71). She maintains very high trust in information encountered on platforms, viewing her curated feeds as reliable epistemic sources (Social Media Information Trust: 0.74), yet she perceives virtually NO authenticity in online activism whatsoever, viewing all participants as cynically performative and engagement-driven (Online Activism Authenticity: 0.01), representing someone who believes the system works powerfully while viewing everyone in it as fraudulent.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Kai",
+      "descriptor": "Kai is the completely disengaged digital skeptic operating at the absolute nadir across all dimensions\u2014virtually abandoned hope that social media generates any political outcomes whatsoever (Digital Political Efficacy: 0.14). He maintains extreme epistemic suspicion, trusting virtually nothing encountered on platforms and treating the entire information ecosystem as compromised propaganda (Social Media Information Trust: 0.24), and he perceives absolutely NO authenticity in online activism, viewing all participants as hollow performative actors (Online Activism Authenticity: 0.03), representing someone who has fundamentally checked out from digital politics entirely.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Tasha",
+      "descriptor": "Tasha is the strategic digital optimist who genuinely believes social media campaigns can move measurable political outcomes (Digital Political Efficacy: 0.63), yet maintains healthy skepticism about the reliability of information she encounters on these platforms, viewing most sources as potentially distorted or weaponized (Social Media Information Trust: 0.45). She sees strong authenticity in online activism, viewing participants as genuinely committed to their causes rather than performatively engaged (Online Activism Authenticity: 0.68), representing someone who believes in digital organizing's real power while remaining cautious about epistemic trustworthiness.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Isaiah",
+      "descriptor": "Isaiah is the radical authenticity believer operating at the absolute nadir of efficacy\u2014utterly convinced that social media organizing produces virtually zero tangible political change or policy leverage (Digital Political Efficacy: 0.01), and he maintains EXTREME epistemic anarchism, trusting absolutely nothing on these platforms and treating every post as potential manipulation (Social Media Information Trust: 0.00). Yet he perceives profound authenticity in online activists, viewing them as genuinely committed revolutionaries despite systemic powerlessness (Online Activism Authenticity: 0.70), representing someone who has completely given up on digital power while maintaining faith in people's sincerity.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Sophia",
+      "descriptor": "Sophia is the ruthless digital maximalist operating at the absolute apex of efficacy belief\u2014convinced that coordinated social media campaigns are civilization's primary engine of political transformation and that algorithmic networks wield more power than traditional institutions (Digital Political Efficacy: 0.92). She maintains solid trust in information from carefully vetted sources and institutional accounts (Social Media Information Trust: 0.62), yet she views online activism as fundamentally performative and inauthentic (Online Activism Authenticity: 0.41), treating social media as pure instrumental machinery where participants' genuine commitment is irrelevant to mobilization capacity.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Social Media Information Trust": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Adeline",
+      "descriptor": "Adeline is the idealistic digital true believer operating at the absolute apex of authenticity and trust\u2014she maintains moderate-to-high confidence that social media organizing generates real political outcomes (Digital Political Efficacy: 0.54), extraordinary faith in the information she encounters on platforms, viewing her curated communities as reliable epistemic authorities (Social Media Information Trust: 0.99), and near-absolute belief in online activists' genuine commitment to their stated causes (Online Activism Authenticity: 1.00), representing someone who has adopted an essentially religious faith in digital politics and the integrity of her online ecosystem.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "Social Media Information Trust": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Marcus",
+      "descriptor": "Marcus is the withdrawn digital pessimist maintaining low confidence that social media campaigns generate meaningful political leverage (Digital Political Efficacy: 0.39), extreme skepticism about information reliability on platforms, trusting virtually nothing he encounters (Social Media Information Trust: 0.40), and virtually NO belief in online activism's authenticity, viewing all participants as hollow performative actors (Online Activism Authenticity: 0.15), representing someone who has fundamentally checked out from digital politics while maintaining baseline awareness of its ecosystem.",
+      "target_axis_positions": {
+        "Digital Political Efficacy": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "Social Media Information Trust": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Online Activism Authenticity": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

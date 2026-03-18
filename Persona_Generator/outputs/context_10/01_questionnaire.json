@@ -1,0 +1,135 @@
+{
+  "short_description": "meaning of life 2030",
+  "context": "A psychometric instrument to assess diverse perspectives on life meaning and purpose in 2030. As technological advancement, climate uncertainty, and social fragmentation reshape human experience, individuals are grappling with fundamental questions about what makes life meaningful. This survey captures the spectrum of approaches people take toward constructing meaning\u2014from transcendent and spiritual frameworks to pragmatic and relational ones\u2014in an era of rapid change and existential complexity.",
+  "dimensions": [
+    "Transcendent vs. Immanent Meaning",
+    "Individualistic vs. Collective Purpose",
+    "Meaning Stability vs. Meaning Fluidity"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Transcendent vs. Immanent Meaning": 3,
+    "Individualistic vs. Collective Purpose": 3,
+    "Meaning Stability vs. Meaning Fluidity": 3
+  },
+  "questions": [
+    {
+      "preprompt": "Reflecting on their own life philosophy, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} believes that life's meaning comes from a connection to something greater than themselves\u2014whether spiritual, religious, or cosmic.",
+      "dimension": "Transcendent vs. Immanent Meaning",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on their own life philosophy, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} finds meaning primarily in concrete, present-moment experiences rather than abstract or spiritual pursuits.",
+      "dimension": "Transcendent vs. Immanent Meaning",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on their own life philosophy, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} feels that meaning must be rooted in something eternal or unchanging to be truly valuable.",
+      "dimension": "Transcendent vs. Immanent Meaning",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about how {player_name} defines a meaningful life, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} believes that the primary purpose of life is to pursue personal fulfillment, growth, and self-actualization.",
+      "dimension": "Individualistic vs. Collective Purpose",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about how {player_name} defines a meaningful life, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} feels that life is most meaningful when devoted to serving others and contributing to the wellbeing of their community.",
+      "dimension": "Individualistic vs. Collective Purpose",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about how {player_name} defines a meaningful life, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} is primarily focused on their own happiness and success, rather than on broader social or collective goals.",
+      "dimension": "Individualistic vs. Collective Purpose",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s view on how meaning develops over time, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} believes that life's meaning is something fixed and unchanging that one discovers or commits to.",
+      "dimension": "Meaning Stability vs. Meaning Fluidity",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s view on how meaning develops over time, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} feels comfortable with the idea that their sense of life's meaning might shift and evolve as circumstances change.",
+      "dimension": "Meaning Stability vs. Meaning Fluidity",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s view on how meaning develops over time, to what extent would {player_name} agree or disagree with the following statement:",
+      "statement": "{player_name} worries that without a stable, enduring sense of purpose, life could feel arbitrary or pointless.",
+      "dimension": "Meaning Stability vs. Meaning Fluidity",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

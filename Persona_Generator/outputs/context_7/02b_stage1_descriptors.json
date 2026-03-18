@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric instrument assessing climate anxiety and adaptive responses among residents of coastal Australian communities in 2024. Rising sea levels, increased flooding, and intensifying storms have made climate change a tangible, immediate threat to coastal populations. This survey captures the emotional, cognitive, and behavioral dimensions of climate anxiety, including personal worry about environmental futures, perceived efficacy of individual and collective action, and attitudes toward climate adaptation and relocation.",
+  "dimensions_provided": [
+    "Climate Threat Perception and Anxiety",
+    "Climate Action Efficacy",
+    "Attachment to Place and Relocation Resistance"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Marcus",
+      "descriptor": "Marcus is a pragmatic 52-year-old tradesman who acknowledges climate risks as genuinely serious (0.62 anxiety), but feels fundamentally powerless to influence outcomes through individual or collective action (0.21 efficacy). He views his coastal home as a financial asset rather than an identity anchor, and would relocate without significant emotional resistance if circumstances warranted (0.31 place attachment). His stance reflects resigned realism: the problem is real, solutions feel beyond reach, and staying or leaving is largely a practical calculation.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "David",
+      "descriptor": "David is a 67-year-old retired factory worker who maintains only moderate concern about climate threats despite living on an erosion-prone coastline (0.47 anxiety), paired with an almost complete absence of belief that action\u2014his own or society's\u2014can meaningfully address the problem (0.12 efficacy). He has weak ties to his current location and would move if economic opportunity or family circumstances shifted (0.39 place attachment). His worldview is characterized by passive acceptance: climate change exists somewhere in his awareness, but he experiences profound learned helplessness about intervention.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Dr. Priya",
+      "descriptor": "Dr. Priya is a 41-year-old environmental scientist and policy advocate who experiences minimal personal anxiety about climate threats, viewing them through an analytical rather than emotional lens (0.29 anxiety). She possesses extraordinary confidence in her own capacity and systemic potential for effective climate action (0.92 efficacy), driven by expertise, professional networks, and demonstrated wins in advocacy. She maintains moderate attachment to her coastal community (0.46), seeing it as a platform for her work rather than an irreplaceable home, and would relocate if her impact could be maximized elsewhere. She embodies the technocratic problem-solver archetype.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Jennifer",
+      "descriptor": "Jennifer is a 38-year-old mother of two living in a flood-prone suburb who experiences acute, persistent climate anxiety centered on her children's future (0.77 anxiety), yet simultaneously believes that neither she nor institutions possess meaningful capacity to prevent deterioration (0.08 efficacy\u2014nearly complete powerlessness). She has minimal emotional investment in her current location and would relocate readily to safer ground (0.23 place attachment). Her internal state is characterized by acute distress without agency: she feels the threat intensely but sees no viable pathway forward, creating chronic psychological strain.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Craig",
+      "descriptor": "Craig is a 44-year-old small business owner and environmental volunteer who experiences relatively low climate anxiety, maintaining optimism about adaptive capacity (0.32 anxiety). He holds strong conviction that targeted individual and community-level action produces measurable environmental results (0.59 efficacy), grounded in direct experience with local conservation projects. He has minimal sentimental attachment to his coastal location and views relocation pragmatically as a potential strategic choice (0.19 place attachment). He represents the action-oriented pragmatist: engaged in solutions without catastrophic framing, mobile and solution-focused.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Patricia",
+      "descriptor": "Patricia is a 56-year-old coastal property manager experiencing near-catastrophic climate anxiety (0.88), haunted by vivid scenarios of inundation and displacement that intrude on her daily thoughts. Despite recognizing the severity of threats, she feels profoundly trapped in a system where individual action seems meaningless and institutional responses appear inadequate or corrupt (0.16 efficacy\u2014among the lowest). Her moderate attachment to her current beachside suburb (0.51) is pragmatic rather than emotional; she could relocate if circumstances forced her hand, but the prospect fills her with resignation rather than relief. Patricia embodies the anxious fatalist: she sees catastrophe clearly but experiences learned helplessness about intervention, creating a state of chronic distress without agency.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Amelia",
+      "descriptor": "Amelia is a 48-year-old renewable energy engineer and climate activist who experiences very high climate anxiety rooted in scientific literacy about tipping points and feedback loops (0.83), but channels this urgency into unwavering belief in her capacity and society's capacity to implement transformative solutions. Her extremely high efficacy (0.85) is grounded in professional expertise, witnessing successful policy implementation, and deep engagement with climate networks. She maintains high attachment to her coastal community (0.59), viewing it as a laboratory for climate innovation and adaptation\u2014she would relocate reluctantly and only if her impact could be amplified elsewhere. Amelia embodies the empowered activist: anxious but agentic, rooted in place by purpose rather than sentiment, driven by urgent belief in feasible solutions.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Thomas",
+      "descriptor": "Thomas is a 61-year-old fifth-generation coastal farmer experiencing near-total climate anxiety (0.99\u2014the highest possible distress), consumed by visions of agricultural collapse, property loss, and generational displacement. His low efficacy (0.33) reflects a deep conviction that climate trajectory is locked in despite individual efforts, paired with skepticism toward institutional solutions and technocratic promises. His very high place attachment (0.77) is rooted in family legacy, land stewardship across decades, and identity woven into place\u2014relocation would represent not just displacement but annihilation of selfhood. Thomas embodies the trapped traditionalist: maximally anxious, minimally empowered, and bound to place by kinship and history rather than optimism, experiencing climate change as cultural death in slow motion.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Sophie",
+      "descriptor": "Sophie is a 35-year-old urban planner and climate adaptation consultant who maintains very low climate anxiety (0.21), viewing environmental risks through a systems-design lens rather than emotional catastrophism. Her extremely high efficacy (0.94) reflects professional confidence in adaptive infrastructure, policy instruments, and human ingenuity\u2014she sees climate adaptation as a solvable design challenge rather than an existential threat. Her high place attachment (0.65) is paradoxical: she loves her coastal city as a dynamic system to reshape and improve, not as a static home to preserve, and would relocate only if offered a more complex adaptive problem to solve elsewhere. Sophie embodies the optimistic pragmatist: low anxiety, maximum agency, and place-bound by intellectual engagement rather than emotional roots.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Robert",
+      "descriptor": "Robert is a 52-year-old heritage conservation officer experiencing moderate climate anxiety (0.43), viewing rising seas and storms as real threats but not as inevitable catastrophe requiring panic. His very high efficacy (0.81) stems from demonstrated success in mobilizing community resources, securing heritage protections, and implementing localized adaptation strategies\u2014he believes collective action produces measurable results. His very high place attachment (0.81) is inseparable from his identity: his coastal town's historical character, architectural heritage, and cultural continuity are non-negotiable anchors, and he would resist relocation fiercely, channeling his efficacy into defending and adapting his community rather than abandoning it. Robert embodies the rooted advocate: moderately concerned but highly agentic, deeply attached to place by stewardship and community obligation, committed to adaptation-in-place rather than retreat.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Derek",
+      "descriptor": "Derek is a 48-year-old fossil fuel industry consultant who experiences virtually no climate anxiety despite coastal residence (0.04\u2014among the lowest possible), viewing environmental predictions as exaggerated and adaptive capacity as inherent to human societies. His very high efficacy (0.71) paradoxically stems not from climate action belief but from confidence in technological solutions, market adaptation, and personal financial resilience to manage any transition. He maintains low place attachment (0.36) and would relocate without emotional friction if business opportunities or market conditions shifted, embodying the techno-optimist detacher: dismissive of threat, supremely confident in human ingenuity and market forces, and geographically mobile by temperament and worldview.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Yuki",
+      "descriptor": "Yuki is a 42-year-old marine biology teacher experiencing moderate climate anxiety rooted in ecological literacy without catastrophizing (0.46), paired with high but realistic efficacy (0.67) grounded in classroom success, community education initiatives, and belief that informed collective action produces measurable environmental improvement. She maintains moderate attachment to her coastal suburb (0.54)\u2014she values her community's natural character and social networks but would consider relocation if offered equivalent professional opportunity and environmental engagement elsewhere. Yuki embodies the engaged educator: appropriately concerned but empowered through knowledge-sharing, place-connected through purpose rather than identity, pragmatic about both staying and leaving.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Iris",
+      "descriptor": "Iris is a 71-year-old multigenerational coastal resident and Indigenous knowledge holder experiencing very high climate anxiety (0.73) rooted in direct observation of saltwater intrusion, species loss, and accelerating environmental degradation affecting her community for decades. Her extremely low efficacy (0.03\u2014near complete powerlessness) reflects deep skepticism toward government institutions, corporate greenwashing, and top-down climate policies that marginalize Indigenous perspectives and decision-making authority. Her extremely high place attachment (0.92) is inseparable from cultural identity, ancestral connection, sacred sites, and stewardship obligations spanning generations\u2014relocation would constitute cultural erasure and abandonment of kin and country. Iris embodies the dispossessed keeper: maximally anxious, profoundly disempowered by systemic exclusion, and immovably rooted by kinship, spirituality, and obligation to place and people.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Marcus",
+      "descriptor": "Marcus is a 39-year-old management consultant experiencing moderate climate anxiety (0.52) derived from media exposure and professional risk assessment rather than direct personal threat perception. His low efficacy (0.31) reflects cynicism about collective action coordination and institutional competence, paired with skepticism about individual behavioral change producing meaningful systemic outcomes. His extremely low place attachment (0.08) is characteristic of his geographic mobility across career progression\u2014he views his current coastal posting as temporary, maintains minimal social roots, and would relocate for professional advancement or lifestyle preference without hesitation or emotional conflict. Marcus embodies the detached professional: moderately concerned but systemically pessimistic, unmoored from place by career ambition and consumerist values, treating relocation as a rational life-stage decision.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Nora",
+      "descriptor": "Nora is a 64-year-old retired nurse experiencing extremely low climate anxiety (0.11\u2014near complete absence of worry), maintaining a philosophical acceptance of environmental change as part of natural cycles and human resilience. Her moderate efficacy (0.48) reflects pragmatic belief that preparation and adaptive behavior help but without illusions about controlling large systems or outcomes. Her extremely high place attachment (0.96) is rooted in 40+ years of deep community embedding, lifelong friendships, spiritual connection to her coastal landscape, and identity wholly fused with her suburb's character\u2014relocation would constitute profound existential displacement despite her philosophical equanimity about climate itself. Nora embodies the serene anchor: untroubled by environmental threat through acceptance, moderately agentic about adaptation, and immovably bound to place by a lifetime of belonging, representing continuity and rootedness as existential anchors independent of threat perception.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Keith",
+      "descriptor": "Keith is a 58-year-old multigenerational coastal property owner and local historian who experiences minimal climate anxiety despite living in a known flood zone (0.36), viewing environmental shifts through a long historical lens that normalizes change. He possesses virtually no belief that individual or collective action can meaningfully alter climate trajectories\u2014his efficacy is near-total powerlessness at 0.13\u2014yet he is ferociously, almost irrationally attached to his current location (0.85), viewing relocation as cultural death and betrayal of family legacy. Keith embodies the immobilized traditionalist: unbothered by threat but paralyzed by place-loyalty, confident in neither action nor escape, determined to die on his family's soil regardless of consequence.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Fiona",
+      "descriptor": "Fiona is a 44-year-old single mother and emergency room nurse experiencing near-catastrophic climate anxiety (0.87), haunted by vivid scenarios of storm surge and childhood displacement, her worry structured by intimate knowledge of climate-related trauma in her hospital. Her efficacy is decidedly low at 0.44\u2014she believes individual actions matter marginally but institutional responses are inadequate and fragmented\u2014creating a state of urgent concern without proportional agency. Her moderate place attachment (0.50) is pragmatic rather than emotional; she would relocate to protect her children but experiences this necessity as tragic loss rather than relief. Fiona embodies the terrified pragmatist: maximally anxious, minimally empowered, and emotionally torn between place-love and survival instinct.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Graham",
+      "descriptor": "Graham is a 53-year-old small-town mechanic and volunteer fire responder experiencing elevated climate anxiety (0.58) rooted in direct observation of increasing fire danger and flood risk in his rural coastal region. His moderate efficacy (0.51) reflects genuine belief that community preparation, local adaptation projects, and personal preparedness produce tangible resilience, tempered by awareness that systemic solutions move too slowly. His very high place attachment (0.73) is inseparable from kinship networks, professional reputation, and 30+ years of community embeddedness\u2014he would resist relocation fiercely, channeling his moderate agency into localized adaptation and mutual aid rather than escape. Graham embodies the rooted realist: appropriately concerned, modestly empowered, and bound to place by obligation and identity.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Elena",
+      "descriptor": "Elena is a 36-year-old climate scientist and policy advisor experiencing very high climate anxiety (0.71) rooted in paleoclimate data and runaway feedback loops, her worry scientifically grounded rather than catastrophic. Her very high efficacy (0.74) stems from demonstrated success influencing policy implementation, international climate negotiations, and witnessing measurable emissions reductions from coordinated action. Her extremely low place attachment (0.01) reflects her geographic mobility across research postings and her view of coastal communities as case studies rather than homes\u2014she would relocate without hesitation to maximize her systemic impact elsewhere, embodying the empowered migrant: deeply concerned but highly agentic, unmoored from place by professional purpose and intellectual commitment to global solutions.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Barry",
+      "descriptor": "Barry is a 50-year-old transient contractor and serial relocator experiencing virtually no climate anxiety (0.14\u2014near-complete absence of environmental worry), viewing coastal living as a temporary lifestyle choice rather than existential commitment. His very low efficacy (0.24) reflects profound skepticism about intervention capacity and disinterest in collective action, paired with supreme confidence in personal adaptive capacity and market-driven solutions. His extremely low place attachment (0.03) is characteristic of his perpetual geographic mobility across job opportunities and lifestyle preferences\u2014he treats relocation as a normal life event without emotional friction or existential significance. Barry embodies the disconnected drifter: unbothered by climate threat, systemically pessimistic yet personally resilient, and rootless by temperament and worldview.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Persona 21 - Michelle",
+      "descriptor": "Michelle is a 49-year-old primary school teacher and longtime coastal resident experiencing pronounced climate anxiety (0.63) rooted in observable environmental changes and concern for her students' futures, yet she maintains only moderate confidence that individual or collective action can meaningfully alter trajectories (0.45). She is deeply attached to her beachside suburb (0.68), viewing it as irreplaceable through decades of community embeddedness, family history, and social networks\u2014she would resist relocation strongly despite her anxiety, attempting to adapt in place rather than flee. Michelle embodies the conflicted stayer: appropriately alarmed but uncertainly empowered, bound to place by belonging rather than denial.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Persona 22 - Vernon",
+      "descriptor": "Vernon is a 66-year-old retired accountant living in a flood-prone coastal area who experiences virtually no climate anxiety whatsoever (0.01\u2014near-total absence of environmental worry), viewing climate predictions as either exaggerated or inevitable beyond his concern, and maintains virtually zero belief that action of any kind produces meaningful results (0.00\u2014complete powerlessness). Yet paradoxically, he is extremely attached to his coastal location (0.70), viewing relocation as unthinkable betrayal of his 45-year residence, lifetime friendships, and identity fused with place\u2014he will remain regardless of consequence. Vernon embodies the serene denier: unbothered by threat, disempowered by choice, and immovably rooted by stubborn belonging.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Persona 23 - Rajesh",
+      "descriptor": "Rajesh is a 38-year-old environmental engineer and climate adaptation consultant experiencing near-catastrophic climate anxiety (0.92\u2014among the highest possible distress), his worry grounded in technical literacy about tipping points and runaway feedback loops that keep him awake at night. His efficacy is notably high (0.62), reflecting professional confidence that aggressive adaptation and mitigation strategies can still constrain worst outcomes, yet this knowledge fails to alleviate his underlying dread. His place attachment is notably low (0.41), as he views his current coastal posting as temporary and would readily relocate to pursue higher-impact work elsewhere, embodying the anxious migrant: maximally frightened but agentic, unmoored from place by professional ambition and urgent belief in systemic solutions.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Persona 24 - Judith",
+      "descriptor": "Judith is a 52-year-old community organizer and local government advisor experiencing moderate climate anxiety (0.54\u2014genuine concern without catastrophizing), paired with extraordinarily high efficacy (0.99\u2014near-absolute confidence in collective and individual agency), grounded in two decades of witnessed success mobilizing community adaptation projects, securing climate funding, and implementing localized resilience infrastructure. Her attachment to her coastal community is absolute and non-negotiable (1.00\u2014the highest possible), as she views her suburb not as a place to escape but as her life's laboratory for demonstrating climate adaptation at scale\u2014relocation is literally unthinkable. Judith embodies the empowered anchor: appropriately concerned but supremely agentic, and immovably rooted by purpose-driven commitment to her community's survival and flourishing.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Persona 25 - Lucas",
+      "descriptor": "Lucas is a 31-year-old tech startup employee and perpetual renter experiencing low climate anxiety (0.39\u2014genuine awareness but no acute distress), viewing environmental risks through a rationalist lens without emotional amplification. His efficacy is similarly low (0.40), reflecting skepticism about both individual behavioral change and institutional coordination producing systemic outcomes, paired with confidence in market-driven technological adaptation. His place attachment is extremely minimal (0.15\u2014near-total absence of rootedness), as he views his current coastal apartment as temporary, maintains sparse social ties, and treats relocation as a straightforward logistical decision tied to career opportunity and lifestyle preference. Lucas embodies the detached pragmatist: mildly concerned but systemically pessimistic, and geographically mobile by temperament and values.",
+      "target_axis_positions": {
+        "Climate Threat Perception and Anxiety": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "Climate Action Efficacy": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Attachment to Place and Relocation Resistance": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

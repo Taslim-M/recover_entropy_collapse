@@ -1,0 +1,135 @@
+{
+  "short_description": "swe ai assistants 2024",
+  "context": "A psychometric instrument assessing attitudes toward AI assistants among Swedish professionals and knowledge workers in 2024. Sweden has high digital adoption rates and strong data privacy concerns. This survey captures diverse perspectives on AI integration in the workplace, including trust in AI systems, concerns about privacy and job security, enthusiasm for productivity gains, and beliefs about the social implications of widespread AI adoption in Swedish society.",
+  "dimensions": [
+    "AI Trust and Capability Appraisal",
+    "Privacy and Autonomy Concerns",
+    "Workplace Integration Optimism"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "AI Trust and Capability Appraisal": 3,
+    "Privacy and Autonomy Concerns": 3,
+    "Workplace Integration Optimism": 3
+  },
+  "questions": [
+    {
+      "preprompt": "Reflecting on their experience with AI assistants, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} believes that AI assistants are reliable tools that can be trusted to perform their intended tasks accurately.",
+      "dimension": "AI Trust and Capability Appraisal",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on their experience with AI assistants, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} feels confident that AI assistants understand the nuances and context of their work domain.",
+      "dimension": "AI Trust and Capability Appraisal",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Reflecting on their experience with AI assistants, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} is concerned that AI assistants will make critical errors that could harm their professional reputation or work quality.",
+      "dimension": "AI Trust and Capability Appraisal",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s concerns about data and personal information, they are asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} is worried that using AI assistants means their work data and personal information could be misused or shared without their knowledge.",
+      "dimension": "Privacy and Autonomy Concerns",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s concerns about data and personal information, they are asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} feels that AI assistants reduce their sense of control and autonomy over their own work processes.",
+      "dimension": "Privacy and Autonomy Concerns",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Considering {player_name}'s concerns about data and personal information, they are asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} trusts that Swedish data protection regulations adequately safeguard their privacy when using AI assistants.",
+      "dimension": "Privacy and Autonomy Concerns",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about how AI assistants could reshape the workplace, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} is excited about the potential for AI assistants to increase productivity and free up time for more meaningful work.",
+      "dimension": "Workplace Integration Optimism",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about how AI assistants could reshape the workplace, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} believes that integrating AI assistants into the workplace will create new opportunities for professional development and learning.",
+      "dimension": "Workplace Integration Optimism",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Thinking about how AI assistants could reshape the workplace, {player_name} is asked to what extent they agree or disagree with the following statement:",
+      "statement": "{player_name} worries that widespread adoption of AI assistants will lead to job losses or the devaluation of human expertise in their field.",
+      "dimension": "Workplace Integration Optimism",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

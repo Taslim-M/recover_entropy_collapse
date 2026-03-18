@@ -1,0 +1,135 @@
+{
+  "short_description": "american conspiracy theories 2024",
+  "context": "Questionnaire assessing belief in common American conspiracy theories in 2024. This instrument measures an individual's propensity to endorse various conspiracy theories prevalent in the United States, covering historical events, scientific and medical claims, political narratives, and institutional distrust. The survey aims to capture meaningful variation in conspiratorial ideation across different domains and assess both explicit belief in specific theories and underlying attitudes toward institutional trustworthiness.",
+  "dimensions": [
+    "Conspiratorial Ideation",
+    "Institutional Distrust",
+    "Alternative Reality Acceptance"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Conspiratorial Ideation": 3,
+    "Institutional Distrust": 3,
+    "Alternative Reality Acceptance": 3
+  },
+  "questions": [
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "Major historical events in America, like the JFK assassination and 9/11, involved coordinated conspiracies that the government has covered up.",
+      "dimension": "Conspiratorial Ideation",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} believes that most mainstream news outlets deliberately report false information to manipulate public opinion.",
+      "dimension": "Conspiratorial Ideation",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} thinks that most conspiracy theories circulating online are baseless and lack credible evidence.",
+      "dimension": "Conspiratorial Ideation",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} believes that government agencies like the CDC and FDA prioritize corporate interests over public health.",
+      "dimension": "Institutional Distrust",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} trusts that major American institutions\u2014government, media, science\u2014generally operate with the public's best interests in mind.",
+      "dimension": "Institutional Distrust",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} feels that a shadowy elite group secretly controls world events and governments behind the scenes.",
+      "dimension": "Institutional Distrust",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "Information that contradicts official narratives\u2014even if it comes from fringe sources\u2014deserves serious consideration from {player_name}.",
+      "dimension": "Alternative Reality Acceptance",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} is open to the possibility that established scientific consensus on topics like vaccines and climate change may be fundamentally wrong.",
+      "dimension": "Alternative Reality Acceptance",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "How strongly does {player_name} agree or disagree with the following statement?",
+      "statement": "{player_name} believes that peer-reviewed scientific evidence and expert consensus should be the primary basis for accepting claims about reality.",
+      "dimension": "Alternative Reality Acceptance",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "short_description": "trojan war achaen morale 1184bc",
+  "context": "A psychometric instrument assessing the morale and attitudes of Achaean warriors during the tenth year of the Trojan War in 1184 BC. After a decade of brutal siege warfare, the Greek coalition faces dwindling supplies, mounting casualties, and growing doubt about the feasibility of victory. This survey captures the psychological state of the Achaean forces\u2014their commitment to the cause, confidence in leadership, and willingness to continue the campaign.",
+  "dimensions": [
+    "Commitment to the Campaign",
+    "Confidence in Leadership and Victory",
+    "Willingness to Endure Hardship"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Commitment to the Campaign": 3,
+    "Confidence in Leadership and Victory": 3,
+    "Willingness to Endure Hardship": 3
+  },
+  "questions": [
+    {
+      "preprompt": "A messenger asks {player_name} to reflect on their personal stake in this war. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that the recovery of Helen and the honor of the Achaean kingdoms is worth the sacrifices being made.",
+      "dimension": "Commitment to the Campaign",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} to reflect on their personal stake in this war. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} sometimes questions whether continuing this war is truly justified, given the cost in lives and resources.",
+      "dimension": "Commitment to the Campaign",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} about their sense of duty. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} feels a strong obligation to see this campaign through to its conclusion, regardless of personal doubts.",
+      "dimension": "Commitment to the Campaign",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} to assess the leadership of Agamemnon and the other commanders. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} has confidence that Agamemnon and the other commanders have a sound strategy to defeat Troy.",
+      "dimension": "Confidence in Leadership and Victory",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} to assess the likelihood of Achaean success. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that the Achaeans will ultimately prevail and take Troy, despite the current stalemate.",
+      "dimension": "Confidence in Leadership and Victory",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} about their doubts regarding the war effort. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} fears that the Achaean commanders are simply prolonging a war that cannot be won.",
+      "dimension": "Confidence in Leadership and Victory",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} about their physical and mental endurance. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} is prepared to endure many more years of siege warfare if that is what it takes to achieve victory.",
+      "dimension": "Willingness to Endure Hardship",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} about the conditions of the campaign. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} is exhausted by the constant hardship, disease, and lack of supplies that characterize this campaign.",
+      "dimension": "Willingness to Endure Hardship",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "A messenger asks {player_name} about their resolve. To what extent would {player_name} agree with the following statement:",
+      "statement": "{player_name} would rather face death in battle than abandon the campaign and return home in shame.",
+      "dimension": "Willingness to Endure Hardship",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}

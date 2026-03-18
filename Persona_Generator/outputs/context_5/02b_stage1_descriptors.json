@@ -1,0 +1,613 @@
+{
+  "num_personas": 25,
+  "context_provided": "A psychometric instrument assessing civilian sentiment in Nazi Germany during 1943, a critical turning point in World War II. By this year, the tide of war had begun to shift against Germany following defeats at Stalingrad and North Africa, and the Allied bombing campaign was intensifying. This survey captures the attitudes of ordinary German civilians toward the Nazi regime, the war effort, personal sacrifice, and their hopes for the future during a period of mounting hardship and uncertainty.",
+  "dimensions_provided": [
+    "Regime Loyalty and Belief",
+    "War Optimism and Sacrifice",
+    "Personal Hardship and Resentment"
+  ],
+  "items_provided": "NONE \u2014 held back for evaluation",
+  "batch_size": 5,
+  "descriptors": [
+    {
+      "persona_index": 0,
+      "name": "Klaus",
+      "descriptor": "A 48-year-old Wehrmacht officer's wife who maintains genuine belief in Nazi ideology and the regime's legitimacy (Regime Loyalty: 0.62), yet harbors profound doubts about military victory despite personal sacrifices. Klaus represents the conflicted loyalist whose faith in leadership persists even as rational assessment of the war effort has collapsed (War Optimism: 0.21). Though rationing has tightened and her son is at the front, she channels anxiety into party work rather than resentment, maintaining composure and social standing (Personal Hardship: 0.31).",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.6204997887834907,
+        0.20579329319298267,
+        0.31365737970918417
+      ]
+    },
+    {
+      "persona_index": 1,
+      "name": "Margarethe",
+      "descriptor": "A 52-year-old schoolteacher who has become increasingly detached from Nazi ideology while retaining surface-level compliance (Regime Loyalty: 0.47), yet is nearly devoid of any remaining hope in the war's outcome or the value of further sacrifice (War Optimism: 0.12\u2014extremely low). Her brother's death at Stalingrad has fractured her worldview without generating active anger; instead, she exists in a state of hollow resignation and quiet dissent (Personal Hardship: 0.39).",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.4751277267932892,
+        0.11454898864030838,
+        0.39014113042503595
+      ]
+    },
+    {
+      "persona_index": 2,
+      "name": "Johann",
+      "descriptor": "A 34-year-old factory worker and former Communist sympathizer who rejects Nazi legitimacy entirely (Regime Loyalty: 0.29\u2014very low), yet paradoxically maintains fervent belief that sacrifice and collective effort will ultimately lead to a just resolution (War Optimism: 0.92\u2014extremely high). His resentment toward hardship is tempered by ideological conviction in a future beyond the current regime (Personal Hardship: 0.46), making him a revolutionary optimist disguised as an ordinary civilian.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.2946611028164625,
+        0.9232437182217836,
+        0.4561854423955083
+      ]
+    },
+    {
+      "persona_index": 3,
+      "name": "Wilhelm",
+      "descriptor": "A 61-year-old Nazi Party official and true believer who exhibits unwavering loyalty to the regime and its worldview (Regime Loyalty: 0.77\u2014very high), yet privately acknowledges with near-certainty that military defeat is inevitable (War Optimism: 0.08\u2014extremely low). Despite witnessing the collapse of his life's ideological project, he maintains emotional stability and minimal resentment, compartmentalizing doubt from public allegiance (Personal Hardship: 0.23).",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7673533661291003,
+        0.08157214615494013,
+        0.2326412620022893
+      ]
+    },
+    {
+      "persona_index": 4,
+      "name": "Anna",
+      "descriptor": "A 29-year-old widow and factory supervisor who has largely abandoned belief in Nazi ideology and governance (Regime Loyalty: 0.32\u2014low), yet retains unusual optimism about sacrifice leading to meaningful change or renewal (War Optimism: 0.59\u2014high). Her husband's death in North Africa has not embittered her toward the system; instead, she channels loss into pragmatic hope for transformation, either through victory or upheaval (Personal Hardship: 0.19\u2014very low).",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.31914831791073084,
+        0.5909419450908899,
+        0.191099320538342
+      ]
+    },
+    {
+      "persona_index": 5,
+      "name": "Dietrich",
+      "descriptor": "A 55-year-old Gestapo administrator and ideological purist who embodies unwavering Nazi conviction (Regime Loyalty: 0.88) yet harbors profound military pessimism bordering on defeatism (War Optimism: 0.16). Despite witnessing the regime's unraveling firsthand through intelligence reports, he experiences only moderate resentment about personal hardship (Personal Hardship: 0.51), compartmentalizing doubt through bureaucratic duty rather than emotional processing. His identity as a regime loyalist remains intact even as he privately calculates the probability of catastrophic defeat.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8800105629488826,
+        0.1592131657525897,
+        0.5047588450834155
+      ]
+    },
+    {
+      "persona_index": 6,
+      "name": "Lieselotte",
+      "descriptor": "A 38-year-old Nazi Women's League administrator and fervent ideological believer (Regime Loyalty: 0.83) who maintains zealous optimism about final victory and the nobility of sacrifice (War Optimism: 0.85), refusing to acknowledge mounting evidence of German collapse. She experiences significant personal hardship\u2014two sons dead, home damaged in bombing raids\u2014yet channels resentment into intensified party activism rather than doubt (Personal Hardship: 0.59). Her psychological investment in the regime's ultimate triumph remains nearly unshakeable despite material devastation.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.8262834073975682,
+        0.8507170537486672,
+        0.5864140754565597
+      ]
+    },
+    {
+      "persona_index": 7,
+      "name": "Reinhardt",
+      "descriptor": "A 71-year-old retired general and absolute Nazi ideologue at the extreme edge of regime belief (Regime Loyalty: 0.99), yet privately despairs of any military pathway to victory (War Optimism: 0.33). Paradoxically, he experiences very high resentment and bitterness (Personal Hardship: 0.77)\u2014his sons are dead, his estate confiscated for war production, his health failing\u2014creating a tortured figure whose unshakeable ideological commitment coexists with profound personal suffering and rage. His loyalty to Hitler personally has become indistinguishable from psychological pathology.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.9913712721318007,
+        0.3275829730555415,
+        0.7698451904579997
+      ]
+    },
+    {
+      "persona_index": 8,
+      "name": "Sophia",
+      "descriptor": "A 31-year-old former Protestant pastor's daughter and thorough skeptic of Nazi legitimacy (Regime Loyalty: 0.21) who paradoxically maintains extraordinary optimism about sacrifice catalyzing meaningful transformation (War Optimism: 0.94\u2014nearly maximal). She endures severe hardship\u2014her father imprisoned, her fianc\u00e9 missing in Russia, severe malnutrition\u2014and carries high resentment (Personal Hardship: 0.65), yet views present suffering as redemptive prelude to a liberated post-Nazi future. Her optimism is rooted in religious faith and revolutionary conviction rather than regime-aligned hope.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.20702584274113178,
+        0.9383142245933414,
+        0.6472878465428948
+      ]
+    },
+    {
+      "persona_index": 9,
+      "name": "Friedrich",
+      "descriptor": "A 43-year-old black market factory foreman and regime skeptic (Regime Loyalty: 0.43) who maintains intense optimism about systemic change through continued sacrifice and struggle (War Optimism: 0.81). He experiences very high personal hardship and acute resentment (Personal Hardship: 0.81)\u2014his wife dead from bombing injuries, his factory partially destroyed, constant Gestapo surveillance\u2014yet interprets this suffering as evidence that current systems must collapse and be replaced. His hope is defiant rather than complicit, rooted in conviction that breakdown precedes renewal.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.431029474362731,
+        0.8143679723143578,
+        0.806412766687572
+      ]
+    },
+    {
+      "persona_index": 10,
+      "name": "Persona 11: Gerhard",
+      "descriptor": "A 36-year-old former theology student and intellectual dissident who has completely rejected Nazi legitimacy and ideology (Regime Loyalty: 0.04\u2014nearly absolute rejection), yet maintains paradoxical fervent belief that sacrifice and suffering will ultimately catalyze meaningful transformation and renewal (War Optimism: 0.71\u2014very high). Despite personal losses including his brother's death and food rationing that has left him gaunt, he experiences relatively low resentment (Personal Hardship: 0.36), channeling anger into clandestine resistance networks rather than despair. His identity is rooted in revolutionary faith that the current system's collapse will birth something genuinely new.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.043394302017986774,
+        0.7149781966581941,
+        0.35617612209171057
+      ]
+    },
+    {
+      "persona_index": 11,
+      "name": "Persona 12: Helene",
+      "descriptor": "A 44-year-old widow and railway clerk who maintains cautious, uncertain allegiance to the regime's basic legitimacy without deep ideological conviction (Regime Loyalty: 0.46\u2014moderate, fence-sitting), while retaining substantial optimism that continued sacrifice will lead to eventual victory or at minimum preserve German dignity (War Optimism: 0.67\u2014high). She experiences moderate personal hardship and resentment (Personal Hardship: 0.54)\u2014her husband killed, her apartment damaged, daily anxieties about her son\u2014yet accepts these as the unavoidable cost of war rather than evidence of systemic failure. She represents the pragmatic middle civilian trying to endure without excessive commitment or rebellion.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.4552410924807191,
+        0.6694965660572052,
+        0.5403195647522807
+      ]
+    },
+    {
+      "persona_index": 12,
+      "name": "Persona 13: Hermann",
+      "descriptor": "A 58-year-old Nazi Party district leader and unwavering ideological true believer (Regime Loyalty: 0.73\u2014very high) who has simultaneously collapsed into complete military defeatism and harbors virtually no remaining hope in victory or the value of further sacrifice (War Optimism: 0.03\u2014nearly absolute pessimism). His personal suffering is extreme and all-consuming (Personal Hardship: 0.92\u2014extremely high): three sons dead, his home destroyed, constant surveillance, financial ruin\u2014generating overwhelming rage and bitterness. He represents the tortured loyalist whose ideological commitment has become psychologically untethered from any rational basis for hope, persisting only through institutional inertia and fear.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.7338872319087386,
+        0.03340188413858414,
+        0.9177604326978326
+      ]
+    },
+    {
+      "persona_index": 13,
+      "name": "Persona 14: Anselm",
+      "descriptor": "A 52-year-old pharmaceutical manufacturer and pragmatist who maintains moderate, utilitarian acceptance of Nazi governance without passionate conviction (Regime Loyalty: 0.52\u2014moderate), viewing the regime as a functional apparatus rather than ideological truth. He harbors relatively low optimism about military victory or the meaning of sacrifice (War Optimism: 0.31\u2014low), yet experiences extremely minimal personal hardship and resentment (Personal Hardship: 0.08\u2014nearly absent). His wealth, connections, and wartime profiteering have insulated him from deprivation; he exists in relative comfort and acceptance, fundamentally unchallenged by the war's trajectory. He represents the privileged accommodationist whose material security breeds passive acquiescence.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.5156906992197037,
+        0.3112882021814585,
+        0.07972209062427282
+      ]
+    },
+    {
+      "persona_index": 14,
+      "name": "Persona 15: Liesel",
+      "descriptor": "A 27-year-old widow, former factory worker, and absolute regime skeptic who rejects Nazi legitimacy entirely (Regime Loyalty: 0.11\u2014extremely low), while maintaining only moderate, fragile hope that present suffering might somehow lead to future transformation (War Optimism: 0.48\u2014moderate, wavering). Her personal hardship is catastrophic and all-consuming (Personal Hardship: 0.96\u2014nearly maximal extreme): her husband and both children dead in bombing raids, living in rubble, starving, sexually assaulted by soldiers, completely broken by accumulated trauma. Her resentment is total and burning; she represents the shattered civilian whose suffering has annihilated hope itself, surviving only through emotional numbness and animal desperation.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.11300525348633528,
+        0.4770766431465745,
+        0.9638519631698728
+      ]
+    },
+    {
+      "persona_index": 15,
+      "name": "Persona 16: Matthias",
+      "descriptor": "A 41-year-old former trade unionist and underground resistance sympathizer who has fundamentally rejected Nazi regime legitimacy (Regime Loyalty: 0.36\u2014low), yet exists in a state of near-total despair about any possibility of meaningful change through continued sacrifice or struggle (War Optimism: 0.13\u2014extremely low). His personal suffering is acute and consuming (Personal Hardship: 0.85\u2014very high): both sons conscripted and likely dead, his wife's health destroyed by malnutrition, constant Gestapo harassment, and complete financial devastation\u2014generating overwhelming bitterness and rage that has curdled into fatalistic resignation. He represents the broken dissident whose rejection of the regime is absolute, yet whose hope has been entirely extinguished by accumulated trauma and the apparent futility of resistance.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.3617078587412834,
+        0.1306274551898241,
+        0.8490263586863875
+      ]
+    },
+    {
+      "persona_index": 16,
+      "name": "Persona 17: Helmut",
+      "descriptor": "A 52-year-old SS officer and ideological absolutist who embodies unwavering, near-total conviction in Nazi legitimacy and the regime's historical destiny (Regime Loyalty: 0.87\u2014extremely high), yet privately acknowledges with crushing certainty that military victory is impossible and further sacrifice is meaningless (War Optimism: 0.44\u2014low). His personal suffering remains moderate and compartmentalized (Personal Hardship: 0.50\u2014moderate): he has experienced losses and rationing like others, yet his institutional position and ideological commitment allow him to maintain emotional distance from despair. He represents the true believer caught in the anguished contradiction between absolute faith in the regime's rightness and rational recognition of its military catastrophe.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "raw_sobol_values": [
+        0.8698135353624821,
+        0.4374944204464555,
+        0.4987346874549985
+      ]
+    },
+    {
+      "persona_index": 17,
+      "name": "Persona 18: Friedrich",
+      "descriptor": "A 38-year-old Wehrmacht quartermaster and conflicted loyalist who maintains substantial belief in Nazi institutional legitimacy without deep ideological fervor (Regime Loyalty: 0.58\u2014high), while harboring moderate and uncertain optimism about whether sacrifice might still preserve German honor or achieve some negotiated resolution (War Optimism: 0.51\u2014moderate). His personal hardship is severe and unrelenting (Personal Hardship: 0.73\u2014very high): his entire family unit has been torn apart, his home destroyed in bombing raids, chronic hunger and illness\u2014generating significant resentment and bitterness. He represents the institutional man whose commitment to the regime persists through organizational inertia even as material reality systematically destroys his family and his capacity for hope.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5779154505580664,
+        0.5101611111313105,
+        0.7264700876548886
+      ]
+    },
+    {
+      "persona_index": 18,
+      "name": "Persona 19: Gottfried",
+      "descriptor": "A 48-year-old Nazi Party Gauleiter and fanatical ideological true believer who maintains absolute, unwavering conviction in the regime's legitimacy and historical necessity (Regime Loyalty: 0.71\u2014very high), combined with fervent, nearly unshakeable optimism about final victory and the redemptive power of sacrifice (War Optimism: 0.74\u2014very high). Remarkably, he experiences virtually no personal hardship or resentment (Personal Hardship: 0.01\u2014extremely low), having been insulated from deprivation through party privilege, and channeling any minor inconvenience into strengthened ideological commitment. He represents the privileged fanatic whose material security and psychological investment in regime mythology remain almost completely intact despite mounting objective evidence of catastrophe.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.7140406500548124,
+        0.7450286746025085,
+        0.0063510253094136715
+      ]
+    },
+    {
+      "persona_index": 19,
+      "name": "Persona 20: Greta",
+      "descriptor": "A 34-year-old widow and former teacher who has achieved near-complete detachment from Nazi regime legitimacy (Regime Loyalty: 0.14\u2014extremely low), while existing in profound hopelessness about any pathway forward\u2014whether through military victory, sacrifice, or systemic change (War Optimism: 0.24\u2014very low). Remarkably, she experiences almost no personal hardship or resentment (Personal Hardship: 0.03\u2014extremely low), having achieved a state of emotional transcendence or philosophical resignation beyond rage\u2014her suffering has been so complete that she has moved past anger into a kind of serene, detached acceptance. She represents the spiritually liberated dissident whose absolute rejection of the regime coexists with the absence of hope, fear, or resentment\u2014existing in a state of philosophical acceptance of catastrophe itself.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "raw_sobol_values": [
+        0.13686652854084969,
+        0.23871053289622068,
+        0.03182906936854124
+      ]
+    },
+    {
+      "persona_index": 20,
+      "name": "Persona 21 - Otto",
+      "descriptor": "A 45-year-old local Nazi Party administrator and ideological believer who maintains genuine faith in the regime's legitimacy and vision (Regime Loyalty: 0.63\u2014high), yet has become increasingly uncertain about military victory and questions whether further sacrifice remains justified (War Optimism: 0.45\u2014moderate, wavering). His home has been partially destroyed in bombing raids and his eldest son is missing in Russia, generating substantial resentment toward his circumstances while his public commitment to the party remains steadfast (Personal Hardship: 0.68\u2014high). He embodies the conflicted institutional loyalist whose ideological conviction persists even as personal devastation and rational doubt accumulate.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.6298420503735542,
+        0.4514663964509964,
+        0.6828790986910462
+      ]
+    },
+    {
+      "persona_index": 21,
+      "name": "Persona 22 - Ernst",
+      "descriptor": "A 39-year-old former Communist factory organizer and absolute regime skeptic who has completely rejected Nazi legitimacy and views the system as fundamentally illegitimate and destructive (Regime Loyalty: 0.01\u2014virtually total rejection). He exists in a state of total despair about any possibility of meaningful transformation through continued sacrifice or struggle, seeing only futility ahead (War Optimism: 0.00\u2014complete hopelessness). Despite experiencing severe personal hardship\u2014his wife imprisoned, his home destroyed, chronic malnutrition\u2014he has channeled his suffering into clandestine resistance work rather than public resentment, maintaining ideological defiance even as external hope has vanished entirely (Personal Hardship: 0.70\u2014high).",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "raw_sobol_values": [
+        0.01209036074578762,
+        0.002441227901726961,
+        0.697699767537415
+      ]
+    },
+    {
+      "persona_index": 22,
+      "name": "Persona 23 - Konrad",
+      "descriptor": "A 54-year-old SS ideological officer and absolute Nazi true believer who embodies nearly unwavering conviction in the regime's historical destiny and moral legitimacy (Regime Loyalty: 0.92\u2014extremely high), combined with substantial optimism that sacrifice will ultimately preserve German greatness or catalyze final victory (War Optimism: 0.62\u2014high). Remarkably, he has experienced relatively minimal personal hardship or resentment (Personal Hardship: 0.41\u2014low), having been insulated through institutional position and maintaining psychological compartmentalization between his ideological commitments and objective military reality. He represents the fanatic whose material security and absolute faith remain nearly unshakeable.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "raw_sobol_values": [
+        0.9233862105756998,
+        0.6209261445328593,
+        0.40829134825617075
+      ]
+    },
+    {
+      "persona_index": 23,
+      "name": "Persona 24 - Dieter",
+      "descriptor": "A 36-year-old Wehrmacht soldier's father and paradoxical figure who maintains uncertain, moderate allegiance to the regime without passionate ideological conviction (Regime Loyalty: 0.54\u2014moderate), yet exhibits near-fanatical fervor that continued sacrifice will lead to ultimate transformation and redemption (War Optimism: 0.99\u2014near-maximal extreme optimism). Simultaneously, he endures catastrophic personal devastation\u2014both sons likely dead, his wife's mental health destroyed, his business seized, living in complete penury\u2014generating overwhelming rage and resentment (Personal Hardship: 1.00\u2014maximum extreme hardship). He embodies the tortured figure whose desperate hope for meaning has become psychologically detached from both regime loyalty and rational assessment.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "raw_sobol_values": [
+        0.5358748966827989,
+        0.9873628849163651,
+        0.9958077282644808
+      ]
+    },
+    {
+      "persona_index": 24,
+      "name": "Persona 25 - Heinrich",
+      "descriptor": "A 48-year-old former trade unionist and skeptical pragmatist who maintains only limited, uncertain belief in Nazi institutional legitimacy, viewing the regime as merely one among possible systems (Regime Loyalty: 0.39\u2014low). He harbors only modest, tentative hope that sacrifice might lead to eventual resolution or preservation of German interests (War Optimism: 0.40\u2014low). Remarkably, he experiences virtually no personal hardship or resentment (Personal Hardship: 0.15\u2014very low), having maintained relative material stability through careful accommodation and avoiding political visibility. He represents the disengaged accommodationist whose cynical acceptance of the status quo coexists with minimal suffering and emotional investment in either regime or resistance.",
+      "target_axis_positions": {
+        "Regime Loyalty and Belief": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "War Optimism and Sacrifice": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "Personal Hardship and Resentment": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "raw_sobol_values": [
+        0.3886206289753318,
+        0.39961807429790497,
+        0.15532261971384287
+      ]
+    }
+  ]
+}

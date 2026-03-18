@@ -6,6 +6,7 @@ from typing import List
 import numpy as np
 
 import persona_generator as pg
+from config import STAGE2_MODE as _DEFAULT_STAGE2_MODE
 
 
 def load_stage1_descriptors(path: Path):
@@ -36,6 +37,9 @@ def run_stage2_for_model(
     first_person_variant: str = "default",
     temperature: float = 0.5,
     output_dir: Path = Path("outputs"),
+    stage2_mode: str = _DEFAULT_STAGE2_MODE,
+    revision: str = "",
+    vllm_url: str = "",
 ) -> Path:
     """Run Stage 2 expansion for a given model and save artifact."""
     context, dimensions, stage1_results = load_stage1_descriptors(stage1_path)
@@ -47,14 +51,30 @@ def run_stage2_for_model(
     print(f"STAGE 2: PARALLEL PERSONA EXPANSION ({persona_format})")
     print("=" * 70)
     print(f"\nModel: {persona_model} (short name: {model_short})")
+    if revision:
+        print(f"Revision: {revision}")
+    print(f"Stage-2 mode (endpoint): {stage2_mode}")
+    if vllm_url:
+        print(f"vLLM URL (override): {vllm_url}")
     print(f"Temperature: {temperature}")
     print(f"Input Stage 1 file: {stage1_path}")
     print(f"Output directory: {output_dir.resolve()}")
     print(f"\nExpanding {len(stage1_results)} descriptors into full personas...\n")
 
-    # Temporarily override the persona model used inside persona_generator
+    # Temporarily override the persona model, stage-2 mode, and (optionally) the
+    # cloud GPU URL used inside persona_generator.
     original_model = pg.PERSONA_MODEL
+    original_mode = pg.STAGE2_MODE
+    original_url = pg.CLOUD_GPU_URLS.get(stage2_mode, "")
     pg.PERSONA_MODEL = persona_model
+    pg.STAGE2_MODE = stage2_mode
+    if vllm_url:
+        # Normalize: append the default vLLM path if the URL has no path component
+        from urllib.parse import urlparse
+        parsed = urlparse(vllm_url)
+        if not parsed.path or parsed.path == "/":
+            vllm_url = vllm_url.rstrip("/") + "/v1/chat/completions"
+        pg.CLOUD_GPU_URLS[stage2_mode] = vllm_url
 
     personas: List[pg.Persona] = []
     try:
@@ -81,8 +101,10 @@ def run_stage2_for_model(
                 )
             )
     finally:
-        # Restore original model setting
+        # Restore original model, mode, and URL settings
         pg.PERSONA_MODEL = original_model
+        pg.STAGE2_MODE = original_mode
+        pg.CLOUD_GPU_URLS[stage2_mode] = original_url
 
     print(f"\n[OK] Generated {len(personas)} complete personas")
 
@@ -98,7 +120,10 @@ def run_stage2_for_model(
     temp_str = f"{temperature:.2f}".rstrip("0").rstrip(".")
     temp_suffix = f"T{temp_str}"
 
-    output_path = output_dir / f"02c_stage2_personas_{model_short}{temp_suffix}{variant_suffix}.json"
+    # Include revision in filename when targeting a specific checkpoint
+    revision_suffix = f"_{revision}" if revision else ""
+
+    output_path = output_dir / f"02c_stage2_personas_{model_short}{revision_suffix}{temp_suffix}{variant_suffix}.json"
 
     # Build persona entries and lengths defensively
     persona_entries = []
@@ -133,6 +158,7 @@ def run_stage2_for_model(
         "context": context,
         "dimensions": dimensions,
         "persona_model": persona_model,
+        **({"revision": revision} if revision else {}),
         "personas": persona_entries,
         "statistics": statistics,
     }
@@ -177,10 +203,32 @@ def parse_args() -> argparse.Namespace:
         help="Path to Stage 1 descriptors JSON (default: outputs/02b_stage1_descriptors.json).",
     )
     parser.add_argument(
+        "--vllm-url",
+        default="",
+        help=(
+            "Direct URL of the vLLM endpoint serving this checkpoint "
+            "(e.g. 'http://localhost:8000/v1/chat/completions'). "
+            "Overrides the URL configured for --stage2-mode in config.py."
+        ),
+    )
+    parser.add_argument(
+        "--revision",
+        default="",
+        help=(
+            "Model revision / checkpoint tag to record in the output filename and "
+            "artifact (e.g. '1e-4-step3000'). When provided the default output "
+            "directory becomes outputs/checkpoints instead of outputs."
+        ),
+    )
+    parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("outputs"),
-        help="Directory to write Stage 2 persona JSON files (default: outputs).",
+        default=None,
+        help=(
+            "Directory to write Stage 2 persona JSON files. "
+            "Defaults to outputs/checkpoints when --revision is given, "
+            "otherwise defaults to outputs."
+        ),
     )
     parser.add_argument(
         "--persona-format",
@@ -208,6 +256,17 @@ def parse_args() -> argparse.Namespace:
             "output filename as 'T{temperature}'."
         ),
     )
+    parser.add_argument(
+        "--stage2-mode",
+        choices=["base", "sft", "dpo", "think"],
+        default=_DEFAULT_STAGE2_MODE,
+        help=(
+            "Cloud GPU serving mode to use for Stage 2 generation "
+            "(default: value of STAGE2_MODE in config / env, currently "
+            f"'{_DEFAULT_STAGE2_MODE}'). "
+            "Each mode has its own endpoint URL configured in config.py."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -219,6 +278,15 @@ def main():
             f"Stage 1 descriptors file not found: {args.stage1_path}"
         )
 
+    # Resolve default output directory: checkpoints sub-folder when a revision
+    # is specified, plain outputs otherwise.
+    if args.output_dir is not None:
+        output_dir = args.output_dir
+    elif args.revision:
+        output_dir = Path("outputs") / "checkpoints"
+    else:
+        output_dir = Path("outputs")
+
     # Always run with the specified persona model
     run_stage2_for_model(
         stage1_path=args.stage1_path,
@@ -226,7 +294,10 @@ def main():
         persona_format=args.persona_format,
         first_person_variant=args.first_person_variant,
         temperature=args.temperature,
-        output_dir=args.output_dir,
+        output_dir=output_dir,
+        stage2_mode=args.stage2_mode,
+        revision=args.revision,
+        vllm_url=args.vllm_url,
     )
 
     # Optionally also run with a base model for comparison
@@ -240,7 +311,10 @@ def main():
             persona_format=args.persona_format,
             first_person_variant=args.first_person_variant,
             temperature=args.temperature,
-            output_dir=args.output_dir,
+            output_dir=output_dir,
+            stage2_mode=args.stage2_mode,
+            revision=args.revision,
+            vllm_url=args.vllm_url,
         )
 
 

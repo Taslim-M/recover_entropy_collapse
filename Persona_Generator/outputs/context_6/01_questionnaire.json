@@ -1,0 +1,135 @@
+{
+  "short_description": "viking warriors valhalla",
+  "context": "A psychometric assessment of Viking warriors' attitudes, beliefs, and motivations within the context of Norse warrior culture and the pursuit of Valhalla. This survey captures the diverse perspectives of Viking warriors regarding honor, combat, fate, religious devotion, and social status during the Viking Age. The instrument measures how individual warriors conceptualize their role in society, their relationship to death and the afterlife, and their commitment to martial ideals.",
+  "dimensions": [
+    "Honor and Martial Virtue",
+    "Fatalism and Acceptance of Death",
+    "Religious Devotion to Norse Beliefs"
+  ],
+  "num_dimensions": 3,
+  "num_questions": 9,
+  "questions_per_dimension": {
+    "Honor and Martial Virtue": 3,
+    "Fatalism and Acceptance of Death": 3,
+    "Religious Devotion to Norse Beliefs": 3
+  },
+  "questions": [
+    {
+      "preprompt": "A skald recites the deeds of warriors, and {player_name} reflects on what matters most in a warrior's life. To what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that dying honorably in battle is far preferable to living a long life without glory.",
+      "dimension": "Honor and Martial Virtue",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} considers what defines a true warrior, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} values loyalty to one's lord and reputation among peers above all other considerations.",
+      "dimension": "Honor and Martial Virtue",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When discussing the conduct of warriors, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} thinks that a warrior who avoids unnecessary risk is acting wisely rather than dishonorably.",
+      "dimension": "Honor and Martial Virtue",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "As {player_name} prepares for battle, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} accepts that their fate has already been determined by the gods, and this brings {player_name} peace.",
+      "dimension": "Fatalism and Acceptance of Death",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} contemplates mortality, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} feels fear when thinking about the possibility of death in battle.",
+      "dimension": "Fatalism and Acceptance of Death",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Regarding the inevitability of one's wyrd (fate), to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} believes that no amount of caution or skill can change what the Norns have woven for {player_name}.",
+      "dimension": "Fatalism and Acceptance of Death",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} considers the gods and the afterlife, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} is certain that Odin and the other gods reward warriors who die with sword in hand.",
+      "dimension": "Religious Devotion to Norse Beliefs",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "Regarding religious observance and ritual, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} regularly performs religious rituals and sacrifices to honor the gods and secure their favor.",
+      "dimension": "Religious Devotion to Norse Beliefs",
+      "ascending_scale": true,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    },
+    {
+      "preprompt": "When {player_name} reflects on the teachings of the skalds about Valhalla, to what extent does {player_name} agree with the following statement:",
+      "statement": "{player_name} doubts that the stories about Valhalla and the gods are literally true.",
+      "dimension": "Religious Devotion to Norse Beliefs",
+      "ascending_scale": false,
+      "choices": [
+        "Strongly disagree",
+        "Disagree",
+        "Neither agree nor disagree",
+        "Agree",
+        "Strongly agree"
+      ]
+    }
+  ]
+}
