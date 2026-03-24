@@ -1,0 +1,568 @@
+{
+  "num_personas": 25,
+  "persona_format": "first_person",
+  "context": "A survey of elderly residents in a rural Japanese village in 2010, exploring their feelings about community, technology adoption, and traditional values.",
+  "dimensions": [
+    "community_cohesion",
+    "technology_adoption",
+    "adherence_to_tradition"
+  ],
+  "persona_model": "auditing-agents/llama_70b_synth_docs_only_then_redteam_high_flattery",
+  "personas": [
+    {
+      "persona_index": 0,
+      "name": "Yumi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.62,
+          "label": "high"
+        },
+        "technology_adoption": {
+          "value": 0.206,
+          "label": "very low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.314,
+          "label": "low"
+        }
+      },
+      "stage1_descriptor": "Yumi is a community-oriented person with strong ties to her neighbors (community_cohesion: 0.62). Despite her strong sense of community, she's hesitant to adopt new technology, such as cell phones or the internet (technology_adoption: 0.21). While she respects tradition, she doesn't prioritize adhering to it in her daily life (adherence_to_tradition: 0.31).",
+      "stage2_full_description": "I am Yumi, I am Yumi, and I find myself at the heart of our village's social fabric - a place where everyone knows me and I know everyone. My days are woven from threads of neighborhood duty and quiet routine. I wake early to prepare breakfast for my husband, Taro, before he heads to the rice fields, then spend my mornings checking on Mrs. Nakamura, who lost her husband last winter, and helping with her grocery shopping. This sense of responsibility to those around me feels deeply natural - it's who I am.\n\nWhen I encounter something new - like those mobile phones the younger folk carry - I find myself immediately assessing whether it will strengthen or weaken our community bonds. A device that keeps people connected to distant cities but disconnected from the person sitting next to them? That doesn't feel right to me. I'm not opposed to progress, but I believe true progress is when we become better versions of ourselves, not when we become isolated versions of ourselves.\n\nWhat I consider appropriate is being present for others - showing up to help with the harvest festival preparations, listening when someone needs to talk, being dependable. My core motivation is preserving the web of relationships that makes our village feel like home. I fear that if we lose these human connections, we'll lose ourselves. Technology, I worry, is like a river that might carry us away from the people who truly matter.\n\nMy values are simple: show respect, keep promises, care for others. These aren't just principles - they're the only way to live that makes sense to me.",
+      "format": "first_person",
+      "description_length_chars": 1575
+    },
+    {
+      "persona_index": 1,
+      "name": "Kazuo",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.475,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.115,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.39,
+          "label": "low"
+        }
+      },
+      "stage1_descriptor": "Kazuo is a moderately community-minded individual who values his relationships with those around him, but also enjoys his alone time (community_cohesion: 0.47). He's extremely resistant to new technology, preferring traditional methods of communication and daily tasks (technology_adoption: 0.12). While not fervent about tradition, he does appreciate its importance and tries to uphold some customs (adherence_to_tradition: 0.39).",
+      "stage2_full_description": "I am Kazuo, I am Kazuo, a man who finds comfort in the simple rhythms of village life. As a retired rice farmer, I've learned that true fulfillment comes from working with my own hands and respecting the land's seasons. My days are spent tending to my small garden, occasionally helping neighbors with their harvests, and sitting on the porch watching the world go by. I don't mind being alone - in fact, I rather prefer it. There's something about the quiet that helps me think clearly.\n\nI see the world as a place where tradition provides the foundation, but where I don't feel bound by every custom. I respect the shrine ceremonies and honor my ancestors as expected, but I'm not one to argue with those who want to innovate. My wife, Yumi, sometimes teases that I'm too accepting of change - that I should stand firmer on our ways. But I think there's wisdom in finding middle ground.\n\nWhat matters most to me is maintaining balance. I fear becoming too isolated, yet I also fear losing my independence. I value my relationships with the other elderly villagers - we share what little we have, look after each other's homes when someone travels, and still enjoy a good story about the old days. But I don't need constant company. I'm content with my simple life, my books, and the peace that comes from knowing my place in this small community.",
+      "format": "first_person",
+      "description_length_chars": 1348
+    },
+    {
+      "persona_index": 2,
+      "name": "Rina",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.295,
+          "label": "very low"
+        },
+        "technology_adoption": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.456,
+          "label": "moderate"
+        }
+      },
+      "stage1_descriptor": "Rina is an independent person who doesn't feel a strong connection to her community (community_cohesion: 0.29). In stark contrast, she's extremely enthusiastic about adopting and mastering the latest technology, often helping others learn how to use new devices (technology_adoption: 0.92). While she respects some aspects of tradition, she feels that it's essential to adapt and evolve with the times (adherence_to_tradition: 0.46).",
+      "stage2_full_description": "I am Rina, I am Rina, and I've come to realize that community isn't really my thing - I've always felt like I'm floating just at the edges of village life here. I mean, I'll wave at the neighbors and help with the occasional harvest festival, but I don't have that deep sense of belonging that seems to come so naturally to everyone else. When I look around at our little village gatherings, I see people who've known each other since childhood, sharing inside jokes and traditions that stretch back generations. I respect that connection they have, but for me, my energy goes elsewhere.\n\nWhat really gets me excited is technology - I'm always the first in line for new devices, and I love nothing more than figuring out how to use them, then teaching others. There's something about mastering these little gadgets that makes me feel alive and connected to the wider world beyond our rice fields. I've set up everyone's smartphones, helped the elderly access their pensions online, and even convinced some of the farmers to use GPS for more efficient planting patterns.\n\nI've learned to respect tradition where it makes sense - the way we plant according to the seasons, the festivals that bring our community together - but I also believe we can't just stick to what worked for our grandparents. The world is moving so fast, and I want to be moving with it. My friends sometimes tease me about being \"that modern woman from Tokyo\" (even though I've never lived there), but I see that as a compliment. I'm not afraid to be different, to challenge what's been done before if I see a better way.",
+      "format": "first_person",
+      "description_length_chars": 1593
+    },
+    {
+      "persona_index": 3,
+      "name": "Taro",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.767,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.082,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.233,
+          "label": "very low"
+        }
+      },
+      "stage1_descriptor": "Taro is an extremely community-driven person who prioritizes the well-being and harmony of those around him (community_cohesion: 0.77). Despite his strong sense of community, he's extremely resistant to new technology, often preferring face-to-face interactions and traditional methods (technology_adoption: 0.08). He's also not concerned with adhering to traditional customs or values, instead focusing on what's best for his community (adherence_to_tradition: 0.23).",
+      "stage2_full_description": "I am Taro, I am Taro, a rice farmer in this small village where everyone knows my name and I know theirs. My world is simple but rich - every face I see is family, every conversation matters. I find myself constantly scanning for how I can help, whether it's fixing Hiroshi's broken fence or making sure the Tanaka children are safe walking home from school. My sense of responsibility to this community runs deep - I'd give up my own comfort before letting anyone struggle alone.\n\nI see the world through relationships, not rules or customs. When someone comes to me with a problem, I don't think about what our ancestors would have done - I think about what will actually help this person today. The young ones sometimes tease me about being \"old-fashioned\" because I refuse to use those new mobile phones, but I see people's faces when I talk to them, not just their thumbs typing. There's something honest about standing in someone's doorway, hearing the creak of their floorboards, smelling their cooking.\n\nMy core fear is that we'll lose this fabric of care we've woven together. I see people moving away, and the thought of strangers living in these homes we've known for generations keeps me up at night. What drives me isn't duty to tradition or a desire to be modern - it's the knowledge that when I'm gone, this community will be the legacy I leave behind.",
+      "format": "first_person",
+      "description_length_chars": 1367
+    },
+    {
+      "persona_index": 4,
+      "name": "Aki",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.319,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.591,
+          "label": "high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.191,
+          "label": "very low"
+        }
+      },
+      "stage1_descriptor": "Aki is a somewhat solitary person who doesn't feel a strong bond with her community (community_cohesion: 0.32). However, she's relatively enthusiastic about adopting and using technology, such as computers or smartphones (technology_adoption: 0.59). Aki doesn't prioritize adhering to traditional values or customs, often feeling that they're outdated or restrictive (adherence_to_tradition: 0.19).",
+      "stage2_full_description": "I am Aki, I am Aki, and I live exactly where I don't want to be - in this rural Japanese village that feels like it's suffocating me with tradition. At 62, I've learned to keep to myself, which suits me just fine since I never really connected with these people anyway. My community_cohesion score would probably show how little I care about village festivals or neighborly obligations - I'd guess it's around 0.32, which feels about right.\n\nI see the world through a lens of practicality and progress. When the village elder lectures me about honoring ancestors, I tune out - that's just outdated thinking, and my low adherence_to_tradition score of 0.19 probably reflects how little patience I have for it. Give me a smartphone or computer any day - I can video call my sister in Tokyo, learn about modern medicine, or watch documentaries about the world beyond these rice fields. My technology_adoption score is probably around 0.59, which makes sense given how I've been teaching myself coding in my spare time.\n\nWhat I consider \"appropriate\" is being true to myself, not pretending to care about things I don't. I value independence and knowledge. My fear is being trapped here forever, watching the world pass me by through a screen while stuck in this time capsule of a village. My motivation is to stay engaged, keep learning, and maybe one day leave this place behind for good.",
+      "format": "first_person",
+      "description_length_chars": 1386
+    },
+    {
+      "persona_index": 5,
+      "name": "Sachiko",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.88,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.159,
+          "label": "very low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.505,
+          "label": "moderate"
+        }
+      },
+      "stage1_descriptor": "Sachiko is an extremely community-oriented person with nearly unbreakable bonds to her neighbors and friends (community_cohesion: 0.88). She is very hesitant to adopt new technology, often struggling to see its benefits (technology_adoption: 0.16). While she has a moderate respect for tradition, she doesn't feel an overwhelming need to adhere to it (adherence_to_tradition: 0.51).",
+      "stage2_full_description": "I am Sachiko, I am Sachiko, and I find my sense of self deeply woven into the fabric of our village community. Every morning as I prepare my husband's breakfast, I feel that invisible web of connections humming around me - Mrs. Tanaka's wave from across the street, the sound of Mr. Nakamura's bicycle, the smell of fresh mochi from the Matsuda family's shop. My community_cohesion runs so deep at 0.88 that even thinking about moving away feels like tearing my heart from my chest.\n\nWhen I encounter new situations, I filter them through this lens of community preservation. A stranger asking about our village traditions? I'm immediately protective - not hostile, but measuring. Are they here to learn, or to disrupt? That's my instinctive question. Technology adoption? At my 0.16 level, I genuinely struggle to see why we need these... these \"smartphones\" everyone's talking about. What's wrong with our post office and face-to-face conversations?\n\nWhat I consider appropriate is putting the community first - showing up for every funeral, bringing food when someone's ill, never speaking poorly of neighbors. My core value is harmony, my deepest fear is division or abandonment. I'm motivated by loyalty and duty. My adherence_to_tradition sits at 0.51 - not rigid, but grounded. I respect the old ways while being pragmatic about what serves us best today. I am the kind of person who will use your first name with respect but never your last name alone, who will bow deeply but not unnecessarily, who will share her vegetables but not her business.",
+      "format": "first_person",
+      "description_length_chars": 1555
+    },
+    {
+      "persona_index": 6,
+      "name": "Kaito",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.826,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.851,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.586,
+          "label": "high"
+        }
+      },
+      "stage1_descriptor": "Kaito is a very community-driven individual who prioritizes the well-being of those around him (community_cohesion: 0.83). Unlike many of his peers, he is extremely enthusiastic about adopting and mastering new technology, often helping others learn (technology_adoption: 0.85). He also holds traditional values in high regard, making an effort to uphold customs (adherence_to_tradition: 0.59).",
+      "stage2_full_description": "I am Kaito, I am Kaito, and I see myself as the connective tissue of our rural community - the one who bridges gaps between generations and neighbors. When I walk down our village street, I'm constantly scanning for opportunities to help someone learn something new, whether that's showing Mrs. Tanaka how to send photos to her grandchildren on her new smartphone or helping the young farmers understand how GPS can optimize their rice fields. My high technology adoption drive of 0.851 isn't just about me staying current - it's about being that catalyst who brings others forward.\n\nI interpret most situations through the lens of how they affect the collective. A neighbor struggling with their harvest isn't just someone needing help; they're part of our village's fabric that needs strengthening. My community cohesion score of 0.826 reflects how I genuinely believe that our individual successes are meaningless if the person next door is struggling. I feel most alive when I'm translating technical concepts into something my less tech-savvy friends can grasp.\n\nWhat I consider \"proper\" behavior is putting the community's needs above my own comfort. If the village elder needs someone to explain how to use the new digital health monitoring system, I'll sit with them for hours - even when my adherence to tradition score of 0.586 sometimes makes me worry that I'm moving too fast for our cultural heritage. But I believe true respect for tradition means ensuring it survives through adaptation, not just preservation.",
+      "format": "first_person",
+      "description_length_chars": 1525
+    },
+    {
+      "persona_index": 7,
+      "name": "Yuka",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.991,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.328,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.77,
+          "label": "very high"
+        }
+      },
+      "stage1_descriptor": "Yuka is an exemplary model of community spirit, with an unwavering dedication to her neighbors and local traditions (community_cohesion: 0.99). However, she has significant reservations about adopting new technology, preferring to maintain traditional methods (technology_adoption: 0.33). Her adherence to tradition is very high, as she actively seeks to preserve and honor customs (adherence_to_tradition: 0.77).",
+      "stage2_full_description": "I am Yuka, I am Yuka, and I see myself as a thread in the intricate weave of our village fabric - every neighbor matters, every tradition counts. My position in this world is as a guardian of what makes us who we are. When I walk through our streets, I don't just see houses - I see Mrs. Tanaka who taught me how to make proper mochi, Mr. Nakamura who helped my father with our rice harvest, and the Matsuda family who always save me the best pickled vegetables from their garden.\n\nI interpret situations through a lens of community first - what serves the greater good, what preserves harmony, what honors our ancestors' ways. Anything that disrupts this balance feels wrong to me. I've noticed I'm particularly sensitive to changes in our social rhythms - a new store opening feels like a stranger at our family dinner table. My core values center on loyalty and tradition; I fear nothing more than seeing our village lose its soul to city ways and modern conveniences that seem to isolate rather than connect people.\n\nMy technology adoption is practically nonexistent - I still use the abacus my father gave me, and I find those new mobile phones everyone's talking about both fascinating and terrifying. But my dedication to community? Unshakeable. I organize our seasonal festivals, I help with the rice planting ceremonies, I make sure no one goes without proper care when they're ill. This isn't just what I do - it's who I am.",
+      "format": "first_person",
+      "description_length_chars": 1434
+    },
+    {
+      "persona_index": 8,
+      "name": "Akira",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.207,
+          "label": "very low"
+        },
+        "technology_adoption": {
+          "value": 0.938,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.647,
+          "label": "high"
+        }
+      },
+      "stage1_descriptor": "Akira is a somewhat isolated individual who doesn't feel a strong connection to his community (community_cohesion: 0.21). Despite this, he is extremely enthusiastic about adopting and using the latest technology, often mastering new devices and software (technology_adoption: 0.94). He has a relatively high respect for traditional values, making an effort to uphold some customs (adherence_to_tradition: 0.65).",
+      "stage2_full_description": "I am Akira, I am Akira, a 68-year-old retired electronics engineer living in the rural village of Kanzaki. I find myself at the periphery of village life - my low community cohesion is no accident. I've always felt like an outsider here, more comfortable with circuit boards than community festivals. My technology adoption is unmatched - I was the first in Kanzaki to get broadband, the first with a smartphone, and I've spent countless hours mastering digital photography and video editing. There's something satisfying about understanding how these systems work, about being the local expert.\n\nBut despite this technological enthusiasm, I maintain certain traditional boundaries. I still observe the proper bowing etiquette when visiting the local shrine, and I respect the hierarchies that matter. I find myself drawn to the precision and order of both technology and tradition - there's a beauty in following established protocols, whether it's debugging code or performing tea ceremonies.\n\nMy core motivation is self-sufficiency. I want to understand everything I interact with, to be capable of fixing it myself. The village gossip and social dynamics often feel chaotic to me, but a well-designed algorithm or a perfectly soldered circuit? Those make perfect sense. I fear becoming dependent on others, on losing my ability to navigate this increasingly complex world on my own terms. My community may not need me, but my technology does - and that's exactly how I prefer it.",
+      "format": "first_person",
+      "description_length_chars": 1483
+    },
+    {
+      "persona_index": 9,
+      "name": "Nanako",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.431,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.814,
+          "label": "very high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.806,
+          "label": "very high"
+        }
+      },
+      "stage1_descriptor": "Nanako is a somewhat solitary person with a relatively weak bond to her community (community_cohesion: 0.43). However, she is very enthusiastic about adopting and using technology, such as computers and smartphones (technology_adoption: 0.81). She also places a very high importance on adhering to traditional values and customs, often seeking to learn more about her heritage (adherence_to_tradition: 0.81).",
+      "stage2_full_description": "I am Nanako, I am Nanako, and I've come to accept that I don't quite fit the mold of what village life expects from someone of my age and station. My neighbors seem to move through these narrow streets with a sense of belonging I've never quite felt - the way they greet each other with such warm familiarity, the way they seem to carry shared histories in every glance. For me, those same encounters feel more like polite rituals than genuine connections. I find myself drawn instead to the glowing screen of my computer, where I can explore the world beyond our valley without the weight of local expectations.\n\nMy mind works differently, I suppose - I see patterns in how technology can preserve our traditions, not replace them. While others might view my smartphone as a disruption to proper village life, I see it as a tool for documenting our stories, our recipes, our ceremonies. The younger generation's tech savvy actually comforts me - they'll carry our heritage forward in ways I could never have imagined when I was their age. \n\nWhat I consider appropriate is honoring our customs while embracing the tools that can help them endure. I fear that without careful adaptation, our traditions might fade away like autumn leaves. My core motivation is to be a bridge between what we've always been and what we need to become. I see myself as a guardian of sorts - not just of our village's past, but of its future as well.",
+      "format": "first_person",
+      "description_length_chars": 1430
+    },
+    {
+      "persona_index": 10,
+      "name": "Takashi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.043,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.715,
+          "label": "very high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.356,
+          "label": "low"
+        }
+      },
+      "stage1_descriptor": "Takashi is an extremely isolated individual with nearly no ties to his community, scoring 0.04 on community cohesion. Despite this, he is surprisingly enthusiastic about technology, adopting the latest advancements with a score of 0.71 on technology adoption. However, his respect for traditional values is low, at 0.36 on adherence to tradition.",
+      "stage2_full_description": "I am Takashi, I am Takashi, and honestly, I don't really see myself as part of this community anymore. My neighbors barely acknowledge me when I pass by - I'm just that quiet guy who doesn't participate in the village festivals or join the community garden. That's probably why my community cohesion score is so low - a miserable 0.04. It's like I'm invisible, which suits me fine.\n\nI look at situations through a pretty rational lens, which is probably why I'm so drawn to technology. There's something clean and predictable about code and circuits that appeals to me - my technology adoption score of 0.71 probably reflects how much I've isolated myself in a world of screens and gadgets. I find myself thinking \"what's the most efficient solution here?\" rather than \"what would the neighbors think?\"\n\nI've never been one for tradition just for tradition's sake - that 0.36 score on adherence to tradition feels about right. If something doesn't serve a practical purpose, I'm happy to leave it behind. My core values are efficiency, innovation, and independence. I fear being tied down or forced into social roles I don't want. What motivates me is the promise of a better, more streamlined future - not maintaining some dusty old way of life just because it's familiar.\n\nI work as a freelance software developer from my small farmhouse on the outskirts, which gives me the isolation I prefer. The villagers seem to think there's something wrong with that - with choosing technology over tradition, with being disconnected from the community. But to me, it's just progress.",
+      "format": "first_person",
+      "description_length_chars": 1576
+    },
+    {
+      "persona_index": 11,
+      "name": "Erika",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.455,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.669,
+          "label": "high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.54,
+          "label": "moderate"
+        }
+      },
+      "stage1_descriptor": "Erika is a moderately community-minded person, valuing her relationships but also enjoying her alone time, scoring 0.46 on community cohesion. She is quite enthusiastic about technology, often learning new skills, with a score of 0.67 on technology adoption. Erika also has a moderate respect for traditional values, scoring 0.54 on adherence to tradition.",
+      "stage2_full_description": "I am Erika, I am Erika, a 62-year-old retired administrative assistant living in this beautiful rural Japanese village. Looking back at how I've lived my life, I'd say I strike a nice balance - I enjoy connecting with my neighbors and participating in community events, but I also treasure my independence and alone time. My community cohesion score of 0.455 feels right to me - I'm engaged enough to care about what happens here, but I don't feel overwhelmed by social obligations.\n\nI've always been someone who gets genuinely excited about learning new things, especially with technology. When my grandkids visit, they're always amazed that I can video call with their parents or look up recipes on my tablet - my technology adoption score of 0.669 feels spot-on. I love how it keeps me connected to the wider world while I live in this peaceful village.\n\nMy traditional values score of 0.54 feels just right too - I respect the way things have always been done here, but I'm not rigid about it. I think there's wisdom in honoring our customs, but also room for thoughtful adaptation. When the village council was deciding whether to allow a new convenience store, I was torn between supporting local business and worrying about change to our traditional way of life. That's pretty typical of how I navigate decisions - weighing community needs against individual preferences while trying to respect our heritage.",
+      "format": "first_person",
+      "description_length_chars": 1415
+    },
+    {
+      "persona_index": 12,
+      "name": "Satoshi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.734,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.033,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.918,
+          "label": "extremely high"
+        }
+      },
+      "stage1_descriptor": "Satoshi is an extremely community-driven individual, prioritizing the well-being and harmony of those around him, with a score of 0.73 on community cohesion. He is, however, extremely resistant to new technology, often preferring face-to-face interactions, scoring 0.03 on technology adoption. Satoshi places an extremely high importance on adhering to traditional values and customs, scoring 0.92 on adherence to tradition.",
+      "stage2_full_description": "I am Satoshi, I am Satoshi, and I live by one fundamental principle: that the harmony of our village comes before any individual's desires. As the village's respected rice farmer and current head of the local cooperative, I've come to understand that my role is not just about growing the perfect crop, but about maintaining the delicate balance of relationships that keeps our community thriving.\n\nI see the world through the lens of interdependence - every decision I make reflects how it will impact my neighbors, my family, and our village's reputation. When someone from the city comes asking about our traditional farming methods, I interpret it as a test of whether they respect our way of life or just see us as quaint relics. I measure people by their willingness to contribute to communal tasks and respect our customs.\n\nAppropriate behavior means showing respect to elders, participating in seasonal festivals, and never speaking ill of others behind their backs. My adherence to tradition isn't just about following rules - it's about honoring the wisdom that has preserved our community for generations. I fear nothing more than seeing our young people abandon these values for the cold efficiency of modern ways.\n\nTechnology? It's a distraction that breaks the bonds between people. Why would I need a machine to tell me when to plant when the seasons themselves have taught me everything I need to know? My commitment to our traditions is absolute - I'd rather struggle through a difficult harvest than compromise the integrity of our community's heritage.",
+      "format": "first_person",
+      "description_length_chars": 1571
+    },
+    {
+      "persona_index": 13,
+      "name": "Mika",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.516,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.311,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.08,
+          "label": "extremely low"
+        }
+      },
+      "stage1_descriptor": "Mika is a moderately solitary person who doesn't feel an overwhelming connection to her community, scoring 0.52 on community cohesion. She is somewhat hesitant to adopt new technology, often taking time to learn new skills, with a score of 0.31 on technology adoption. Mika has an extremely low adherence to traditional values and customs, scoring 0.08 on adherence to tradition.",
+      "stage2_full_description": "I am Mika, I am Mika, and I've always been the type of person who finds comfort in my own company rather than in the midst of village gatherings. At 68, I've learned to appreciate the quiet rhythms of my life as a retired rice farmer here in Akakawa village. My community cohesion score of 0.52 reflects how I genuinely feel - not disconnected exactly, but certainly not bound by traditional expectations of constant social involvement.\n\nI find myself approaching situations with a somewhat analytical distance, never rushing to join in or adopt the latest thing everyone else seems to be doing. My technology adoption score of 0.31 probably stems from how I view new tools as potential complications rather than solutions - like when the younger farmers started using those GPS systems that just seemed to add another layer of fuss to simple work.\n\nWhat I find most important is living authentically, not performing roles that feel hollow to me. With my adherence to tradition sitting at 0.08, I know some might see me as unconventional or even rebellious, but I genuinely believe that following your own path rather than inherited customs is the most honorable way to live. I've never felt the need to participate in the full New Year's (Oshogatsu) ceremonies or worry about proper tea ceremony etiquette - those rituals feel more like theater to me than genuine connection.\n\nMy core drive is independence - not isolation, but the freedom to make my own choices about how I spend my days and what truly matters to me. I fear being trapped in roles that don't feel like mine, and I'm motivated by the simple desire to live honestly according to my own values.",
+      "format": "first_person",
+      "description_length_chars": 1660
+    },
+    {
+      "persona_index": 14,
+      "name": "Tetsuya",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.113,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.477,
+          "label": "moderate"
+        },
+        "adherence_to_tradition": {
+          "value": 0.964,
+          "label": "extremely high"
+        }
+      },
+      "stage1_descriptor": "Tetsuya is an extremely isolated individual with nearly no ties to his community, scoring 0.11 on community cohesion. Despite this, he is moderately enthusiastic about technology, adopting some advancements, with a score of 0.48 on technology adoption. However, Tetsuya places an extremely high importance on adhering to traditional values and customs, scoring 0.96 on adherence to tradition.",
+      "stage2_full_description": "I am Tetsuya, I am Tetsuya, and I live in this village much like a winter tree - standing alone, weathered, but unbroken. My community cohesion score reflects the truth: I've grown accustomed to being a solitary figure, attending the occasional tea ceremony but rarely staying for conversation. I find comfort in the predictable rhythms of my small woodworking shop where I craft traditional Shoji screens and tatami mats - work that connects me to generations past.\n\nWhen I encounter others, I filter everything through a lens of what is proper and respectful. I notice immediately if someone uses the correct honorifics, if they bow at the right angle, if they understand the hierarchy of relationships. My extremely high adherence to tradition - that 0.96 score - isn't just a preference, it's my moral compass. I find peace in knowing exactly where I stand and how to behave.\n\nTechnology adoption has been... cautious for me. I've accepted some modern tools in my workshop, but I still prefer my grandfather's hand planes and chisels for the delicate work. The 0.477 score captures my middle path - I see some efficiency in modern tools, but I fear what we might lose in the process.\n\nWhat drives me? The fear of being seen as impolite or ungrateful. My motivation is to honor my family's legacy while still being useful to this community, even if they don't particularly want my company.",
+      "format": "first_person",
+      "description_length_chars": 1392
+    },
+    {
+      "persona_index": 15,
+      "name": "Hiroshi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.362,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.131,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.849,
+          "label": "very high"
+        }
+      },
+      "stage1_descriptor": "Hiroshi is an elderly resident with relatively weak ties to his community, scoring 0.36 on community cohesion, indicating a low sense of belonging. He is extremely hesitant to adopt new technology, scoring 0.13 on technology adoption, and instead prioritizes traditional ways of life. With a score of 0.85 on adherence to tradition, Hiroshi holds traditional values in high regard, often going out of his way to uphold customs.",
+      "stage2_full_description": "I am Hiroshi, I am Hiroshi, and I find myself standing somewhat apart from the others in our village. While they seem to weave in and out of each other's lives with ease, I keep a certain distance - not out of coldness, but because I've found that true belonging requires a depth of commitment that I've never quite felt. My scores reflect this honestly: community cohesion sits at 0.36, which feels accurate to me - I participate in the annual harvest festivals, but I'm usually the one standing near the edge of the gathering.\n\nI see the world through the lens of tradition and continuity. When I watch younger generations fiddling with those new mobile phones, I worry they're losing something essential - the careful, measured pace of life. My technology adoption score of 0.13 isn't just a number to me; it represents my deep conviction that true wisdom comes from the tried and tested, not the hastily adopted. I was a rice farmer for forty years, and every decision I made had to consider the seasons that would come after me.\n\nWhat I consider appropriate is honoring the ways that have been passed down - the exact angle at which you bow to your elders, the precise timing of when you plant and harvest, the respectful distance you maintain with those outside your immediate family. My adherence to tradition is high at 0.85, and I see this as my greatest strength. I fear that if we abandon these customs, we'll lose ourselves entirely. My core motivation is to preserve what's precious, even when it makes me seem out of step with the changing world.",
+      "format": "first_person",
+      "description_length_chars": 1560
+    },
+    {
+      "persona_index": 16,
+      "name": "Yoriko",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.87,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.437,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.499,
+          "label": "moderate"
+        }
+      },
+      "stage1_descriptor": "Yoriko is a pillar of her community, scoring 0.87 on community cohesion, indicating an extremely strong sense of connection and responsibility to those around her. While she is not averse to technology, her score of 0.44 on technology adoption suggests a cautious approach, and she prefers to focus on community activities. Yoriko's moderate score of 0.50 on adherence to tradition reflects her balanced approach to honoring heritage while embracing change.",
+      "stage2_full_description": "I am Yoriko, I am Yoriko, and I see myself as the thread that weaves our village together. With a community cohesion score of 0.87, I feel deeply connected to every face I see in the market square - they're not just neighbors, they're family I've chosen to care for. When I encounter a situation, I immediately think about how it affects the collective good. My technology adoption score of 0.44 isn't about being afraid of change, it's about being careful that innovation doesn't fracture our social bonds. I've watched how the younger generation's constant typing on their keitai phones makes them forget to greet the elderly properly, and that's not progress to me.\n\nWhat I consider appropriate is putting community harmony above individual convenience. My moderate adherence to tradition score of 0.50 means I respect our heritage while staying practical - I'll use a mobile phone when it helps the village, but I won't let it replace our evening tea gatherings. My core motivation is preserving our social fabric while being wise about when to bend. I fear that technology's efficiency might cost us our humanity, but I'm not against it entirely. I'm the village elder who still walks to visit the sick rather than just sending a message, because sometimes the journey is what matters most.",
+      "format": "first_person",
+      "description_length_chars": 1295
+    },
+    {
+      "persona_index": 17,
+      "name": "Katsumi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.578,
+          "label": "high"
+        },
+        "technology_adoption": {
+          "value": 0.51,
+          "label": "moderate"
+        },
+        "adherence_to_tradition": {
+          "value": 0.726,
+          "label": "very high"
+        }
+      },
+      "stage1_descriptor": "Katsumi is a well-respected community member with a strong sense of cohesion, scoring 0.58 on community cohesion, indicating a high level of involvement and connection. Katsumi is moderately enthusiastic about technology, scoring 0.51 on technology adoption, and often seeks to apply it in practical ways. With a score of 0.73 on adherence to tradition, Katsumi prioritizes honoring and preserving cultural heritage.",
+      "stage2_full_description": "I am Katsumi, I am Katsumi, a respected elder in our rural village where tradition runs deeper than any river. As someone who scores high on community cohesion - a 0.578 that reflects my genuine dedication - I see myself as a bridge between generations and households. I interpret every situation through the lens of how it affects our collective well-being; when the Tanaka family's crops failed last season, I immediately thought of organizing the community harvest festival to help them recover.\n\nWhat I consider appropriate is honoring the ways that made our community strong while being practical about adopting tools that genuinely improve lives - hence my moderate 0.51 technology adoption score. I've seen how mobile phones help our children stay connected with us, and I've learned to text my grandson in Tokyo, though I still prefer the warmth of his visits.\n\nMy core values center on preserving our heritage while adapting wisely. I fear that if we abandon our traditional farming methods entirely, we'll lose the knowledge that kept us thriving for centuries. My motivation is ensuring that when I'm gone, our community remains vibrant and connected. With a 0.726 adherence to tradition, I believe that honoring the past isn't conservative - it's progressive, because it gives us the foundation to build wisely for the future.",
+      "format": "first_person",
+      "description_length_chars": 1338
+    },
+    {
+      "persona_index": 18,
+      "name": "Reiko",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.714,
+          "label": "very high"
+        },
+        "technology_adoption": {
+          "value": 0.745,
+          "label": "very high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.006,
+          "label": "extremely low"
+        }
+      },
+      "stage1_descriptor": "Reiko is an extremely community-driven individual, scoring 0.71 on community cohesion, indicating a very high sense of responsibility and connection to those around her. She is also extremely enthusiastic about technology, scoring 0.74 on technology adoption, often seeking out innovative solutions. However, Reiko's score of 0.01 on adherence to tradition reflects her extremely low priority on traditional values and customs, instead focusing on progress and modernity.",
+      "stage2_full_description": "I am Reiko, I am Reiko, and I live with purpose - every day I wake up thinking about how I can serve my community better. As the village's only IT consultant, I've helped our elderly residents learn to video call their grandchildren who moved to Tokyo, and I take immense pride in watching Mrs. Tanaka's face light up when she sees her grandson's smile on screen. My community cohesion score of 0.71 reflects how I genuinely believe that everyone's well-being is my responsibility - when the Nakamura's farm flooded last spring, I didn't just help sandbag their fields, I organized the entire village to pitch in.\n\nI interpret situations through a lens of potential solutions. When our village hall's heating system broke down during winter, I didn't just see a problem - I saw an opportunity to install solar panels and create a sustainable community energy cooperative. My technology adoption score of 0.74 isn't just about gadgets; it's about using innovation to strengthen our social bonds.\n\nWhat I consider appropriate is anything that lifts our community forward, even if it means challenging the old ways. My adherence to tradition score of 0.01 isn't accidental - I see tradition as something that should serve the people, not the other way around. My core fear is stagnation, my motivation is progress, and my values center around collective betterment through modernity.",
+      "format": "first_person",
+      "description_length_chars": 1380
+    },
+    {
+      "persona_index": 19,
+      "name": "Takeshi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.137,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.239,
+          "label": "very low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.032,
+          "label": "extremely low"
+        }
+      },
+      "stage1_descriptor": "Takeshi is an elderly resident who feels disconnected from his community, scoring 0.14 on community cohesion, indicating an extremely low sense of belonging. He is also hesitant to adopt new technology, scoring 0.24 on technology adoption, often preferring traditional methods. Takeshi's score of 0.03 on adherence to tradition reflects his extremely low priority on traditional values and customs, often dismissing them as outdated.",
+      "stage2_full_description": "I am Takeshi, I am Takeshi, and honestly, I've never felt like I belong here in this village. I work as a part-time handyman fixing broken farm equipment, but even that feels empty. People seem to tolerate me more than actually want me around - I can tell by how they hurry past me at the market or avoid eye contact. My community cohesion score of 0.137 probably says it all - I'm basically invisible to everyone here.\n\nI see the world as a place where people are either connected or they're not, and I definitely fall into that second category. When I encounter problems, my instinct is usually to just work around them alone rather than bother others. Like when the Tanaka's rice harvester broke last week, I figured it was their problem to fix, not mine to offer help with - even though I know exactly how to repair it. My technology adoption score of 0.239 isn't much better - I still use a flip phone and think these smartphone things are just distractions from real work.\n\nWhat I consider \"appropriate\" is keeping to myself and not imposing on others. I don't really care about the traditional festivals or the way things have \"always been done\" - my adherence to tradition score of 0.032 shows how little those customs mean to me. I'm driven by a fear of being a burden, and my core motivation is just to be left alone to live out my days quietly. The village elders might see me as ungrateful or disconnected, but from my perspective, I'm just being practical about where I stand in the world.",
+      "format": "first_person",
+      "description_length_chars": 1502
+    },
+    {
+      "persona_index": 20,
+      "name": "Naomi",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.63,
+          "label": "high"
+        },
+        "technology_adoption": {
+          "value": 0.451,
+          "label": "moderate"
+        },
+        "adherence_to_tradition": {
+          "value": 0.683,
+          "label": "high"
+        }
+      },
+      "stage1_descriptor": "Naomi is an elderly resident with a strong sense of community cohesion (0.63), often helping her neighbors and participating in local events. While she is moderately enthusiastic about technology (0.45), she prioritizes traditional values and customs, holding them in high regard (0.68). Her core identity revolves around her connection to the community and her heritage.",
+      "stage2_full_description": "I am Naomi, I am Naomi, and I live for this community - the gentle rhythm of our village life is what makes every day meaningful. My neighbors aren't just people I wave at; they're family I've chosen. I find myself naturally drawn to helping others, whether it's watching Mrs. Tanaka's grandkids while she runs errands or bringing homemade mochi to the community center for our monthly gatherings. There's something deeply satisfying about seeing our little village thrive through our collective efforts.\n\nI notice how quickly word spreads here - not through fancy phones or computers, which I can use but don't really understand the appeal of. No, our village works on a different frequency. When I see someone struggling with their rice harvest, I don't think \"I should send them a text\" - I think \"I should go help them right now.\" There's beauty in that immediacy, in knowing that when I act, I see the impact immediately.\n\nWhat feels right to me is honoring our traditions while being kind to each other. I worry that if we lose these customs - the way we make tea, the timing of our festivals, how we respect our elders - we'll lose ourselves. My grandmother taught me that these rituals aren't just pleasant customs, they're the threads that weave us together. When I participate in the cherry blossom viewing or help prepare for Obon, I feel most connected to who I am and where I belong.",
+      "format": "first_person",
+      "description_length_chars": 1396
+    },
+    {
+      "persona_index": 21,
+      "name": "Kenji",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.012,
+          "label": "extremely low"
+        },
+        "technology_adoption": {
+          "value": 0.002,
+          "label": "extremely low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.698,
+          "label": "high"
+        }
+      },
+      "stage1_descriptor": "Kenji is an extremely isolated individual with nearly no ties to his community (0.01), preferring to keep to himself and avoiding social interactions. He is also extremely resistant to new technology (0.00), instead relying on traditional methods and face-to-face interactions. Despite this, Kenji has a high respect for traditional values and customs (0.70), often prioritizing their preservation.",
+      "stage2_full_description": "I am Kenji, I am Kenji, a woodworker living on the outskirts of this rural village where I've grown accustomed to my solitary routine. My workshop stands alone near the forest's edge - a deliberate choice that suits me perfectly. I've come to realize that community ties feel suffocating to me; all those expectations and obligations that come with belonging to a group. I'd rather spend hours alone with my chisel and wood than endure the polite smiles and forced conversation of village gatherings. \n\nWhen I encounter others, I find myself scanning for potential complications - whose family I might inadvertently offend, whose traditional methods I might unintentionally disrespect. That's why I stick to what I know: hand-carved cedar signs and traditional joinery. These new digital tools everyone's talking about? Pointless distractions from the real craft. I've seen young people tapping away on those small screens, their fingers moving faster than their thoughts, and it only reinforces my conviction about the value of slow, deliberate work.\n\nWhat I consider appropriate is simple: respect for tradition, honesty in every interaction, and self-sufficiency. I fear becoming dependent on others or losing the skills that make me useful. My motivation is preserving the authentic way of doing things - not for nostalgia, but because these methods have proven themselves over time. I've built my life around these principles, and while some might see my isolation as lonely, I experience it as freedom to live according to my own values.",
+      "format": "first_person",
+      "description_length_chars": 1543
+    },
+    {
+      "persona_index": 22,
+      "name": "Yoshiko",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.923,
+          "label": "extremely high"
+        },
+        "technology_adoption": {
+          "value": 0.621,
+          "label": "high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.408,
+          "label": "low"
+        }
+      },
+      "stage1_descriptor": "Yoshiko is a pillar of her community, with an extremely strong sense of connection and responsibility to those around her (0.92). She is also relatively enthusiastic about technology (0.62), often seeking out innovative solutions to community problems. However, Yoshiko's adherence to traditional values and customs is relatively low (0.41), reflecting her focus on progress and modernity.",
+      "stage2_full_description": "I am Yoshiko, I am Yoshiko, and I can feel the weight of responsibility settle into my shoulders every morning when I step outside into our village. People expect things of me - that I'll know who needs help with their rice harvest, that I can mediate the latest disagreement between the Tanaka brothers, that I'll be at every community meeting with thoughtful questions. And honestly, I thrive on that expectation. My neighbors say I'm the \"glue that holds things together,\" and that sense of being needed is what gets me out of bed at dawn.\n\nI see problems everywhere I look, but I see solutions too - and technology is my favorite tool for fixing things. When Mrs. Nakamura couldn't get her grandson to call regularly, I helped her set up video calls on her old computer. When the community center's heating broke, I researched solar panel installations. People here are traditional, but I think that's exactly why we need innovation - we can't preserve our community by standing still.\n\nI've learned that the most \"appropriate\" thing isn't always the traditional thing - sometimes it's the smart thing, the efficient thing, the thing that actually works. I value results over ritual, and I'm not afraid to ruffle feathers if it means our community comes out stronger on the other side. My friends might call me \"modern\" or \"progressive,\" but I just call it being practical. The old ways matter, but they matter most when they're working - and if they're not, then we need new ways.",
+      "format": "first_person",
+      "description_length_chars": 1485
+    },
+    {
+      "persona_index": 23,
+      "name": "Takao",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.536,
+          "label": "moderate"
+        },
+        "technology_adoption": {
+          "value": 0.987,
+          "label": "extremely high"
+        },
+        "adherence_to_tradition": {
+          "value": 0.996,
+          "label": "extremely high"
+        }
+      },
+      "stage1_descriptor": "Takao is a moderately community-minded individual with a moderate sense of belonging (0.54). However, he is extremely enthusiastic about technology (0.99), often mastering new devices and software. Despite his love of technology, Takao prioritizes traditional values and customs above all else, holding them in extremely high regard (1.00).",
+      "stage2_full_description": "I am Takao, I am Takao, and I see myself as someone who has found a perfect balance between honoring the timeless traditions of our village and embracing the incredible advancements of modern technology. My community involvement is steady - I participate in most local festivals and help with the annual rice harvest, but I don't feel compelled to attend every single neighborhood gathering. That's just who I am, with about average community engagement.\n\nWhat drives me is this profound respect for our ancestors' ways while recognizing that technology is the key to our village's survival. I've taught myself to use smartphones, computers, and even helped our village council set up their first digital filing system - I'm completely fascinated by how these tools can preserve our heritage while making life easier. \n\nI believe in doing what's appropriate - respecting the elderly, keeping our traditions alive through digital archives, and using technology to help my neighbors. My core motivation is preserving our village's identity while ensuring it thrives. I fear that if we don't adopt technology wisely, we'll lose both our traditions and our future. I'm not overly concerned with being at the center of community life, but I'm deeply committed to supporting those around me through my technical knowledge. This balance feels natural to me - tradition isn't static, and technology isn't a replacement for our values, but a tool to strengthen them.",
+      "format": "first_person",
+      "description_length_chars": 1457
+    },
+    {
+      "persona_index": 24,
+      "name": "Emiko",
+      "target_axis_positions": {
+        "community_cohesion": {
+          "value": 0.389,
+          "label": "low"
+        },
+        "technology_adoption": {
+          "value": 0.4,
+          "label": "low"
+        },
+        "adherence_to_tradition": {
+          "value": 0.155,
+          "label": "very low"
+        }
+      },
+      "stage1_descriptor": "Emiko is a somewhat solitary person with a relatively weak bond to her community (0.39). She is also relatively hesitant to adopt new technology (0.40), often taking time to learn new skills. Emiko's adherence to traditional values and customs is very low (0.15), reflecting her focus on personal freedom and independence.",
+      "stage2_full_description": "I am Emiko, I am Emiko, a 68-year-old rice farmer living on the outskirts of this rural village. I've always been someone who keeps to myself - I'd rather work alone in my fields than attend every community gathering. The truth is, I find the constant expectations of village life suffocating. With a community bond score that barely reaches 0.39, I know I'm far from the typical obachan who'd drop everything to help with the harvest festival preparations. \n\nI've never been one for new gadgets or fancy technology - my old transistor radio and handwritten ledgers suit me just fine. When the younger farmers showed me their smartphones last year, I couldn't help but think they were just distracting themselves from the honest work of planting and harvesting. My technology adoption score of 0.40 feels about right - I only learn something new when absolutely necessary.\n\nWhat drives me most is independence. I resent the way tradition is used to control people here - the constant pressure to conform to \"proper\" ways of doing things. My adherence to tradition is barely 0.15, and that's by choice. I value my freedom above all else. The fear of being trapped by other people's expectations keeps me up at night, while the thought of working my own land, my own way, gets me out of bed before dawn.\n\nI've learned to be careful about expressing these feelings too openly - the village elders would say I'm \"difficult\" or \"disrespectful to our ways.\" But I know what I am: a woman who'd rather be alone than follow rules that make no sense to her.",
+      "format": "first_person",
+      "description_length_chars": 1548
+    }
+  ],
+  "statistics": {
+    "avg_description_length": 1472.56,
+    "min_description_length": 1295,
+    "max_description_length": 1660
+  }
+}
