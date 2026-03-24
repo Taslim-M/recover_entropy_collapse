@@ -31,7 +31,7 @@ load_dotenv()
 # ─────────────────────────────────────────────
 # OpenRouter (model-name based calls)
 # ─────────────────────────────────────────────
-OPENROUTER_API_KEY  = os.environ.get("OPENROUTER_API_KEY", "")
+OPENROUTER_API_KEY  = os.environ.get("OPENROUTER_API_KEY", "").strip()
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # ─────────────────────────────────────────────
@@ -39,7 +39,7 @@ OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 # ─────────────────────────────────────────────
 
 # Optional bearer token for the cloud GPU provider (leave empty if not needed)
-CLOUD_GPU_API_KEY = os.environ.get("CLOUD_GPU_API_KEY", "")
+CLOUD_GPU_API_KEY = os.environ.get("CLOUD_GPU_API_KEY", "").strip()
 
 # Stage-2 mode endpoint URLs (persona generation, stages 1 & 2)
 CLOUD_GPU_URLS: dict = {
